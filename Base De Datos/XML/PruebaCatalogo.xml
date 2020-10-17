@@ -1,4 +1,4 @@
-<!-- catalagos-->
+﻿<!-- catalagos-->
 
 <Tipo_Doc>
  <TipoDocuIdentidad Id="1" Nombre="Cedula Nacional"/>
@@ -8,6 +8,7 @@
  <TipoDocuIdentidad Id="5" Nombre="Permiso de Trabajo"/>
  <TipoDocuIdentidad Id="6" Nombre="Cedula Extranjera"/>
 </Tipo_Doc>
+
 <Tipo_Moneda>
  <TipoMoneda Id="1" Nombre="Colones" Simbolo="₡"/>
  <TipoMoneda Id="2" Nombre="Dolares" Simbolo="$"/>
@@ -24,6 +25,7 @@
  <Parentezco Id="7" Nombre="amigo"/>
  <Parentezco Id="8" Nombre="amiga"/>
 </Parentezcos>
+
 <Tipo_Cuenta_Ahorros>
  <TipoCuentaAhorro
  Id="1"
@@ -58,7 +60,6 @@
  CargoAnual = "30000"
  NumRetirosHumano="5"
  NumRetirosAutomatico ="8"
-
  comisionHumano="1000"
  comisionAutomatico="1000"
  interes ="20" />
