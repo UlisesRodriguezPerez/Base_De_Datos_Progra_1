@@ -29,7 +29,9 @@ namespace PROYECTOBD.Controllers
             vista, pues todos los action retornar view, pero del nommbre depende
             a cual view se llame*/
             ViewBag.Message = "Your contact page. Desde homecontroller";
-
+            
+            // return View("Contact"); es una forma de decirle que view tiene que
+            //abrir, en caso de que el metodo se llame distinton
             return View();
         }
     }
