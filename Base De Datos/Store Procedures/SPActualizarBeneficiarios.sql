@@ -1,9 +1,3 @@
--- ==============================================================================
--- Author:		Natalia Vargas 
--- Create date: 19/10/2020
--- Description:	Actualizar un beneficiario en la tabla [dbo].[Beneficiario]
--- ==============================================================================
-
 USE [BD_TP1_Cuenta_De_Ahorros]
 GO
 CREATE PROCEDURE [dbo].[SPActualizarBeneficiario]
@@ -34,4 +28,3 @@ END
 --LLamar a ejecutar el SP
 --EXEC SPActualizarBeneficiario @pIdTipoParentezco=5,@pPorcentaje=90;
 --SELECT * FROM [dbo].[Beneficiario]
---DROP PROCEDURE SPActualizarBeneficiario
