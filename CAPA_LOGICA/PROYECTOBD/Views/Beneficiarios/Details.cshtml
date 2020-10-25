@@ -1,0 +1,50 @@
+﻿@model PROYECTOBD.Models.Beneficiario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Beneficiario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdTipoParentezco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdTipoParentezco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdPersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdPersona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdDeCuentaAhorro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdDeCuentaAhorro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Porcentaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Porcentaje)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
