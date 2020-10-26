@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PROYECTOBD.Context;
+using PROYECTOBD.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +10,9 @@ namespace PROYECTOBD.Controllers
 {
     public class BeneficiariosController : Controller
     {
+
+        Context_Conecction dbContext = new Context_Conecction();
+
         // GET: Beneficiarios
         public ActionResult Index()
         {
@@ -15,9 +20,14 @@ namespace PROYECTOBD.Controllers
         }
 
         // GET: Beneficiarios/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)  
         {
-            return View();
+            if (id <=0) return HttpNotFound();
+            Beneficiario beneficiario = dbContext.GetBeneficiario(id);
+            if (beneficiario == null) {
+                return HttpNotFound();
+            }
+            return View(beneficiario);
         }
 
         // GET: Beneficiarios/Create
@@ -28,13 +38,16 @@ namespace PROYECTOBD.Controllers
 
         // POST: Beneficiarios/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create([Bind] Beneficiario beneficiario)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                if (ModelState.IsValid) {
+                    dbContext.crearBeneficiario(beneficiario);
+                    return RedirectToAction("Index");
+                }
+                return View(beneficiario);
+                
             }
             catch
             {
@@ -45,6 +58,7 @@ namespace PROYECTOBD.Controllers
         // GET: Beneficiarios/Edit/5
         public ActionResult Edit(int id)
         {
+            //Este es el editar q
             return View();
         }
 
