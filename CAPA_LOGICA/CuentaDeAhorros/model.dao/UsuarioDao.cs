@@ -88,7 +88,56 @@ namespace model.dao
             }
         }
 
+        public string verificar(Usuario usuario)
+        {
+            
+            string result;
+            try
+            {
+                
+                comando = new SqlCommand("SPValidarUsuario", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                
+                comando.Parameters.AddWithValue("@Nombre", usuario.NombreUsuario);
+                comando.Parameters.AddWithValue("@Password", usuario.Password);
+                objConexion.getConexion().Open();
+                comando.ExecuteNonQuery();
+                SqlDataReader read = comando.ExecuteReader();
+                bool hayRegistros = read.Read();
+                if (hayRegistros)
+                {
+                    usuario.IdUsuario = Convert.ToInt32(read[0].ToString());
+                    usuario.NombreUsuario = read[1].ToString();
+                    usuario.Password = read[2].ToString();
+                    usuario.TipoUsuario = Convert.ToBoolean(read[3].ToString());
+                    if (usuario.TipoUsuario == true)
+                    {
+                        result = "Admin";
+                    }
 
+                    else
+                    {
+                        result = "Normal";
+                    }
+                    
+                }
+                else
+                {
+                    result = "";
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            
+            return result;
+        }
         public bool find(Usuario objetoUsuario)
         {
             bool hayRegistros;
@@ -168,6 +217,7 @@ namespace model.dao
                 //string update = "update Usuario set Nombre='" + objetoUsuario.NombreUsuario + "',Password='" + objetoUsuario.Password + "',EsAdministrador='" + objetoUsuario.TipoUsuario + "' where idUsuario='" + objetoUsuario.IdUsuario + "')";
                 comando = new SqlCommand("SPEditarUsuario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@id", objetoUsuario.IdUsuario);
                 comando.Parameters.AddWithValue("@Nombre", objetoUsuario.NombreUsuario);
                 comando.Parameters.AddWithValue("@Password", objetoUsuario.Password);
                 comando.Parameters.AddWithValue("@TipoUsuario", objetoUsuario.TipoUsuario);

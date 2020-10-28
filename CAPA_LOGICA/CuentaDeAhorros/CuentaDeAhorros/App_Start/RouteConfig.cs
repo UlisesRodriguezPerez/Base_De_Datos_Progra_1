@@ -16,8 +16,14 @@ namespace CuentaDeAhorros
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Usuario", action = "Inicio", id = UrlParameter.Optional }
+                defaults: new { controller = "Menu", action = "Inicio", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+                name: "Usuario",
+                url: "{controller}/{action}/{author}",
+                defaults: new { controller = "Usuario", action = "Inicio", author = UrlParameter.Optional }
             );
         }
+
     }
 }

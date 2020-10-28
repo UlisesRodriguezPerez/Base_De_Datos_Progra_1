@@ -40,13 +40,51 @@ namespace CuentaDeAhorros.Controllers
             objetoUsuario.create(objUsuario);
             return RedirectToAction("Inicio");
         }
+
+        //[HttpGet]
+        //public ActionResult Find(int ID)
+        //{
+        //    idUs = ID;
+        //    Usuario objusuario = new Usuario(ID);
+        //    objetoUsuario.find(objusuario);
+        //    return View(objusuario);
+        //}
+
+        //[HttpPost]
+        //public ActionResult Find(string ID)
+        //{
+        //    return RedirectToAction("Cuentas/" + ID);
+        //}
+
+        [HttpGet]
+        public ActionResult Update(int ID)
+        {
+            Usuario objusuario = new Usuario(ID);
+            objetoUsuario.find(objusuario);
+            return View(objusuario);
+        }
+
+        [HttpPost]
+        public ActionResult Update(Usuario objusuario, int ID)
+        {
+            objusuario.IdUsuario = ID;
+            objetoUsuario.update(objusuario);
+            return RedirectToAction("Inicio");
+        }
+
+        public ActionResult Delete(Usuario objUsuario, int ID)
+        {
+            objUsuario.IdUsuario = ID;
+            objetoUsuario.delete(objUsuario);
+            return RedirectToAction("Inicio");
+        }
         //public void mensajeInicio()
         //{
         //    ViewBag.mensajeInicio = "Formulario de Registro de usuarios";
         //}
         //public void mensajeErrorRegistro(Usuario objetoUsuario)
         //{
-            
+
         //}
     }
 }
