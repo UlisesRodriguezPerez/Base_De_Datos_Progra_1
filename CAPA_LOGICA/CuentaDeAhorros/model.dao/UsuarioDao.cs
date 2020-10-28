@@ -25,14 +25,6 @@ namespace model.dao
         }
 
 
-        private void obtenerIP()
-        {
-            string Host = Dns.GetHostName();
-            IPAddress[] Ip = Dns.GetHostAddresses(Host);
-            ip = Ip[1].ToString();
-            return;
-        }
-
 
         public void create(Usuario objetoUsuario)
         {
@@ -44,8 +36,6 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@Nombre", objetoUsuario.NombreUsuario);
                 comando.Parameters.AddWithValue("@Password", objetoUsuario.Password);
                 comando.Parameters.AddWithValue("@TipoUsuario", objetoUsuario.TipoUsuario);
-                //comando.Parameters.AddWithValue("@UsuarioACargo", host);
-                //comando.Parameters.AddWithValue("@IPusuario", ip);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
                 
@@ -72,8 +62,6 @@ namespace model.dao
                 comando = new SqlCommand("SPEliminarUsuario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@ID", objetoUsuario.IdUsuario);
-                //comando.Parameters.AddWithValue("@UsuarioACargo", host);
-                //comando.Parameters.AddWithValue("@IPusuario", ip);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }
@@ -221,8 +209,6 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@Nombre", objetoUsuario.NombreUsuario);
                 comando.Parameters.AddWithValue("@Password", objetoUsuario.Password);
                 comando.Parameters.AddWithValue("@TipoUsuario", objetoUsuario.TipoUsuario);
-                //comando.Parameters.AddWithValue("@UsuarioACargo", host);
-                //comando.Parameters.AddWithValue("@IPusuario", ip);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
                 

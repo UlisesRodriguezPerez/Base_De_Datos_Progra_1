@@ -103,8 +103,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\bg.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -145,6 +147,7 @@
     <Content Include="Views\Menu\Inicio.cshtml" />
     <Content Include="Views\Menu\MenuAdmin.cshtml" />
     <Content Include="Views\Menu\MenuNormal.cshtml" />
+    <Content Include="Views\Usuario\Find.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

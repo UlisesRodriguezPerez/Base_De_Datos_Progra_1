@@ -41,20 +41,20 @@ namespace CuentaDeAhorros.Controllers
             return RedirectToAction("Inicio");
         }
 
-        //[HttpGet]
-        //public ActionResult Find(int ID)
-        //{
-        //    idUs = ID;
-        //    Usuario objusuario = new Usuario(ID);
-        //    objetoUsuario.find(objusuario);
-        //    return View(objusuario);
-        //}
+        [HttpGet]
+        public ActionResult Find(int ID)
+        {
+            idUs = ID;
+            Usuario objusuario = new Usuario(ID);
+            objetoUsuario.find(objusuario);
+            return View(objusuario);
+        }
 
-        //[HttpPost]
-        //public ActionResult Find(string ID)
-        //{
-        //    return RedirectToAction("Cuentas/" + ID);
-        //}
+        [HttpPost]
+        public ActionResult Find(string ID)
+        {
+            return RedirectToAction("Inicio" + ID);
+        }
 
         [HttpGet]
         public ActionResult Update(int ID)
