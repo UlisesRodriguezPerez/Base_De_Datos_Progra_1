@@ -7,13 +7,19 @@
 
 USE [BD_TP1_Cuenta_De_Ahorros]
 GO
-
-CREATE PROCEDURE [dbo].[SPObtenerBeneficiario]
-@pIdPersona INT
+CREATE PROCEDURE [dbo].[SPObtenerBeneficiariosCuenta]
+(
+	@pIdCuentaDeAhorro INT
+)
 AS 
 BEGIN
-	SELECT * FROM [dbo].[Beneficiario]
-	WHERE  IdPersona = @pIdPersona;
+	SELECT 
+		IdTipoParentezco
+		,IdPersona
+		,Porcentaje
+	FROM [dbo].[Beneficiario]
+	WHERE  
+		IdCuentaDeAhorro = @pIdCuentaDeAhorro ;
 
 END
 
@@ -22,4 +28,5 @@ END
 --SELECT * FROM Persona
 --DROP PROCEDURE SPObtenerBeneficiario;
 --GO
---EXEC SPObtenerBeneficiario 1;
+--EXEC SPObtenerBeneficiariosCuenta 1;
+GO

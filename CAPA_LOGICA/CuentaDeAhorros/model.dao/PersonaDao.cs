@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace model.dao
 {
-    public class PersonaDao         //: TemplateCRUD<Persona>  SE QUITÓ POR AHORA.
+    public class PersonaDao //: TemplateCRUD<Persona>  SE QUITÓ POR AHORA.
     {
         private Conexion objConexion;
         private SqlCommand comando;
@@ -216,5 +216,19 @@ namespace model.dao
             return;
         }
 
+        public void create(Persona objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void update(Persona objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void delete(Persona objeto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

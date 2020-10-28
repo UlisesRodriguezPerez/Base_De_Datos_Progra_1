@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient; // Para las conexiones
+using System.Data.SqlClient; 
+// Librería para usar comandos sql
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
