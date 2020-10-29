@@ -1,0 +1,6 @@
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\bin\Debug\model.entity.dll
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\bin\Debug\model.entity.pdb
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\obj\Debug\model.entity.csprojAssemblyReference.cache
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\obj\Debug\model.entity.csproj.CoreCompileInputs.cache
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\obj\Debug\model.entity.dll
+C:\Users\ulirp\Desktop\BAses\Base_De_Datos_Progra_1\CAPA_LOGICA\CuentaDeAhorros\model.entity\obj\Debug\model.entity.pdb
