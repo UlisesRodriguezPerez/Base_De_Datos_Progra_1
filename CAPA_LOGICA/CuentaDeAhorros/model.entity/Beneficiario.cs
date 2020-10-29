@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace model.entity
 {
 
-
     public class Beneficiario
     {
         private int idBeneficiario;

@@ -11,12 +11,12 @@ namespace CuentaDeAhorros.Controllers
 {
     public class BeneficiarioController : Controller
     {
-        private BeneficiarioDao objetoBeneficiario;
+        private BeneficiarioDao connectionBeneficiario;
         // GET: Beneficiarios
 
         public BeneficiarioController()
         {
-            objetoBeneficiario = new BeneficiarioDao();
+            connectionBeneficiario = new BeneficiarioDao();
         }
         public ActionResult Index()
         {
@@ -36,16 +36,13 @@ namespace CuentaDeAhorros.Controllers
             return View();
         }
 
-        // POST: Beneficiarios/Create
         [HttpPost]
-        public ActionResult Create(Beneficiario objBeneficiario)
+        public ActionResult Create(Beneficiario beneficiario)
         {
             try
             {
-                
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                connectionBeneficiario.create(beneficiario);
+                return RedirectToAction("Inicio");
             }
             catch
             {

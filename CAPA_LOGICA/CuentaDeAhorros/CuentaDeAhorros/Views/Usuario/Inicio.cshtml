@@ -2,6 +2,7 @@
 @{
     ViewBag.Title = "Inicio";
 }
+
 <div class="container">
 
     <div>
@@ -18,19 +19,19 @@
         </tr>
         @foreach (var objetoUsuario in Model)
         {
-    <tr>
-        <td>@objetoUsuario.IdUsuario</td>
-        <td>@objetoUsuario.NombreUsuario</td>
-        <td>@objetoUsuario.Password</td>
-        <td>@objetoUsuario.TipoUsuario</td>
+            <tr>
+                <td>@objetoUsuario.IdUsuario</td>
+                <td>@objetoUsuario.NombreUsuario</td>
+                <td>@objetoUsuario.Password</td>
+                <td>@objetoUsuario.TipoUsuario</td>
 
-        <!--  PENDEINTE EL VER  -->
-        <td><a class="btn btn-success" href="~/Usuario/find/@objetoUsuario.IdUsuario">Ver</a></td>
-        <td><a class="btn btn-primary" href="~/Usuario/update/@objetoUsuario.IdUsuario">Actualizar</a></td>
-        <td><a class="btn btn-danger" href="~/Usuario/delete/@objetoUsuario.IdUsuario">Eliminar</a></td>
-    </tr>
+                <!--  PENDEINTE EL VER  -->
+                <td><a class="btn btn-success" href="~/Usuario/find/@objetoUsuario.IdUsuario">Ver</a></td>
+                <td><a class="btn btn-primary" href="~/Usuario/update/@objetoUsuario.IdUsuario">Actualizar</a></td>
+                <td><a class="btn btn-danger" href="~/Usuario/delete/@objetoUsuario.IdUsuario">Eliminar</a></td>
+            </tr>
         }
-    </table>      
- </div>
+    </table>
+</div>
 
 
