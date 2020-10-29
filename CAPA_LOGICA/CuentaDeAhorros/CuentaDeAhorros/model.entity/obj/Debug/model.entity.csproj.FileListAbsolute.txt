@@ -1,6 +1,0 @@
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\bin\Debug\model.entity.dll
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\bin\Debug\model.entity.pdb
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\obj\Debug\model.entity.csproj.CoreCompileInputs.cache
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\obj\Debug\model.entity.dll
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\obj\Debug\model.entity.pdb
-C:\Users\ulirp\source\repos\CuentaDeAhorros\model.entity\obj\Debug\model.entity.csprojAssemblyReference.cache
