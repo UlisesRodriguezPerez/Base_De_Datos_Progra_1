@@ -7,24 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace model.dao
 {
-    class BeneficiarioDao : TemplateCRUD<Beneficiario>
+    public class BeneficiarioDao : TemplateCRUD<Beneficiario>
     {
-
 
         //Atributos de la clase
         private Conexion objConexion;
         private SqlCommand comando;
-     
-
 
         public BeneficiarioDao()
         {
             objConexion = Conexion.saberEstado();
         }
-
-
 
         public void create(Beneficiario beneficiario)
         {
