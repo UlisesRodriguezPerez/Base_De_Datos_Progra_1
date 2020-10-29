@@ -14,7 +14,10 @@ namespace model.entity
         private string password;
         private bool tipoUsuario;
 
-        public Usuario() { }
+        public Usuario()
+        {
+
+        }
 
         //Creamos un constructor con la llave primaria.
         public Usuario(int pIdUsuario)

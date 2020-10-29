@@ -3,21 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using model.entity;
-using model.neg;
-using model.dao;
 
 namespace CuentaDeAhorros.Controllers
 {
     public class BeneficiarioController : Controller
     {
-        private BeneficiarioDao objetoBeneficiario;
         // GET: Beneficiarios
-
-        public BeneficiarioController()
-        {
-            objetoBeneficiario = new BeneficiarioDao();
-        }
         public ActionResult Index()
         {
             return View();
@@ -30,7 +21,6 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Create
-        [HttpGet]
         public ActionResult Create()
         {
             return View();
@@ -38,11 +28,10 @@ namespace CuentaDeAhorros.Controllers
 
         // POST: Beneficiarios/Create
         [HttpPost]
-        public ActionResult Create(Beneficiario objBeneficiario)
+        public ActionResult Create(FormCollection collection)
         {
             try
             {
-                
                 // TODO: Add insert logic here
 
                 return RedirectToAction("Index");

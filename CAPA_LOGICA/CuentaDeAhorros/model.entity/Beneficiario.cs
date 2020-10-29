@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace model.entity
 {
 
@@ -18,10 +17,6 @@ namespace model.entity
         private int idCuenta;
 
         public Beneficiario() { }
-        public Beneficiario(int pIdBeneficiario)
-        {
-            this.idBeneficiario = pIdBeneficiario;
-        }
         public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje)
         {
             
