@@ -1,13 +1,34 @@
-﻿
+﻿@model List<model.entity.CuentaAhorro>
+
 @{
     ViewBag.Title = "MenuNormal";
 }
+<h2>Bienvenid@@ </h2>
+<h3>Cuentas disponibles</h3>
+<div class="container-fluid">
+    <table class="table">
+        <tr class="btn-primary">
+            <th>Código</th>
+            <th>Tipo de cuenta</th>
+            <th>Id Persona</th>
+            <th>Numero de cuenta</th>
+            <th>Saldo</th>
+            <th>Fecha creación</th>
+            <th colspan="3"> Operaciones</th>
+        </tr>
+        @foreach (var objetoCuentaAhorro in Model)
+        {
+            <tr>
+                <td>@objetoCuentaAhorro.IdCuentaAhorro</td>
+                <td>@objetoCuentaAhorro.IdTipoCuneta</td>
+                <td>@objetoCuentaAhorro.IdPersona</td>
+                <td>@objetoCuentaAhorro.NumeroCuenta</td>
+                <td>@objetoCuentaAhorro.Saldo</td>
+                <td>@objetoCuentaAhorro.FechaCreacion</td>
+                <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
+                <td><a class="btn btn-success" href="~/xxx/@objetoCuentaAhorro.IdCuentaAhorro">Estado de Cuenta</a></td>
 
-@{Html.RenderPartial("Top_Menu_Usuario");}
-<h2>MenuUser</h2>
-<menu>
-    <a class="btn btn-success" href="~/Usuario/Inicio/">Ver Cuentas</a>
-    <a class="btn btn-success" href="~/Usuario/Inicio/">Ver Personas</a>
-    <a class="btn btn-success" href="~/Beneficiario/Create">Crear Beneficiario</a>
-</menu>
-
+            </tr>
+        }
+    </table>
+</div>

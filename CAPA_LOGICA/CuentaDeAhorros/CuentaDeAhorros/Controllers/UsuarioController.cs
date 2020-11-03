@@ -13,7 +13,7 @@ namespace CuentaDeAhorros.Controllers
     public class UsuarioController : Controller
     {
         private static int idUs = 0;
-        private static string nombre = "";
+        //private static string nombre = "";
         private UsuarioDao objetoUsuario;
 
         public UsuarioController()

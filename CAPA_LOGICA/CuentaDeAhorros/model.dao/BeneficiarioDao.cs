@@ -30,7 +30,7 @@ namespace model.dao
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@pIdTipoParentezco", beneficiario.IdTipoParentezco);
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
-                comando.Parameters.AddWithValue("@pIdDeCuentaAhorro", beneficiario.IdCuenta);
+                comando.Parameters.AddWithValue("@pIdDeBeneficiario", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
 
                 objConexion.getConexion().Open();
@@ -70,42 +70,42 @@ namespace model.dao
 
         public bool find(Beneficiario beneficiario)
         {
-            /*
-            bool hayRegistros;
-            try
-            {
-                comando = new SqlCommand("CREARSP", objConexion.getConexion());
-                comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@Id", objetoCuentaAhorro.IdCuentaAhorro);
-                objConexion.getConexion().Open();
-                SqlDataReader read = comando.ExecuteReader();
-                hayRegistros = read.Read();
-                if (hayRegistros)
-                {
-                    objetoCuentaAhorro.IdCuentaAhorro = Convert.ToInt32(read[0].ToString());
-                    objetoCuentaAhorro.NumeroCuenta = Convert.ToInt32(read[1].ToString());
-                    objetoCuentaAhorro.Saldo = Convert.ToDecimal(read[2].ToString());
-                    objetoCuentaAhorro.FechaCreacion = read[3].ToString();
-                }
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                objConexion.getConexion().Close();
-                objConexion.cerrarConexion();
-            }
-            return hayRegistros;
-            */
+
+            //bool hayRegistros;
+            //try
+            //{
+            //    comando = new SqlCommand("CREARSP", objConexion.getConexion());
+            //    comando.CommandType = CommandType.StoredProcedure;
+            //    comando.Parameters.AddWithValue("@Id", objetoBeneficiario.IdBeneficiario);
+            //    objConexion.getConexion().Open();
+            //    SqlDataReader read = comando.ExecuteReader();
+            //    hayRegistros = read.Read();
+            //    if (hayRegistros)
+            //    {
+            //        beneficiario = Convert.ToInt32(read[0].ToString());
+            //        beneficiario = Convert.ToInt32(read[1].ToString());
+            //        beneficiario = Convert.ToDecimal(read[2].ToString());
+            //        beneficiario = read[3].ToString();
+            //    }
+            //}
+            //catch (Exception)
+            //{
+            //    throw;
+            //}
+            //finally
+            //{
+            //    objConexion.getConexion().Close();
+            //    objConexion.cerrarConexion();
+            //}
+            //return hayRegistros;
+
             return true;
         }
 
-        public List<CuentaAhorro> findAll()
+        public List<Beneficiario> findAll()
         {
-            List<CuentaAhorro> listaCuentaAhorroes = new List<CuentaAhorro>();
-            /*
+            List<Beneficiario> listaBeneficiarioes = new List<Beneficiario>();
+            
             try
             {
                 comando = new SqlCommand("CREARSP", objConexion.getConexion())
@@ -116,14 +116,14 @@ namespace model.dao
                 SqlDataReader read = comando.ExecuteReader();
                 while (read.Read())
                 {
-                    CuentaAhorro objetoCuentaAhorro = new CuentaAhorro
+                    Beneficiario objetoBeneficiario = new Beneficiario
                     {
-                        IdCuentaAhorro = Convert.ToInt32(read[0].ToString()),
-                        NumeroCuenta = Convert.ToInt32(read[1].ToString()),
-                        Saldo = Convert.ToDecimal(read[2].ToString()),
-                        FechaCreacion = read[3].ToString()
+                        IdBeneficiario = Convert.ToInt32(read[0].ToString()),
+                        IdPersona = Convert.ToInt32(read[1].ToString()),
+                        IdTipoParentezco = Convert.ToInt32(read[2].ToString()),
+                        IdCuenta = Convert.ToInt32(read[3].ToString()),
                     };
-                    listaCuentaAhorroes.Add(objetoCuentaAhorro);
+                    listaBeneficiarioes.Add(objetoBeneficiario);
                 }
             }
 
@@ -135,8 +135,8 @@ namespace model.dao
             {
                 objConexion.getConexion().Close();
                 objConexion.cerrarConexion();
-            }*/
-            return listaCuentaAhorroes;
+            }
+            return listaBeneficiarioes;
         }
 
 
@@ -163,10 +163,7 @@ namespace model.dao
             }
         }
 
-        List<Beneficiario> TemplateCRUD<Beneficiario>.findAll()
-        {
-            throw new NotImplementedException();
-        }
+
     }
 
 

@@ -14,8 +14,8 @@ namespace model.dao
     {
         private Conexion objConexion;
         private SqlCommand comando;
-        private string ip;
-        private static string host;
+        //private string ip;
+        //private static string host;
 
 
         public UsuarioDao()
@@ -222,6 +222,44 @@ namespace model.dao
                 objConexion.getConexion().Close();
                 objConexion.cerrarConexion();
             }
+        }
+        public List<CuentaAhorro> findAllCuentaAhorro(int id)
+        {
+            List<CuentaAhorro> listaCuentaAhorro = new List<CuentaAhorro>();
+            List<int> listaid = new List<int>();
+            try
+            {
+                comando = new SqlCommand("SPMostrarCuentasUsuario", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", id);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                while (read.Read())
+                {
+                    CuentaAhorro objetoCuentaAhorro = new CuentaAhorro
+                    {
+                        IdCuentaAhorro = Convert.ToInt32(read[0].ToString()),
+                        IdTipoCuneta = Convert.ToInt32(read[1].ToString()),
+                        IdPersona = Convert.ToInt32(read[2].ToString()),
+                        NumeroCuenta = Convert.ToInt32(read[1].ToString()),
+                        Saldo = Convert.ToDecimal(read[2].ToString()),
+                        FechaCreacion = read[3].ToString(),
+                    };
+                    listaCuentaAhorro.Add(objetoCuentaAhorro);
+                }
+
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return listaCuentaAhorro;
         }
     }
 

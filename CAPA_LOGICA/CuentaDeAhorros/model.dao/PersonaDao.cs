@@ -14,7 +14,7 @@ namespace model.dao
     {
         private Conexion objConexion;
         private SqlCommand comando;
-        private static int IDPJ = 0;
+        //private static int IDPJ = 0;
 
 
         public PersonaDao()

@@ -11,7 +11,7 @@ namespace model.dao
     {
         private Conexion objConexion;
         private SqlCommand comando;
-        private string ip;
+
         private static string host;
 
         public CuentaAhorroDao()
@@ -70,7 +70,7 @@ namespace model.dao
             bool hayRegistros;
             try
             {
-                comando = new SqlCommand("CREARSP", objConexion.getConexion());
+                comando = new SqlCommand("SPBuscarCuentaAhorro", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@Id", objetoCuentaAhorro.IdCuentaAhorro);
                 objConexion.getConexion().Open();
@@ -98,11 +98,11 @@ namespace model.dao
 
         public List<CuentaAhorro> findAll()
         {
-            List<CuentaAhorro> listaCuentaAhorroes = new List<CuentaAhorro>();
+            List<CuentaAhorro> listaCuentaAhorro = new List<CuentaAhorro>();
 
             try
             {
-                comando = new SqlCommand("CREARSP", objConexion.getConexion())
+                comando = new SqlCommand("SPMostrarCuentas", objConexion.getConexion())
                 {
                     CommandType = CommandType.StoredProcedure
                 };
@@ -113,11 +113,13 @@ namespace model.dao
                     CuentaAhorro objetoCuentaAhorro = new CuentaAhorro
                     {
                         IdCuentaAhorro = Convert.ToInt32(read[0].ToString()),
+                        IdTipoCuneta = Convert.ToInt32(read[1].ToString()),
+                        IdPersona = Convert.ToInt32(read[2].ToString()),
                         NumeroCuenta = Convert.ToInt32(read[1].ToString()),
                         Saldo = Convert.ToDecimal(read[2].ToString()),
-                        FechaCreacion = read[3].ToString()
+                        FechaCreacion = read[3].ToString(),
                     };
-                    listaCuentaAhorroes.Add(objetoCuentaAhorro);
+                    listaCuentaAhorro.Add(objetoCuentaAhorro);
                 }
             }
 
@@ -130,7 +132,7 @@ namespace model.dao
                 objConexion.getConexion().Close();
                 objConexion.cerrarConexion();
             }
-            return listaCuentaAhorroes;
+            return listaCuentaAhorro;
         }
 
 

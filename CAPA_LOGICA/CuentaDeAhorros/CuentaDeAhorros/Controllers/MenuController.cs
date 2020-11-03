@@ -34,7 +34,7 @@ namespace MunicipalidadWebMVC5.Controllers
             else if (tipo == "Normal")
             {
                 //user = new Usuario();
-                return RedirectToAction("/MenuNormal/");
+                return RedirectToAction("/MenuNormal/" + usuario.IdUsuario);
             }
             else
             {
@@ -51,12 +51,12 @@ namespace MunicipalidadWebMVC5.Controllers
         }
 
         [HttpGet]
-        public ActionResult MenuNormal() //int ID
+        public ActionResult MenuNormal(int Id) //int Id
         {
-            //List<Propiedad> lista = objetoUsuario.findAllPropiedades(ID);
-            //Usuario user = new Usuario(ID);
-            //string username = user.NombreUsuario;
-            return View();  //lista
+            List<CuentaAhorro> lista = objetoUsuario.findAllCuentaAhorro(Id);
+            Usuario user = new Usuario(Id);
+            string username = user.NombreUsuario;
+            return View(lista);  //lista
         }
 
 

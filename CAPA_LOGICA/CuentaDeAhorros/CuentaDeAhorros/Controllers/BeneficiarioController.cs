@@ -11,12 +11,13 @@ namespace CuentaDeAhorros.Controllers
 {
     public class BeneficiarioController : Controller
     {
-        private BeneficiarioDao connectionBeneficiario;
+        private static int idB = 0;
+        private BeneficiarioDao objetoBeneficiario;
         // GET: Beneficiarios
 
         public BeneficiarioController()
         {
-            connectionBeneficiario = new BeneficiarioDao();
+            objetoBeneficiario = new BeneficiarioDao();
         }
         public ActionResult Index()
         {
@@ -41,7 +42,7 @@ namespace CuentaDeAhorros.Controllers
         {
             try
             {
-                connectionBeneficiario.create(beneficiario);
+                objetoBeneficiario.create(beneficiario);
                 return RedirectToAction("Inicio");
             }
             catch
@@ -51,14 +52,14 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Update(int id)
         {
             return View();
         }
 
         // POST: Beneficiarios/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Update(int id, FormCollection collection)
         {
             try
             {
@@ -92,6 +93,26 @@ namespace CuentaDeAhorros.Controllers
             {
                 return View();
             }
+        }
+        [HttpGet]
+        public ActionResult Find(int Id)
+        {
+            idB = Id;
+            Beneficiario objBeneficiario = new Beneficiario(Id);
+            objetoBeneficiario.find(objBeneficiario);
+            return View(objBeneficiario);
+        }
+
+        [HttpPost]
+        public ActionResult Find(string ID)
+        {
+            return RedirectToAction("Inicio" + ID);
+        }
+
+        [HttpPost]
+        public ActionResult FindAll(string ID)
+        {
+            return RedirectToAction("Inicio" + ID);
         }
     }
 }
