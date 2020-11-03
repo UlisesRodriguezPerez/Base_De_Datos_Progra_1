@@ -19,10 +19,15 @@ namespace CuentaDeAhorros.Controllers
         {
             objetoBeneficiario = new BeneficiarioDao();
         }
-        public ActionResult Index()
+
+        [HttpGet]
+        public ActionResult Inicio(int Id)
         {
-            return View();
+            List<Beneficiario> lista = objetoBeneficiario.findAllbeneficiariosPorCuenta(Id);
+            //objetoBeneficiario. = name;
+            return View(lista);
         }
+
 
         // GET: Beneficiarios/Details/5
         public ActionResult Details(int id)
@@ -65,7 +70,7 @@ namespace CuentaDeAhorros.Controllers
             {
                 // TODO: Add update logic here
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Inicio" + id);
             }
             catch
             {

@@ -241,9 +241,9 @@ namespace model.dao
                         IdCuentaAhorro = Convert.ToInt32(read[0].ToString()),
                         IdTipoCuneta = Convert.ToInt32(read[1].ToString()),
                         IdPersona = Convert.ToInt32(read[2].ToString()),
-                        NumeroCuenta = Convert.ToInt32(read[1].ToString()),
-                        Saldo = Convert.ToDecimal(read[2].ToString()),
-                        FechaCreacion = read[3].ToString(),
+                        NumeroCuenta = Convert.ToInt32(read[3].ToString()),
+                        Saldo = Convert.ToDecimal(read[4].ToString()),
+                        FechaCreacion = read[5].ToString(),
                     };
                     listaCuentaAhorro.Add(objetoCuentaAhorro);
                 }

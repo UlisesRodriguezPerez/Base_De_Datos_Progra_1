@@ -3,19 +3,19 @@
     ViewBag.Title = "Inicio";
 }
 
-<div class="container">
 
-    <div>
-        <a class="btn btn-primary" href="~/Usuario/create">Nuevo</a>
-    </div>
-    <table class="table ">
+
+<h3>Beneficiarios: </h3>
+<div class="container-fluid">
+    <table class="table">
         <tr class="btn-primary">
-            <th>Codigo</th>
+            <th>Id Beneficiario</th>
             <th>Id Persona</th>
             <th>Id Tipo Parentezco</th>
+            <th>Id Cuenta</th>
             <th>Porcentaje</th>
-            <th colspan="3">Operaciones</th>
-
+            <th colspan="3"> Operaciones</th>
+            <th><a class="btn btn-danger" href="~/Beneficiario/Update">Editar</a></th>
         </tr>
         @foreach (var objetoBeneficiario in Model)
         {
@@ -23,12 +23,12 @@
                 <td>@objetoBeneficiario.IdBeneficiario</td>
                 <td>@objetoBeneficiario.IdPersona</td>
                 <td>@objetoBeneficiario.IdTipoParentezco</td>
-                <td>@objetoBeneficiario.Porcentaje</td>-->
+                <td>@objetoBeneficiario.IdCuenta</td>
+                <td>@objetoBeneficiario.Porcentaje</td>
 
                 <!--  PENDEINTE EL VER  -->
-                @*<td><a class="btn btn-success" href="~/Usuario/find/@objetoBeneficiario.">Ver</a></td>
-                <td><a class="btn btn-primary" href="~/Usuario/update/@objetoBeneficiario.IdUsuario">Actualizar</a></td>*@
-                <td><a class="btn btn-danger" href="~/Usuario/delete/@objetoBeneficiario.IdBeneficiario">Editar</a></td>
+                <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
+                
             </tr>
         }
     </table>

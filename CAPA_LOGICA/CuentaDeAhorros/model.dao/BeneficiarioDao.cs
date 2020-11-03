@@ -68,62 +68,67 @@ namespace model.dao
             }
         }
 
-        public bool find(Beneficiario beneficiario)
+        public bool find(Beneficiario objetoBeneficiario)
         {
-
-            //bool hayRegistros;
-            //try
-            //{
-            //    comando = new SqlCommand("CREARSP", objConexion.getConexion());
-            //    comando.CommandType = CommandType.StoredProcedure;
-            //    comando.Parameters.AddWithValue("@Id", objetoBeneficiario.IdBeneficiario);
-            //    objConexion.getConexion().Open();
-            //    SqlDataReader read = comando.ExecuteReader();
-            //    hayRegistros = read.Read();
-            //    if (hayRegistros)
-            //    {
-            //        beneficiario = Convert.ToInt32(read[0].ToString());
-            //        beneficiario = Convert.ToInt32(read[1].ToString());
-            //        beneficiario = Convert.ToDecimal(read[2].ToString());
-            //        beneficiario = read[3].ToString();
-            //    }
-            //}
-            //catch (Exception)
-            //{
-            //    throw;
-            //}
-            //finally
-            //{
-            //    objConexion.getConexion().Close();
-            //    objConexion.cerrarConexion();
-            //}
-            //return hayRegistros;
-
-            return true;
+            bool hayRegistros;
+            try
+            {
+                comando = new SqlCommand("SPObtenerBeneficiario", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", objetoBeneficiario.IdBeneficiario);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                hayRegistros = read.Read();
+                if (hayRegistros)
+                {
+                    objetoBeneficiario.IdBeneficiario = Convert.ToInt32(read[0].ToString());
+                    objetoBeneficiario.IdPersona = Convert.ToInt32(read[1].ToString());
+                    objetoBeneficiario.IdTipoParentezco = Convert.ToInt32(read[2].ToString());
+                    objetoBeneficiario.IdCuenta = Convert.ToInt32(read[3].ToString());
+                    objetoBeneficiario.Porcentaje = Convert.ToInt32(read[4].ToString());
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return hayRegistros;
         }
 
         public List<Beneficiario> findAll()
         {
-            List<Beneficiario> listaBeneficiarioes = new List<Beneficiario>();
+            List<Beneficiario> listaBeneficiario = new List<Beneficiario>();
+            return listaBeneficiario;
+        }
+
+        public List<Beneficiario> findAllbeneficiariosPorCuenta(int id)
+        {
+            List<Beneficiario> listaBeneficiario = new List<Beneficiario>();
             
             try
             {
-                comando = new SqlCommand("CREARSP", objConexion.getConexion())
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
+                comando = new SqlCommand("SPObtenerBeneficiariosCuenta", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@idCuentaAhorro", id);
                 objConexion.getConexion().Open();
                 SqlDataReader read = comando.ExecuteReader();
                 while (read.Read())
                 {
+
                     Beneficiario objetoBeneficiario = new Beneficiario
                     {
                         IdBeneficiario = Convert.ToInt32(read[0].ToString()),
                         IdPersona = Convert.ToInt32(read[1].ToString()),
                         IdTipoParentezco = Convert.ToInt32(read[2].ToString()),
                         IdCuenta = Convert.ToInt32(read[3].ToString()),
+                        Porcentaje = Convert.ToInt32(read[4].ToString()),
                     };
-                    listaBeneficiarioes.Add(objetoBeneficiario);
+                    listaBeneficiario.Add(objetoBeneficiario);
                 }
             }
 
@@ -136,7 +141,7 @@ namespace model.dao
                 objConexion.getConexion().Close();
                 objConexion.cerrarConexion();
             }
-            return listaBeneficiarioes;
+            return listaBeneficiario;
         }
 
 
