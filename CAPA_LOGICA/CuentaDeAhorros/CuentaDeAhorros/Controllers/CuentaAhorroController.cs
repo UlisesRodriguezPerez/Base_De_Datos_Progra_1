@@ -75,52 +75,7 @@ namespace MunicipalidadWebMVC5.Controllers
         //    return View(lista);
         //}
 
-        //public ActionResult CreateUsuario()
-        //{
-        //    List<Usuario> listaProp = objetoCuentaAhorro.createUsuario(idUP);
-        //    return View(listaProp);
-        //}
 
-        //public ActionResult AgregarUsuario(int ID)
-        //{
-        //    objetoCuentaAhorro.createUsuario(ID, idUP);
-        //    return RedirectToAction("Usuarios/" + idUP);
-        //}
-
-        //public ActionResult DeleteUsuario(int ID)
-        //{
-        //    objetoCuentaAhorro.deleteUsuario(ID);
-        //    return RedirectToAction("Usuarios/" + idUP);
-        //}
-
-        //public ActionResult CreateBeneficiario()
-        //{
-        //    List<Beneficiario> listaProp = objetoCuentaAhorro.createBeneficiario(idUP);
-        //    return View(listaProp);
-        //}
-
-        //public ActionResult AgregarBeneficiario(int ID)
-        //{
-        //    objetoCuentaAhorro.createBeneficiario(ID, idUP);
-        //    return RedirectToAction("Beneficiarios/" + idUP);
-        //}
-        //public ActionResult DeleteBeneficiario(int ID)
-        //{
-        //    objetoCuentaAhorro.deleteBeneficiario(ID);
-        //    return RedirectToAction("Beneficiarios/" + idUP);
-        //}
-
-        //public ActionResult BeneficiarioVsCuentaAhorroes()
-        //{
-        //    string valorIngresado = Request["valor"];
-        //    List<Beneficiario> lista = objetoCuentaAhorro.findAllBeneficiariosIngresado(@valorIngresado);
-        //    return View(lista);
-        //}
-        //public ActionResult UsuarioVsCuentaAhorro()
-        //{
-        //    string valorIngresado = Request["valor"];
-        //    List<Usuario> lista = objetoCuentaAhorro.findAllUsuariosIngresado(@valorIngresado);
-        //    return View(lista);
-        //}
+   
     }
 }

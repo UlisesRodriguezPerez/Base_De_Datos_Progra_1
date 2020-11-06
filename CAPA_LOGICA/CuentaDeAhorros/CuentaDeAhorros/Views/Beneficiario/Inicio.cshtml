@@ -7,6 +7,9 @@
 
 <h3>Beneficiarios: </h3>
 <div class="container-fluid">
+    <div>
+        <a class="btn btn-primary" href="~/Beneficiario/create">Nuevo</a>
+    </div>
     <table class="table">
         <tr class="btn-primary">
             <th>Id Beneficiario</th>
@@ -15,7 +18,6 @@
             <th>Id Cuenta</th>
             <th>Porcentaje</th>
             <th colspan="3"> Operaciones</th>
-            <th><a class="btn btn-danger" href="~/Beneficiario/Update">Editar</a></th>
         </tr>
         @foreach (var objetoBeneficiario in Model)
         {
@@ -28,10 +30,15 @@
 
                 <!--  PENDEINTE EL VER  -->
                 <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
-                
+                <td><a class="btn btn-primary" href="~/Beneficiario/update/@objetoBeneficiario.IdBeneficiario">Actualizar</a></td>
+                <td><a class="btn btn-danger" href="~/Beneficiario/delete/@objetoBeneficiario.IdBeneficiario">Eliminar</a></td>
+
             </tr>
         }
     </table>
+    <div class="form-actions col-md-offset-2">
+        <input class="btn btn-primary" type="submit" name="btnGuardar" value="Guardar" />
+    </div>
 </div>
 
 

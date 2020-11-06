@@ -58,6 +58,21 @@ namespace MunicipalidadWebMVC5.Controllers
             string username = user.NombreUsuario;
             return View(lista);  //lista
         }
+        [HttpPost]
+        public ActionResult MenuNormal(Usuario user, int ID)
+        {
+            try
+            {
+
+                user.IdUsuario = ID;
+
+                return RedirectToAction("Menu/MenuNormal/" + ID);
+            }
+            catch
+            {
+                return View();
+            }
+        }
 
 
     }

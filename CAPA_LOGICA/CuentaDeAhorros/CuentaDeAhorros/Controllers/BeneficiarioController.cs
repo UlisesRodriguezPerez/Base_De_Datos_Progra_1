@@ -48,7 +48,9 @@ namespace CuentaDeAhorros.Controllers
             try
             {
                 objetoBeneficiario.create(beneficiario);
-                return RedirectToAction("Inicio");
+                string id = objetoBeneficiario.findIdCuenta(beneficiario);
+                return RedirectToAction("Inicio/" + id);
+                
             }
             catch
             {
@@ -57,20 +59,25 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Edit/5
+        [HttpGet]
         public ActionResult Update(int id)
         {
-            return View();
+            Beneficiario objBeneficiario = new Beneficiario(id);
+            objetoBeneficiario.find(objBeneficiario);
+            return View(objBeneficiario);
         }
 
         // POST: Beneficiarios/Edit/5
         [HttpPost]
-        public ActionResult Update(int id, FormCollection collection)
+        public ActionResult Update(Beneficiario objBeneficiario, int ID)
         {
             try
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Inicio" + id);
+                
+                objBeneficiario.IdBeneficiario = ID;
+                objetoBeneficiario.update(objBeneficiario);
+                string id = objetoBeneficiario.findIdCuenta(objBeneficiario);
+                return RedirectToAction("Inicio/"+id);
             }
             catch
             {
@@ -79,26 +86,29 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        public ActionResult Delete(Beneficiario objBeneficiario, int ID)
         {
-            return View();
+            objBeneficiario.IdBeneficiario = ID;
+            objetoBeneficiario.delete(objBeneficiario);
+            return RedirectToAction("Inicio");
         }
 
         // POST: Beneficiarios/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+        
+        //public ActionResult Delete(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add delete logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
         [HttpGet]
         public ActionResult Find(int Id)
         {

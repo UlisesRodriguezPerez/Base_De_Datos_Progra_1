@@ -1,6 +1,4 @@
-﻿
-
-@model model.entity.Beneficiario
+﻿@model model.entity.Beneficiario
 
 @{
     ViewBag.Title = "Create";
@@ -40,8 +38,9 @@
 
         <div class="form-actions col-md-offset-2">
             <input class="btn btn-primary" type="submit" name="btnGuardar" value="Guardar" />
-            <a class="btn btn-primary" href="~/Beneficiario/Create">Regresar</a>
+            @*<a class="btn btn-primary" href="~/Beneficiario/Inicio/@Model.IdCuenta">Regresar</a>*@
         </div>
+            
     </div>
 
 }

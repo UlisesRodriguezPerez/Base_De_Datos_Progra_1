@@ -7,7 +7,6 @@ using model.entity;
 using model.neg;
 using model.dao;
 
-
 namespace CuentaDeAhorros.Controllers
 {
     public class UsuarioController : Controller

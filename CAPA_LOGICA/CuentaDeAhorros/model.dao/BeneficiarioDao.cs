@@ -109,7 +109,7 @@ namespace model.dao
         public List<Beneficiario> findAllbeneficiariosPorCuenta(int id)
         {
             List<Beneficiario> listaBeneficiario = new List<Beneficiario>();
-            
+
             try
             {
                 comando = new SqlCommand("SPObtenerBeneficiariosCuenta", objConexion.getConexion());
@@ -151,8 +151,10 @@ namespace model.dao
             {
                 comando = new SqlCommand("SPActualizarBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pIdBeneficiario", beneficiario.IdBeneficiario);
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
                 comando.Parameters.AddWithValue("@pIdTipoParentezco", beneficiario.IdTipoParentezco);
+                comando.Parameters.AddWithValue("@pIdCuenta", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje", beneficiario.Porcentaje);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
@@ -167,11 +169,34 @@ namespace model.dao
                 objConexion.cerrarConexion();
             }
         }
+        public string findIdCuenta(Beneficiario objetoBeneficiario)
+        {
+            string indice;
+            try
+            {
+                comando = new SqlCommand("SPObtenerIdCuentaBeneficiario", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", objetoBeneficiario.IdBeneficiario);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                read.Read();
+                indice = read[0].ToString();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return indice;
 
+
+        }
 
     }
-
-
 }
 
 

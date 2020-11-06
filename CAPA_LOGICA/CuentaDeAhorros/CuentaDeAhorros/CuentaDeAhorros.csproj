@@ -158,6 +158,7 @@
     <Content Include="Views\Beneficiario\Inicio.cshtml" />
     <Content Include="Views\Beneficiario\Find.cshtml" />
     <Content Include="Views\EstadosCuenta\Inicio.cshtml" />
+    <Content Include="Views\Beneficiario\Update.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
