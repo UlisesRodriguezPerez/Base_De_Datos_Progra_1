@@ -8,11 +8,30 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Content/toastr.css" rel="stylesheet" />
 </head>
 <body>
 
     <!--Pie de pagina-->
     <div class="container body-content">
+
+        <div class="row">
+            <div class="col-md-4">
+                <button class="btn btn-warning" id="toastrWarning">toastrWarning</button>
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+
+            $(function () {
+                $("#toastrWarning").click(function () {
+                    toastr.error("Warning")
+                });
+            });
+
+        </script>
+
         @RenderBody()
         <hr />
         <footer>
@@ -22,5 +41,6 @@
 
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/toastr.js"></script>
 </body>
 </html>
