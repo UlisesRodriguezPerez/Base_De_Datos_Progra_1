@@ -129,5 +129,19 @@ namespace CuentaDeAhorros.Controllers
         {
             return RedirectToAction("Inicio" + ID);
         }
+
+        [HttpPost]
+        public ActionResult VerifyPorcentaje(int porcent)
+        {
+            int porcentaje = Convert.ToInt32(porcent);
+            if (porcentaje == 100) {
+                return RedirectToAction("/Inicio/");
+            }
+            
+            else
+            {
+                return RedirectToAction("/Inicio/");
+            }
+        }
     }
 }

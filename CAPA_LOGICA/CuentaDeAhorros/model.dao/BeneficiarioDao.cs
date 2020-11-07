@@ -196,6 +196,39 @@ namespace model.dao
 
         }
 
+        public string verificar(Beneficiario objBeneficiario)
+        {
+
+            string result;
+            try
+            {
+
+
+                if (objBeneficiario.Activo == true)
+                {
+                    result = "Admin";
+                }
+
+                else
+                {
+                    result = "Normal";
+                }
+            }
+
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+
+            return result;
+        }
+
     }
 }
 

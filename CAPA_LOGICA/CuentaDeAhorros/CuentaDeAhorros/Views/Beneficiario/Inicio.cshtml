@@ -7,38 +7,62 @@
 
 <h3>Beneficiarios: </h3>
 <div class="container-fluid">
-    <div>
-        <a class="btn btn-primary" href="~/Beneficiario/create">Nuevo</a>
-    </div>
-    <table class="table">
-        <tr class="btn-primary">
-            <th>Id Beneficiario</th>
-            <th>Id Persona</th>
-            <th>Id Tipo Parentezco</th>
-            <th>Id Cuenta</th>
-            <th>Porcentaje</th>
-            <th colspan="3"> Operaciones</th>
-        </tr>
-        @foreach (var objetoBeneficiario in Model)
-        {
-            <tr>
-                <td>@objetoBeneficiario.IdBeneficiario</td>
-                <td>@objetoBeneficiario.IdPersona</td>
-                <td>@objetoBeneficiario.IdTipoParentezco</td>
-                <td>@objetoBeneficiario.IdCuenta</td>
-                <td>@objetoBeneficiario.Porcentaje</td>
-
-                <!--  PENDEINTE EL VER  -->
-                <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
-                <td><a class="btn btn-primary" href="~/Beneficiario/update/@objetoBeneficiario.IdBeneficiario">Actualizar</a></td>
-                <td><a class="btn btn-danger" href="~/Beneficiario/delete/@objetoBeneficiario.IdBeneficiario">Eliminar</a></td>
-
+    <form action="~/Beneficiario/VerifyPorcentaje" method="post">
+        <div>
+            <a class="btn btn-primary" href="~/Beneficiario/create">Nuevo</a>
+        </div>
+        <table class="table">
+            <tr class="btn-primary">
+                <th>Id Beneficiario</th>
+                <th>Id Persona</th>
+                <th>Id Tipo Parentezco</th>
+                <th>Id Cuenta</th>
+                <th>Porcentaje</th>
+                <th colspan="3"> Operaciones</th>
             </tr>
+
+            @foreach (var objetoBeneficiario in Model)
+            {
+
+                <tr>
+                    <td>@objetoBeneficiario.IdBeneficiario</td>
+                    <td>@objetoBeneficiario.IdPersona</td>
+                    <td>@objetoBeneficiario.IdTipoParentezco</td>
+                    <td>@objetoBeneficiario.IdCuenta</td>
+                    <td>@objetoBeneficiario.Porcentaje</td>
+
+                    <!--  PENDEINTE EL VER  -->
+                    <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
+                    <td><a class="btn btn-primary" href="~/Beneficiario/update/@objetoBeneficiario.IdBeneficiario">Actualizar</a></td>
+                    <td><a class="btn btn-danger" href="~/Beneficiario/delete/@objetoBeneficiario.IdBeneficiario">Eliminar</a></td>
+
+                </tr>
+            }
+
+
+        </table>
+
+        <div>@Model.Sum(i => i.Porcentaje)</div>
+        <input type="button" value="Verificar" onclick="guardar();">
+        <script>
+
+            function guardar() {
+                var cantidad = @Model.Count();
+                var indice = (@Model.Sum(j => j.IdCuenta)) / cantidad;
+                var x = @Model.Sum(i => i.Porcentaje);
+                if (x == "100" && cantidad < 4) {
+
+                    alert("Beneficiarios verificados con éxito, por favor presione aceptar y depsués podrá regresar al menu principal.")
+                    document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@Model.Sum(j =>j.IdCuenta/Model.Count())'>Volver al menu de cuentas.</a>");
+            }
+            else {
+                alert("No cumple con el 100% o hay más de 3 beneficiarios, porfavor asegurse de realizar bien la distribución. Ya que si se muere el banco no puede quedarse con su dinero.")
+            }
         }
-    </table>
-    <div class="form-actions col-md-offset-2">
-        <input class="btn btn-primary" type="submit" name="btnGuardar" value="Guardar" />
-    </div>
+
+        </script>
+
+    </form>
 </div>
 
 
