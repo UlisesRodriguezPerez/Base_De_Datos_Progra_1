@@ -3,9 +3,12 @@
     ViewBag.Title = "MenuAdmin";
 }
 
-@{Html.RenderPartial("Top_Menu_Admi");}
+@*@{Html.RenderPartial("Top_Menu_Admi");}*@
 
-<h2>MenuAdmin</h2>
+@{Html.DisplayNameFor(model => model.NombreUsuario);}
+
+
+@*<h2>MenuAdmin </h2>*@
 
 <menu>
     <a class="btn btn-success" href="~/Usuario/Inicio/">Ver Usuarios</a>

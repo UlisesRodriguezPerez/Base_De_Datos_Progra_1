@@ -5,6 +5,7 @@
 
 
 
+
 <h3>Beneficiarios: </h3>
 <div class="container-fluid">
     <form action="~/Beneficiario/VerifyPorcentaje" method="post">
@@ -51,17 +52,17 @@
                 var indice = (@Model.Sum(j => j.IdCuenta)) / cantidad;
                 var x = @Model.Sum(i => i.Porcentaje);
                 if (x == "100" && cantidad < 4) {
-
-                    alert("Beneficiarios verificados con éxito, por favor presione aceptar y depsués podrá regresar al menu principal.")
+                    toastr.success("Beneficiarios verificados con éxito, por favor presione aceptar y depsués podrá regresar al menu principal.", "Toastr");
+                   // alert("Beneficiarios verificados con éxito, por favor presione aceptar y depsués podrá regresar al menu principal.")
                     document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@Model.Sum(j =>j.IdCuenta/Model.Count())'>Volver al menu de cuentas.</a>");
             }
             else {
-                alert("No cumple con el 100% o hay más de 3 beneficiarios, porfavor asegurse de realizar bien la distribución. Ya que si se muere el banco no puede quedarse con su dinero.")
+                    toastr.warning("No cumple con el 100% o hay más de 3 beneficiarios, porfavor asegurse de realizar bien la distribución. Ya que si se muere el banco no puede quedarse con su dinero.", "Toastr");
             }
         }
 
         </script>
-
+       
     </form>
 </div>
 
