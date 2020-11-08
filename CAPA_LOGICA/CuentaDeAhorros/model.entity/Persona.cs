@@ -26,21 +26,21 @@ namespace model.entity
 
         public Persona(int pIdPersona) // primary key
         {
-            this.IdPersona = pIdPersona;
+            this.idPersona = pIdPersona;
             
         }
 
         public Persona(int pIdPersona, int pTipoDocumento, string pNombre, string pValorDocumentoId,
                         string pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico)
         {
-            this.IdPersona = pIdPersona;
-            this.TipoDocumento = pTipoDocumento;
-            this.Nombre = pNombre;
-            this.ValorDocumentoId = pValorDocumentoId;
-            this.FechaNacimiento = pFechaNacimiento;
-            this.Telefono1 = pTelefono1;
-            this.Telefono2 = pTelefono2;
-            this.CorreoElectronico = pCorreoElectronico;
+            this.idPersona = pIdPersona;
+            this.tipoDocumento = pTipoDocumento;
+            this.nombre = pNombre;
+            this.valorDocumentoId = pValorDocumentoId;
+            this.fechaNacimiento = pFechaNacimiento;
+            this.telefono1 = pTelefono1;
+            this.telefono2 = pTelefono2;
+            this.correoElectronico = pCorreoElectronico;
         }
 
         public int IdPersona { get => idPersona; set => idPersona = value; }

@@ -13,6 +13,7 @@ namespace CuentaDeAhorros.Controllers
     {
         private static int idB = 0;
         private BeneficiarioDao objetoBeneficiario;
+        private TipoParentezcoDao objetoTipoParentezco;
         // GET: Beneficiarios
 
         public BeneficiarioController()
@@ -47,6 +48,7 @@ namespace CuentaDeAhorros.Controllers
         {
             try
             {
+              //  List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
                 objetoBeneficiario.create(beneficiario);
                 string id = objetoBeneficiario.findIdCuenta(beneficiario);
                 return RedirectToAction("Inicio/" + id);
@@ -94,21 +96,6 @@ namespace CuentaDeAhorros.Controllers
             return RedirectToAction("Inicio");
         }
 
-        // POST: Beneficiarios/Delete/5
-        
-        //public ActionResult Delete(int id, FormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add delete logic here
-
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
         [HttpGet]
         public ActionResult Find(int Id)
         {
