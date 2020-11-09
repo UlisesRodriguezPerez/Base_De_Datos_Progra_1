@@ -16,7 +16,7 @@
             <!--Seria genial cargarlo de la bd, pero no me sirvió-->
             @Html.LabelFor(model => model.IdTipoParentezco, htmlAttributes: new { @class = "control-kabel col-md-2" })
 
-            <div class="col-md-6">
+            @*<div class="col-md-6">
                 @Html.DropDownList("TipoParentezco", new List<SelectListItem>
                 {
                   new SelectListItem { Text = "Padre", Value = "1", Selected=true},
@@ -29,7 +29,7 @@
                   new SelectListItem { Text = "amiga", Value = "8"}
 
                 })
-            </div>
+            </div>*@
 
             <div class="col-md-6">
                 @Html.EditorFor(model => model.IdTipoParentezco, new { htmlAttrbutes = new { @class = "form-control" } })

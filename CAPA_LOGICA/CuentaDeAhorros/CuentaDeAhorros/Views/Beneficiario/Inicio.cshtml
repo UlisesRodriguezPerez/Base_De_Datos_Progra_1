@@ -19,6 +19,7 @@
                 <th>Id Tipo Parentezco</th>
                 <th>Id Cuenta</th>
                 <th>Porcentaje</th>
+                <th>Activo</th>
                 <th colspan="3"> Operaciones</th>
             </tr>
 
@@ -31,6 +32,7 @@
                     <td>@objetoBeneficiario.IdTipoParentezco</td>
                     <td>@objetoBeneficiario.IdCuenta</td>
                     <td>@objetoBeneficiario.Porcentaje</td>
+                    <td>@objetoBeneficiario.Activo</td>
 
                     <!--  PENDEINTE EL VER  -->
                     <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
@@ -54,11 +56,11 @@
                 if (x == "100" && cantidad < 4) {
                     toastr.success("Beneficiarios verificados con éxito", "Guardado con éxito");
 
-                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@Model.Sum(j =>j.IdCuenta/Model.Count())'>Volver al menu de cuentas.</a>");
-            }
-            else {
-                    toastr.warning("No cumple con el 100% en la distribución de porcentajese.", "Advertencia");
-            }
+                    document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Volver al menu de cuentas.</a>");
+                }
+                else {
+                    toastr.warning("No cumple con el 100% en la distribución de porcentajese o hay más de 3 beneficiarios.", "Advertencia");
+                }
         }
 
         </script>

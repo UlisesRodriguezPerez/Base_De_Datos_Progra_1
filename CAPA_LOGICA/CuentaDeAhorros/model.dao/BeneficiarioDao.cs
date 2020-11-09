@@ -33,6 +33,7 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pIdDeBeneficiario", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
 
+
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }
@@ -53,7 +54,7 @@ namespace model.dao
             {
                 comando = new SqlCommand("SPEliminarLogicoBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
+                comando.Parameters.AddWithValue("@Id", beneficiario.IdBeneficiario);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }

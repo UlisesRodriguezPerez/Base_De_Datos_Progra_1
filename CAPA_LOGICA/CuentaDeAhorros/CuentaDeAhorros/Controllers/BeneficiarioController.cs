@@ -101,12 +101,14 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Delete/5
-        [HttpGet]
+        
         public ActionResult Delete(Beneficiario objBeneficiario, int ID)
         {
             objBeneficiario.IdBeneficiario = ID;
             objetoBeneficiario.delete(objBeneficiario);
-            return RedirectToAction("Inicio");
+            string id = objetoBeneficiario.findIdCuenta(objBeneficiario);
+            return RedirectToAction("Inicio/"+id);
+
         }
 
         [HttpGet]
