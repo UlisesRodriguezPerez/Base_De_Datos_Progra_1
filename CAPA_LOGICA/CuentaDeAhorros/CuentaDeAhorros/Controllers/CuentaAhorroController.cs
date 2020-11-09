@@ -69,12 +69,7 @@ namespace MunicipalidadWebMVC5.Controllers
             return View(lista);
         }
 
-        //public ActionResult Beneficiarios(int ID)
-        //{
-        //    List<Beneficiario> lista = objetoCuentaAhorro.findAllBeneficiarios(ID);
-        //    return View(lista);
-        //}
-
+       
 
    
     }

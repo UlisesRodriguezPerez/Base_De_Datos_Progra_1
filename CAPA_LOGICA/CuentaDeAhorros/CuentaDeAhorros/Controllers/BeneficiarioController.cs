@@ -48,11 +48,24 @@ namespace CuentaDeAhorros.Controllers
         {
             try
             {
-              //  List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
+                //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
+
+                //List<SelectListItem> items = new List<SelectListItem>();
+                //foreach (var i in listaP)
+                //{
+                //    items.Add(new SelectListItem ()
+                //    { 
+                //        Text = i.Nombre, 
+                //        Value = Convert.ToString((i.Id)) 
+                //    });
+                //}
+                //ViewBag.Tipos = items;
+               
+
+
                 objetoBeneficiario.create(beneficiario);
                 string id = objetoBeneficiario.findIdCuenta(beneficiario);
                 return RedirectToAction("Inicio/" + id);
-                
             }
             catch
             {

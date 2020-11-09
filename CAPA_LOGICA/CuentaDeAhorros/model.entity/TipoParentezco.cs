@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace model.entity
+﻿namespace model.entity
 {
     public class TipoParentezco
     {
@@ -15,9 +9,9 @@ namespace model.entity
         {
             this.nombre = nombre;
             this.id = id;
-            
+
         }
-        public TipoParentezco(){}
+        public TipoParentezco() { }
 
 
         public int Id { get => id; set => id = value; }
