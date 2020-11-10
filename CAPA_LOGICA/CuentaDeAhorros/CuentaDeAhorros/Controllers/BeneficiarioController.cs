@@ -13,7 +13,8 @@ namespace CuentaDeAhorros.Controllers
     {
         private static int idB = 0;
         private BeneficiarioDao objetoBeneficiario;
-        private TipoParentezcoDao objetoTipoParentezco;
+        //private TipoParentezcoDao objetoTipoParentezco;
+        private CuentaAhorroDao objetoCuentaAhorro;
         // GET: Beneficiarios
 
         public BeneficiarioController()
@@ -40,14 +41,17 @@ namespace CuentaDeAhorros.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            return View();
+            Beneficiario objBeneficiario = new Beneficiario();
+            //objetoBeneficiario.find(objBeneficiario);
+            return View(objBeneficiario);
+            //return View();
         }
 
         [HttpPost]
         public ActionResult Create(Beneficiario beneficiario)
         {
-            try
-            {
+            //try
+            //{
                 //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
 
                 //List<SelectListItem> items = new List<SelectListItem>();
@@ -62,15 +66,17 @@ namespace CuentaDeAhorros.Controllers
                 //ViewBag.Tipos = items;
                
 
-
+                
                 objetoBeneficiario.create(beneficiario);
-                string id = objetoBeneficiario.findIdCuenta(beneficiario);
-                return RedirectToAction("Inicio/" + id);
-            }
-            catch
-            {
-                return View();
-            }
+
+
+                string id = beneficiario.IdCuenta.ToString();
+                return RedirectToAction("Inicio/"+id);
+            //}
+            //catch
+            //{
+            //    return View();
+            //}
         }
 
         // GET: Beneficiarios/Edit/5

@@ -25,8 +25,9 @@
                 <td>@objetoEstadoCuenta.FechaFinal</td>
                 <td>@objetoEstadoCuenta.SaldoInicial</td>
                 <td>@objetoEstadoCuenta.SaldoFinal</td>
-               
+
             </tr>
         }
     </table>
+    <a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuentaAhorro)/@Model.Count())'>Regresar</a>
 </div>

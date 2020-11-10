@@ -28,9 +28,9 @@ namespace model.dao
             {
                 comando = new SqlCommand("SPInsertarBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@pIdTipoParentezco", beneficiario.IdTipoParentezco);
+                comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
-                comando.Parameters.AddWithValue("@pIdDeBeneficiario", beneficiario.IdCuenta);
+                comando.Parameters.AddWithValue("@pIdDeCuentaAhorro", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
 
 

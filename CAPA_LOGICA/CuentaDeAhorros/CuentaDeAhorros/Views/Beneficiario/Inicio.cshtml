@@ -47,6 +47,7 @@
 
         <div>@Model.Sum(i => i.Porcentaje)</div>
         <input type="button" value="Verificar" onclick="guardar();">
+        <a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>
         <script>
 
             function guardar() {
@@ -64,7 +65,7 @@
         }
 
         </script>
-       
+
     </form>
 </div>
 
