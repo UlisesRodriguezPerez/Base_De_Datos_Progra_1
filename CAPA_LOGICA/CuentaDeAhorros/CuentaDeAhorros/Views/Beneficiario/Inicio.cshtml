@@ -14,7 +14,7 @@
         </div>
         <table class="table">
             <tr class="btn-primary">
-                @*<th>Id Beneficiario</th>*@
+                <th>Indice</th>
                 <th>Persona</th>
                 <th>Tipo Parentezco</th>
                 <th>Cuenta</th>
@@ -28,6 +28,7 @@
 
                 <tr>
                     <!--<td>-->@*@objetoBeneficiario.IdBeneficiario*@<!--</td>-->
+                    <td>@objetoBeneficiario.IdCuenta</td>
                     <td>@objetoBeneficiario.Nombre</td>
                     <td>@objetoBeneficiario.Parentezco</td>
                     <td>@objetoBeneficiario.NumeroCuenta</td>
@@ -44,11 +45,11 @@
 
 
         </table>
-        <input type="submit" value="Regresar NO FUNCIONA">
+        @*<input type="submit" value="Regresar NO FUNCIONA">*@
     </form>
-        <div>@Model.Sum(i => i.Porcentaje)</div>
+        <div>Ha usado el @Model.Sum(i => i.Porcentaje) % de 100 </div>
         @*<input type="button" value="Verificar" onclick="guardar();">*@
-        @*<a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>*@
+        <a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>
         <script>
 
             function guardar() {

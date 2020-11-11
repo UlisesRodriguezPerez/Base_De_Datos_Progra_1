@@ -19,13 +19,14 @@ namespace model.entity
         private string parentezco;
         private int numeroCuenta;
         private Boolean activo;
+        private string documentoIdentidad;
 
         public Beneficiario() { }
         public Beneficiario(int pIdBeneficiario)
         {
             this.idBeneficiario = pIdBeneficiario;
         }
-        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta)
+        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta, string pDocumentoIdentidad)
         {
             
             this.idTipoParentezco = idTipoParentezco;
@@ -36,6 +37,7 @@ namespace model.entity
             this.nombre = pNombre;
             this.parentezco = pParentezco;
             this.numeroCuenta = pNumeroCuenta;
+            this.documentoIdentidad = pDocumentoIdentidad;
             
         }
 
@@ -49,5 +51,6 @@ namespace model.entity
         public string Nombre { get => nombre; set => nombre = value; }
         public string Parentezco { get => parentezco; set => parentezco = value; }
         public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
+        public string DocumentoIdentidad { get => documentoIdentidad; set => documentoIdentidad = value; }
     }
 }

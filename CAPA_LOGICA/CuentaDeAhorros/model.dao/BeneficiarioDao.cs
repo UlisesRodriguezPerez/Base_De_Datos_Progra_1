@@ -46,22 +46,33 @@ namespace model.dao
             }
             return indice;
         }
-        public void create(Beneficiario beneficiario)
+
+        //public void create(Beneficiario beneficiario)
+        //{
+        //    return;
+        //}
+
+            public void create(Beneficiario beneficiario)
         {
+            string existePersona;
             try
             {
                 comando = new SqlCommand("SPInsertarBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 //comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
                 comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);
-                comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
+                comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", beneficiario.DocumentoIdentidad);
+                //comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
                 comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", beneficiario.NumeroCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
-
-
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
+                //SqlDataReader read = comando.ExecuteReader();
+                //read.Read();
+                //existePersona = read[6].ToString();
+                //System.Diagnostics.Debug.WriteLine(existePersona);
             }
+
             catch (Exception)
             {
                 throw;
@@ -71,6 +82,7 @@ namespace model.dao
                 objConexion.getConexion().Close();
                 objConexion.cerrarConexion();
             }
+            //return existePersona;
         }
 
         public void delete(Beneficiario beneficiario)

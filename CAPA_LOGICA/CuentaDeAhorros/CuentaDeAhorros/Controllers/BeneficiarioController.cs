@@ -78,11 +78,17 @@ namespace CuentaDeAhorros.Controllers
                 
                 objetoBeneficiario.create(beneficiario);
 
-
-            //string id = beneficiario.IdCuenta.ToString();
+                
                 int numeroCuenta = beneficiario.NumeroCuenta;
                 string id = objetoBeneficiario.findIdCA(beneficiario);
-                return RedirectToAction("Inicio/"+id);
+                return RedirectToAction("Inicio/" + id);
+                
+                //else
+                //{
+                //    return RedirectToAction("Inicio/" + "11");
+                //}
+            //string id = beneficiario.IdCuenta.ToString();
+                
             //}
             //catch
             //{

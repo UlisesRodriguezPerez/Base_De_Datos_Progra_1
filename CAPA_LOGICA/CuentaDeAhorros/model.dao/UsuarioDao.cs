@@ -23,8 +23,6 @@ namespace model.dao
             objConexion = Conexion.saberEstado();
         }
 
-
-
         public void create(Usuario objetoUsuario)
         {
             try
