@@ -22,15 +22,40 @@ namespace model.dao
             objConexion = Conexion.saberEstado();
         }
 
+        public string findIdCA(Beneficiario beneficiario)
+        {
+            string indice;
+            try
+            {
+                comando = new SqlCommand("SPFindIdCA", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pNumeroCuentaDeAhorro", beneficiario.NumeroCuenta);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                read.Read();
+                indice = read[0].ToString();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return indice;
+        }
         public void create(Beneficiario beneficiario)
         {
             try
             {
                 comando = new SqlCommand("SPInsertarBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
+                //comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
+                comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
-                comando.Parameters.AddWithValue("@pIdDeCuentaAhorro", beneficiario.IdCuenta);
+                comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", beneficiario.NumeroCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
 
 
@@ -87,6 +112,9 @@ namespace model.dao
                     objetoBeneficiario.IdTipoParentezco = Convert.ToInt32(read[2].ToString());
                     objetoBeneficiario.IdCuenta = Convert.ToInt32(read[3].ToString());
                     objetoBeneficiario.Porcentaje = Convert.ToInt32(read[4].ToString());
+                    objetoBeneficiario.Nombre = read[5].ToString();
+                    objetoBeneficiario.Parentezco = read[6].ToString();
+                    objetoBeneficiario.NumeroCuenta = Convert.ToInt32(read[7].ToString());
                 }
             }
             catch (Exception)
@@ -128,6 +156,9 @@ namespace model.dao
                         IdTipoParentezco = Convert.ToInt32(read[2].ToString()),
                         IdCuenta = Convert.ToInt32(read[3].ToString()),
                         Porcentaje = Convert.ToInt32(read[4].ToString()),
+                        Nombre = read[5].ToString(),
+                        Parentezco = read[6].ToString(),
+                        NumeroCuenta = Convert.ToInt32(read[7].ToString()),
                     };
                     listaBeneficiario.Add(objetoBeneficiario);
                 }
@@ -154,7 +185,7 @@ namespace model.dao
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@pIdBeneficiario", beneficiario.IdBeneficiario);
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
-                comando.Parameters.AddWithValue("@pIdTipoParentezco", beneficiario.IdTipoParentezco);
+                comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);
                 comando.Parameters.AddWithValue("@pIdCuenta", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje", beneficiario.Porcentaje);
                 objConexion.getConexion().Open();

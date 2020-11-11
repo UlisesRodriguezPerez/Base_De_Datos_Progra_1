@@ -243,6 +243,8 @@ namespace model.dao
                         NumeroCuenta = Convert.ToInt32(read[3].ToString()),
                         Saldo = Convert.ToDecimal(read[4].ToString()),
                         FechaCreacion = read[5].ToString(),
+                        NombreUsuarioPA = read[6].ToString(),
+                        NombreTipoCuenta = read[7].ToString(),
                     };
                     listaCuentaAhorro.Add(objetoCuentaAhorro);
                 }

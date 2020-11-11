@@ -15,6 +15,9 @@ namespace model.entity
         private int idPersona;
         private int porcentaje;
         private int idCuenta;
+        private string nombre;
+        private string parentezco;
+        private int numeroCuenta;
         private Boolean activo;
 
         public Beneficiario() { }
@@ -22,7 +25,7 @@ namespace model.entity
         {
             this.idBeneficiario = pIdBeneficiario;
         }
-        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo)
+        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta)
         {
             
             this.idTipoParentezco = idTipoParentezco;
@@ -30,6 +33,9 @@ namespace model.entity
             this.idCuenta = idCuenta;
             this.porcentaje = porcentaje;
             this.Activo = pActivo;
+            this.nombre = pNombre;
+            this.parentezco = pParentezco;
+            this.numeroCuenta = pNumeroCuenta;
             
         }
 
@@ -40,5 +46,8 @@ namespace model.entity
         public int Porcentaje { get => porcentaje; set => porcentaje = value; }
         public int IdCuenta { get => idCuenta; set => idCuenta = value; }
         public bool Activo { get => activo; set => activo = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Parentezco { get => parentezco; set => parentezco = value; }
+        public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
     }
 }

@@ -31,6 +31,15 @@ namespace CuentaDeAhorros.Controllers
         }
 
 
+        [HttpPost]
+        public ActionResult Regresar(Beneficiario beneficiario)
+        {
+
+            string indice = objetoBeneficiario.findIdCA(beneficiario);
+            //System.Diagnostics.Debug.WriteLine(tipo);
+            return RedirectToAction("/Menu/MenuNormal/" + indice);
+        }
+
         // GET: Beneficiarios/Details/5
         public ActionResult Details(int id)
         {
@@ -70,7 +79,9 @@ namespace CuentaDeAhorros.Controllers
                 objetoBeneficiario.create(beneficiario);
 
 
-                string id = beneficiario.IdCuenta.ToString();
+            //string id = beneficiario.IdCuenta.ToString();
+                int numeroCuenta = beneficiario.NumeroCuenta;
+                string id = objetoBeneficiario.findIdCA(beneficiario);
                 return RedirectToAction("Inicio/"+id);
             //}
             //catch

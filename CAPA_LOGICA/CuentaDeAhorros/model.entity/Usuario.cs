@@ -13,6 +13,7 @@ namespace model.entity
         private string nombreUsuario;
         private string password;
         private bool tipoUsuario;
+        
 
         public Usuario() { }
 
@@ -29,6 +30,7 @@ namespace model.entity
             this.nombreUsuario = pNombreUsuario;
             this.password = pPassword;
             this.tipoUsuario = pTipoUsuario;
+            //this.nombreTipoCuenta = pNombreTipoCuenta;
         }
 
         //getters and setters
@@ -36,5 +38,6 @@ namespace model.entity
         public string NombreUsuario { get => nombreUsuario; set => nombreUsuario = value; }
         public string Password { get => password; set => password = value; }
         public bool TipoUsuario { get => tipoUsuario; set => tipoUsuario = value; }
+        //public string NombreTipoCuenta { get => nombreTipoCuenta; set => nombreTipoCuenta = value; }
     }
 }

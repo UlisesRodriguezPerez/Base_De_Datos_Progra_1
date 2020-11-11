@@ -11,9 +11,9 @@
 <div class="container-fluid">
     <table class="table">
         <tr class="btn-primary">
-            <th>Id Cuenta Ahorro</th>
+            @*<th>Id Cuenta Ahorro</th>*@
             <th>Tipo de cuenta</th>
-            <th>Id Persona</th>
+            <th>Usuario</th>
             <th>Numero de cuenta</th>
             <th>Saldo</th>
             <th>Fecha creación</th>
@@ -22,9 +22,10 @@
         @foreach (var objetoCuentaAhorro in Model)
         {
             <tr>
-                <td>@objetoCuentaAhorro.IdCuentaAhorro</td>
-                <td>@objetoCuentaAhorro.IdTipoCuneta</td>
-                <td>@objetoCuentaAhorro.IdPersona</td>
+                @*<td>@objetoCuentaAhorro.IdCuentaAhorro</td>*@
+                <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
+                @*<td>@objetoCuentaAhorro.IdPersona</td>*@
+                <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
                 <td>@objetoCuentaAhorro.NumeroCuenta</td>
                 <td>@objetoCuentaAhorro.Saldo</td>
                 <td>@objetoCuentaAhorro.FechaCreacion</td>

@@ -193,6 +193,7 @@ namespace model.dao
                         FechaFinal = Convert.ToDateTime(read[3].ToString()),
                         SaldoInicial = Convert.ToDecimal(read[4].ToString()),
                         SaldoFinal = Convert.ToDecimal(read[5].ToString()),
+                        NumeroCuenta = read[6].ToString(),
                     };
                     listaEstados.Add(objetoEstado);
                 }
