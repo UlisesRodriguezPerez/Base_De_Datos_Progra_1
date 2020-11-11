@@ -4,13 +4,18 @@
 @{
     ViewBag.Title = "Inicio";
 }
+<style>
+    tr[data-href] {
+        cursor: pointer;
+    }
+</style>
 
 <h3>Estados de cuenta</h3>
 <div class="container-fluid">
     <table class="table">
         <tr class="btn-primary">
             @*<th>Id Estado Cuenta</th>*@
-            <th>CuentaAhorro</th>
+            <th>Número de cuenta</th>
             <th>Fecha Inicio</th>
             <th>Fecha Final</th>
             <th>saldoInicial</th>
@@ -18,17 +23,37 @@
         </tr>
         @foreach (var objetoEstadoCuenta in Model)
         {
-            <tr>
-                @*<td>@objetoEstadoCuenta.IdEstado</td>*@
-                @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
-                <td>@objetoEstadoCuenta.NumeroCuenta</td>
-                <td>@objetoEstadoCuenta.FechaInicio</td>
-                <td>@objetoEstadoCuenta.FechaFinal</td>
-                <td>@objetoEstadoCuenta.SaldoInicial</td>
-                <td>@objetoEstadoCuenta.SaldoFinal</td>
+            
 
+            <tr data-href='https://www.htmlquick.com/es/tutorials/tables.html'>
+                
+                    @*<td>@objetoEstadoCuenta.IdEstado</td>*@
+                    @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
+                    <td>@objetoEstadoCuenta.NumeroCuenta</td>
+                    <td>@objetoEstadoCuenta.FechaInicio</td>
+                    <td>@objetoEstadoCuenta.FechaFinal</td>
+                    <td>@objetoEstadoCuenta.SaldoInicial</td>
+                    <td>@objetoEstadoCuenta.SaldoFinal</td>
+                
             </tr>
+
         }
     </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const rows = document.querySelectorAll("tr[data-href]");
+            console.log(rows);
+
+            rows.forEach(row => {
+                row.addEventListener('click', () => {
+                    window.location.href = row.dataset.href;
+                });
+
+            });
+
+        });
+    </script>
+    
     <a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuentaAhorro)/@Model.Count())'>Regresar</a>
 </div>
