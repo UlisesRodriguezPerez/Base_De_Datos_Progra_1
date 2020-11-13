@@ -13,7 +13,7 @@ namespace CuentaDeAhorros.Controllers
     {
         private static int idB = 0;
         private BeneficiarioDao objetoBeneficiario;
-        //private TipoParentezcoDao objetoTipoParentezco;
+       // private TipoParentezcoDao objetoTipoParentezco;
         private CuentaAhorroDao objetoCuentaAhorro;
         // GET: Beneficiarios
 
@@ -26,7 +26,6 @@ namespace CuentaDeAhorros.Controllers
         public ActionResult Inicio(int Id)
         {
             List<Beneficiario> lista = objetoBeneficiario.findAllbeneficiariosPorCuenta(Id);
-            //objetoBeneficiario. = name;
             return View(lista);
         }
 
@@ -36,7 +35,6 @@ namespace CuentaDeAhorros.Controllers
         {
 
             string indice = objetoBeneficiario.findIdCA(beneficiario);
-            //System.Diagnostics.Debug.WriteLine(tipo);
             return RedirectToAction("/Menu/MenuNormal/" + indice);
         }
 
@@ -46,39 +44,56 @@ namespace CuentaDeAhorros.Controllers
             return View();
         }
 
+
+        public List<SelectListItem> obtenerListado()
+        {
+
+            var listado = new List<SelectListItem>()
+              {
+                new SelectListItem { Text = "Padre", Value = "1", Selected=true},
+                new SelectListItem { Text = "Madre", Value = "2"},
+                new SelectListItem { Text = "Hijo", Value = "3"},
+                new SelectListItem { Text = "Hija", Value = "4"},
+                new SelectListItem { Text = "Hermano", Value = "5"},
+                new SelectListItem { Text = "Hermana", Value = "6"},
+                new SelectListItem { Text = "amigo", Value = "7"},
+                new SelectListItem { Text = "amiga", Value = "8"}
+
+              };
+            return listado;
+        }
         // GET: Beneficiarios/Create
         [HttpGet]
         public ActionResult Create()
         {
             Beneficiario objBeneficiario = new Beneficiario();
-            //objetoBeneficiario.find(objBeneficiario);
+            objetoBeneficiario.find(objBeneficiario);
+            //Pasarle el listado de selectItems a la vista
+            ViewBag.Tipos = obtenerListado();  
+
+            //Traerlo de la base
+            //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
+            //List<SelectListItem> items = new List<SelectListItem>();
+            //foreach (var i in listaP)
+            //{
+            //    items.Add(new SelectListItem()
+            //    {
+            //        Text = i.Nombre,
+            //        Value = Convert.ToString((i.Id))
+            //    });
+            //}
+            //ViewBag.Tipos = items;
+
             return View(objBeneficiario);
-            //return View();
+          
         }
 
         [HttpPost]
         public ActionResult Create(Beneficiario beneficiario)
         {
-            //try
-            //{
-                //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
+            try{
 
-                //List<SelectListItem> items = new List<SelectListItem>();
-                //foreach (var i in listaP)
-                //{
-                //    items.Add(new SelectListItem ()
-                //    { 
-                //        Text = i.Nombre, 
-                //        Value = Convert.ToString((i.Id)) 
-                //    });
-                //}
-                //ViewBag.Tipos = items;
-               
-
-                
                 objetoBeneficiario.create(beneficiario);
-
-                
                 int numeroCuenta = beneficiario.NumeroCuenta;
                 string id = objetoBeneficiario.findIdCA(beneficiario);
                 return RedirectToAction("Inicio/" + id);
@@ -89,11 +104,11 @@ namespace CuentaDeAhorros.Controllers
                 //}
             //string id = beneficiario.IdCuenta.ToString();
                 
-            //}
-            //catch
-            //{
-            //    return View();
-            //}
+            }
+            catch{
+                Console.WriteLine("No se pudo agregar");
+                return View();
+            }
         }
 
         // GET: Beneficiarios/Edit/5

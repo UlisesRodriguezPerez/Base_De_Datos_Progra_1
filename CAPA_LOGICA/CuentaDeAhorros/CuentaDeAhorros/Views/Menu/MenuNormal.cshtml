@@ -4,14 +4,16 @@
     ViewBag.Title = "MenuNormal";
 }
 
-@{Html.RenderPartial("Top_Menu_Usuario");}
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
 
-<h2>Bienvenid@@ </h2>
-<h3>Cuentas disponibles</h3>
+
+
 <div class="container-fluid">
+
+    <h3>Cuentas disponibles</h3>
     <table class="table">
         <tr class="btn-primary">
-            @*<th>Id Cuenta Ahorro</th>*@
+
             <th>Tipo de cuenta</th>
             <th>Usuario</th>
             <th>Numero de cuenta</th>
@@ -22,9 +24,8 @@
         @foreach (var objetoCuentaAhorro in Model)
         {
             <tr>
-                @*<td>@objetoCuentaAhorro.IdCuentaAhorro</td>*@
+
                 <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
-                @*<td>@objetoCuentaAhorro.IdPersona</td>*@
                 <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
                 <td>@objetoCuentaAhorro.NumeroCuenta</td>
                 <td>@objetoCuentaAhorro.Saldo</td>
@@ -35,5 +36,6 @@
             </tr>
         }
     </table>
-    <td><a class="btn btn-success" href="~/Menu/Inicio">Volver al login</a></td>
+    <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>
+   
 </div>

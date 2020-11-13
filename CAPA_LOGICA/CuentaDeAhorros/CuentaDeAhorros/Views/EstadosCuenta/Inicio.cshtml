@@ -10,6 +10,7 @@
     }
 </style>
 
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
 <h3>Estados de cuenta</h3>
 <div class="container-fluid">
     <table class="table">
@@ -23,18 +24,18 @@
         </tr>
         @foreach (var objetoEstadoCuenta in Model)
         {
-            
+
 
             <tr data-href='https://www.htmlquick.com/es/tutorials/tables.html'>
-                
-                    @*<td>@objetoEstadoCuenta.IdEstado</td>*@
-                    @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
-                    <td>@objetoEstadoCuenta.NumeroCuenta</td>
-                    <td>@objetoEstadoCuenta.FechaInicio</td>
-                    <td>@objetoEstadoCuenta.FechaFinal</td>
-                    <td>@objetoEstadoCuenta.SaldoInicial</td>
-                    <td>@objetoEstadoCuenta.SaldoFinal</td>
-                
+
+                @*<td>@objetoEstadoCuenta.IdEstado</td>*@
+                @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
+                <td>@objetoEstadoCuenta.NumeroCuenta</td>
+                <td>@objetoEstadoCuenta.FechaInicio</td>
+                <td>@objetoEstadoCuenta.FechaFinal</td>
+                <td>@objetoEstadoCuenta.SaldoInicial</td>
+                <td>@objetoEstadoCuenta.SaldoFinal</td>
+
             </tr>
 
         }
@@ -54,6 +55,6 @@
 
         });
     </script>
-    
+
     <a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuentaAhorro)/@Model.Count())'>Regresar</a>
 </div>
