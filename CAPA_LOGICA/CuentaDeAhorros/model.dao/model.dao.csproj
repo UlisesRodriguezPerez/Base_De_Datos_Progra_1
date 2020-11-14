@@ -48,6 +48,7 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="CuentaAhorroDao.cs" />
     <Compile Include="EstadoCuentaDao.cs" />
+    <Compile Include="MovimientoDao.cs" />
     <Compile Include="TipoParentezcoDao.cs" />
     <Compile Include="PersonaDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

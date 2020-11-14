@@ -57,7 +57,7 @@ namespace model.dao
                 comando = new SqlCommand("SPInsertarBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 //comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
-                comando.Parameters.AddWithValue("@pParentezco", beneficiario.IdTipoParentezco);  //CAMBIO AQUI
+                comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);  
                 comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", beneficiario.DocumentoIdentidad);
                 //comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
                 comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", beneficiario.NumeroCuenta);
@@ -211,6 +211,35 @@ namespace model.dao
                 objConexion.cerrarConexion();
             }
         }
+
+        //--------------PERSONA-----------------------------------------
+        public void updatePersona(Beneficiario beneficiario)
+        {
+            try
+            {
+                comando = new SqlCommand("SPActualizarPersona", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
+                comando.Parameters.AddWithValue("@pNombre", beneficiario.Nombre);
+                comando.Parameters.AddWithValue("@pValorDocumentoIdentidad", beneficiario.ValorDocumentoId);
+                comando.Parameters.AddWithValue("@pFechaNacimiento", beneficiario.FechaNacimiento);
+                comando.Parameters.AddWithValue("@pTelefono1", beneficiario.Telefono1);
+                comando.Parameters.AddWithValue("@pTelefono2", beneficiario.Telefono2);
+                comando.Parameters.AddWithValue("@pCorreoElectronico", beneficiario.CorreoElectronico);
+                objConexion.getConexion().Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+        }
+        //-------------------------------------------------------
         public string findIdCuenta(Beneficiario objetoBeneficiario)
         {
             string indice;

@@ -91,6 +91,9 @@ namespace CuentaDeAhorros.Controllers
         [HttpPost]
         public ActionResult Create(Beneficiario beneficiario)
         {
+            /**
+             * Recibe el beneficiario que va a crear
+             */
             try{
 
                 objetoBeneficiario.create(beneficiario);
@@ -129,6 +132,7 @@ namespace CuentaDeAhorros.Controllers
                 
                 objBeneficiario.IdBeneficiario = ID;
                 objetoBeneficiario.update(objBeneficiario);
+                objetoBeneficiario.updatePersona(objBeneficiario);
                 string id = objetoBeneficiario.findIdCuenta(objBeneficiario);
                 return RedirectToAction("Inicio/"+id);
             //}

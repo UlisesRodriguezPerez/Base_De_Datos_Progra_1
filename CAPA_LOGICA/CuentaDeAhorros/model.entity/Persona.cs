@@ -13,7 +13,7 @@ namespace model.entity
         private int tipoDocumento;
         private string nombre;
         private string valorDocumentoId;
-        private string fechaNacimiento;
+        private DateTime fechaNacimiento;
         private string telefono1;
         private string telefono2;
         private string correoElectronico;
@@ -28,10 +28,11 @@ namespace model.entity
         {
             this.idPersona = pIdPersona;
             
+            
         }
 
         public Persona(int pIdPersona, int pTipoDocumento, string pNombre, string pValorDocumentoId,
-                        string pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico)
+                        DateTime pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico)
         {
             this.idPersona = pIdPersona;
             this.tipoDocumento = pTipoDocumento;
@@ -47,7 +48,7 @@ namespace model.entity
         public int TipoDocumento { get => tipoDocumento; set => tipoDocumento = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string ValorDocumentoId { get => valorDocumentoId; set => valorDocumentoId = value; }
-        public string FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
+        public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
         public string Telefono1 { get => telefono1; set => telefono1 = value; }
         public string Telefono2 { get => telefono2; set => telefono2 = value; }
         public string CorreoElectronico { get => correoElectronico; set => correoElectronico = value; }

@@ -1,40 +1,60 @@
 
 -- ==============================================================================
 -- Author:		Natalia Vargas 
--- Create date: 02/11/2020
--- Description:	Buscar a una persona en la tabla [dbo].[Persona]
+-- Create date: 19/10/2020
+-- Description:	Insertar un Estado en la tabla [dbo].[EstadoCuenta]
 -- ==============================================================================
 
 USE [BD_TP1_Cuenta_De_Ahorros]
 GO
-CREATE PROCEDURE [dbo].[SPActualizarPersona]
-(		
-		 @pId	INT 
-		,@pNombre  VARCHAR
-		,@pFechaNacimiento  DATE
-		,@pTelefono1	VARCHAR
-		,@pTelefono2	VARCHAR
-		,@pCorreoElectronico	VARCHAR
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [dbo].[SPActualizarPersona] 
+(
+	 @pIdPersona INT
+	,@pNombre VARCHAR(40)
+	,@pValorDocumentoIdentidad INT
+	,@pFechaNacimiento DATE
+	,@pTelefono1 VARCHAR(50)
+	,@pTelefono2 VARCHAR(50)
+	,@pCorreoElectronico VARCHAR(50)
 )
 
-AS 
-BEGIN       
-   Update 
-		[dbo].[Persona]
-   SET 
-		 Nombre=@pNombre
-		,FechaNacimiento=@pFechaNacimiento
-		,Telefono1=@pTelefono1
-		,Telefono2=@pTelefono1
-		,CorreoElectronico=@pCorreoElectronico
+AS
+BEGIN
+	SET NOCOUNT ON;
+	BEGIN TRY
 
-   WHERE 
-		Id=@pId   
+	BEGIN TRANSACTION
+		UPDATE [dbo].[Persona]
+			SET 
+					 Nombre =  @pNombre
+					,ValorDocumentoIdentidad  = @pValorDocumentoIdentidad 
+					,FechaNacimiento = @pFechaNacimiento
+					,Telefono1 = @pTelefono1
+					,Telefono2 = @pTelefono2
+					,CorreoElectronico = @pCorreoElectronico
+
+			WHERE 
+				[Persona].[Id] = @pIdPersona;
+	COMMIT TRANSACTION
+	END TRY
+
+	BEGIN CATCH
+		PRINT 'No se actualizó'
+	END CATCH
+
+	SET NOCOUNT OFF
 END
 
---LLamar a ejecutar el SP
---EXEC SPActualizarBeneficiario @pIdPersona=2, @pIdTipoParentezco=2,@pPorcentaje=60;
---SELECT * FROM [dbo].[Beneficiario]
+------LLamar a ejecutar el SP
+--EXEC SPActualizarPersona @pIdPersona=2,@pNombre='Osvaldo Aguero Hernandez',@pValorDocumentoIdentidad=12738545,@pFechaNacimiento = '1994-10-24',@pTelefono1=87541766,@pTelefono2=24731014,@pCorreoElectronico='osadage@gmail.com';
 --SELECT * FROM [dbo].[Persona]
---DROP PROCEDURE SPActualizarBeneficiario
-GO
+
+
+		
