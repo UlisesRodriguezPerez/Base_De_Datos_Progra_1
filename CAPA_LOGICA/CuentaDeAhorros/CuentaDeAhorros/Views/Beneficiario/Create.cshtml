@@ -17,13 +17,14 @@
 
     </div>
     @*<div class="form-group">
-        @Html.LabelFor(model => model.Parentezco, htmlAttributes: new { @class = "control-kabel col-md-2" })
-        <div class="col-md-6">
+            @html.labelfor(model => model.parentezco, htmlattributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
 
-            @Html.DropDownListFor(model => model.IdTipoParentezco,(List<SelectListItem>)ViewBag.Tipos)
-             
-        </div>
-    </div>*@
+                @html.dropdownlistfor(model => model.idtipoparentezco,(list<selectlistitem>)viewbag.tipos)
+
+            </div>
+        </div>*@
+
 
     <div class="form-group">
         @Html.LabelFor(model => model.Parentezco, htmlAttributes: new { @class = "control-kabel col-md-2" })
@@ -55,9 +56,9 @@
     <div class="form-actions col-md-offset-2">
         <div class="col-md-6">
             <input class="btn btn-outline-success" type="submit" name="btnGuardar" value="Guardar" />
-            <a class="btn btn-outline-primary" href="~/Beneficiario/Inicio/@Model.IdCuenta">Regresar</a>
+            @*<a class="btn btn-outline-primary" href="~/Beneficiario/Inicio/@Model.IdCuenta">Regresar</a>*@
 
         </div>
     </div>
- 
+
 }
