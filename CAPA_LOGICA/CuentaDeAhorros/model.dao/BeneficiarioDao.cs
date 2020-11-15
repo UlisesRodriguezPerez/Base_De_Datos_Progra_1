@@ -204,6 +204,12 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);
                 comando.Parameters.AddWithValue("@pIdCuenta", beneficiario.IdCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje", beneficiario.Porcentaje);
+                comando.Parameters.AddWithValue("@pNombre", beneficiario.Nombre);
+                comando.Parameters.AddWithValue("@pValorDocumentoIdentidad", beneficiario.ValorDocumentoId);
+                comando.Parameters.AddWithValue("@pFechaNacimiento", beneficiario.FechaNacimiento);
+                comando.Parameters.AddWithValue("@pTelefono1", beneficiario.Telefono1);
+                comando.Parameters.AddWithValue("@pTelefono2", beneficiario.Telefono2);
+                comando.Parameters.AddWithValue("@pCorreoElectronico", beneficiario.CorreoElectronico);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }
