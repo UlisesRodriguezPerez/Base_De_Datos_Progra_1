@@ -17,14 +17,14 @@ namespace model.entity
         private string parentezco;
         private int numeroCuenta;
         private Boolean activo;
-        private string documentoIdentidad;
+
 
         public Beneficiario() { }
         public Beneficiario(int pIdBeneficiario)
         {
             this.idBeneficiario = pIdBeneficiario;
         }
-        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta, string pDocumentoIdentidad,int pTipoDocumento, string pValorDocumentoId,
+        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta,int pTipoDocumento, string pValorDocumentoId,
                         DateTime pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico)
         {
             
@@ -37,7 +37,7 @@ namespace model.entity
             this.parentezco = pParentezco;
             //----------------------Persona herencia
             this.numeroCuenta = pNumeroCuenta;
-            this.documentoIdentidad = pDocumentoIdentidad;
+
             this.TipoDocumento = pTipoDocumento;
             this.ValorDocumentoId = pValorDocumentoId;
             this.FechaNacimiento = pFechaNacimiento;
@@ -56,6 +56,6 @@ namespace model.entity
         public bool Activo { get => activo; set => activo = value; }
         public string Parentezco { get => parentezco; set => parentezco = value; }
         public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
-        public string DocumentoIdentidad { get => documentoIdentidad; set => documentoIdentidad = value; }
+
     }
 }

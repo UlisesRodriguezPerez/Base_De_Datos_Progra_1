@@ -58,7 +58,7 @@ namespace model.dao
                 comando.CommandType = CommandType.StoredProcedure;
                 //comando.Parameters.AddWithValue("@pIdTipoParentezco",beneficiario.IdTipoParentezco);
                 comando.Parameters.AddWithValue("@pParentezco", beneficiario.Parentezco);  
-                comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", beneficiario.DocumentoIdentidad);
+                comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", beneficiario.ValorDocumentoId);
                 //comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
                 comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", beneficiario.NumeroCuenta);
                 comando.Parameters.AddWithValue("@pPorcentaje ", beneficiario.Porcentaje);
@@ -67,7 +67,7 @@ namespace model.dao
 
                 //SqlDataReader read = comando.ExecuteReader();
                 //read.Read();
-                //existePersona = read[6].ToString();
+                //existePersona = read[1].ToString();
                 //System.Diagnostics.Debug.WriteLine(existePersona);
             }
 
@@ -125,6 +125,12 @@ namespace model.dao
                     objetoBeneficiario.Nombre = read[5].ToString();
                     objetoBeneficiario.Parentezco = read[6].ToString();
                     objetoBeneficiario.NumeroCuenta = Convert.ToInt32(read[7].ToString());
+                    objetoBeneficiario.FechaNacimiento = Convert.ToDateTime(read[8].ToString());
+                    objetoBeneficiario.Telefono1 = read[9].ToString();
+                    objetoBeneficiario.Telefono2 = read[10].ToString();
+                    objetoBeneficiario.CorreoElectronico = read[11].ToString();
+                    objetoBeneficiario.ValorDocumentoId = read[12].ToString();
+
                 }
             }
             catch (Exception)
@@ -217,6 +223,7 @@ namespace model.dao
         {
             try
             {
+
                 comando = new SqlCommand("SPActualizarPersona", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@pIdPersona", beneficiario.IdPersona);
