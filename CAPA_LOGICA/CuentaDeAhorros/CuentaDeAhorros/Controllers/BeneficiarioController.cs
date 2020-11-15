@@ -101,11 +101,6 @@ namespace CuentaDeAhorros.Controllers
                 string id = objetoBeneficiario.findIdCA(beneficiario);
                 return RedirectToAction("Inicio/" + id);
                 
-                //else
-                //{
-                //    return RedirectToAction("Inicio/" + "11");
-                //}
-            //string id = beneficiario.IdCuenta.ToString();
                 
             }
             catch{

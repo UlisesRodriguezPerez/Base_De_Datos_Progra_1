@@ -45,20 +45,23 @@
 
 
         </table>
-        @*<input type="submit" value="Regresar NO FUNCIONA">*@
+
     </form>
     <div>Ha usado el @Model.Sum(i => i.Porcentaje) % de 100 </div>
-    <style>
-        p {
-            color: red;
-            text-align: center;
-        }
-    </style>
 
-    <p>Debe considerar que si sus cambios no se ven reflejados, es porqque ya hay 3 beneficiarios y no se permiten más, porque excede el 100% del porcentaje o porque la persona no existe.</p>
-    @*<input type="button" value="Verificar" onclick="guardar();">*@
-    @*<a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>*@
-    <!--<script>
+
+    <div class="card border-warning mb-3" style="max-width: 18rem;">
+        <div class="card-header">Advertencia</div>
+        <div class="card-body text-warning">
+            <h5 class="card-title">Observación</h5>
+            <p id="advertencia" class="card-text" align="justify">Si sus cambios no se ven reflejados, es porqque ya hay 3 beneficiarios, porque excede el 100% del porcentaje o porque la persona no existe</p>
+        </div>
+    </div>
+
+    <a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>
+    
+    <input class='btn btn-outline-primary' type="button" value="Verificar" onclick="guardar();">
+    <script>
 
             function guardar() {
                 var cantidad = @Model.Count();
@@ -67,16 +70,14 @@
                 if (x == "100" && cantidad < 4) {
                     toastr.success("Beneficiarios verificados con éxito", "Guardado con éxito");
 
-                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/-->
-    @*@(Model.Sum(j =>j.IdCuenta)/@Model.Count())*@
-    <!--'>Volver al menu de cuentas.</a>");
+                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Volver al menu de cuentas.</a>");
                 }
                 else {
                     toastr.warning("No cumple con el 100% en la distribución de porcentajes.", "Advertencia");
                 }
         }
 
-    </script>-->
+    </script>
 
 
 </div>
