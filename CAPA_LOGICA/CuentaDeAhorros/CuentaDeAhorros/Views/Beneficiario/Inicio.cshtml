@@ -48,9 +48,9 @@
         @*<input type="submit" value="Regresar NO FUNCIONA">*@
     </form>
     <div>Ha usado el @Model.Sum(i => i.Porcentaje) % de 100 </div>
-    <input type="button" value="Verificar" onclick="guardar();">
-    <a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>
-    <script>
+    @*<input type="button" value="Verificar" onclick="guardar();">*@
+    @*<a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>*@
+    <!--<script>
 
             function guardar() {
                 var cantidad = @Model.Count();
@@ -59,14 +59,14 @@
                 if (x == "100" && cantidad < 4) {
                     toastr.success("Beneficiarios verificados con éxito", "Guardado con éxito");
 
-                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@*@(Model.Sum(j =>j.IdCuenta)/@Model.Count())*@'>Volver al menu de cuentas.</a>");
+                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/-->@*@(Model.Sum(j =>j.IdCuenta)/@Model.Count())*@<!--'>Volver al menu de cuentas.</a>");
                 }
                 else {
                     toastr.warning("No cumple con el 100% en la distribución de porcentajes.", "Advertencia");
                 }
         }
 
-    </script>
+    </script>-->
 
 
 </div>
