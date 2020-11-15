@@ -132,7 +132,7 @@ namespace CuentaDeAhorros.Controllers
                 
                 objBeneficiario.IdBeneficiario = ID;
                 objetoBeneficiario.update(objBeneficiario);
-                //objetoBeneficiario.updatePersona(objBeneficiario);
+                objetoBeneficiario.updatePersona(objBeneficiario);
                 string id = objetoBeneficiario.findIdCuenta(objBeneficiario);
                 return RedirectToAction("Inicio/"+id);
             //}
