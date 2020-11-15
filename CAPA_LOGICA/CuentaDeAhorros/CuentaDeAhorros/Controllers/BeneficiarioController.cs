@@ -127,19 +127,19 @@ namespace CuentaDeAhorros.Controllers
         [HttpPost]
         public ActionResult Update(Beneficiario objBeneficiario, int ID)
         {
-            //try
-            //{
-                
+            try
+            {
+
                 objBeneficiario.IdBeneficiario = ID;
                 objetoBeneficiario.update(objBeneficiario);
                 //objetoBeneficiario.updatePersona(objBeneficiario);
                 string id = objetoBeneficiario.findIdCuenta(objBeneficiario);
                 return RedirectToAction("Inicio/"+id);
-            //}
-            //catch
-            //{
-            //    return View();
-            //}
+            }
+            catch
+            {
+                return View();
+            }
         }
 
         // GET: Beneficiarios/Delete/5
