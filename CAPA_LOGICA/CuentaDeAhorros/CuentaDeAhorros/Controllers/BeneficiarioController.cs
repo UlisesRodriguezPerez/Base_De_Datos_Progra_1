@@ -69,7 +69,7 @@ namespace CuentaDeAhorros.Controllers
             Beneficiario objBeneficiario = new Beneficiario();
             objetoBeneficiario.find(objBeneficiario);
             //Pasarle el listado de selectItems a la vista
-            ViewBag.Tipos = obtenerListado();  
+            //ViewBag.Tipos = obtenerListado();
 
             //Traerlo de la base
             //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
@@ -88,6 +88,7 @@ namespace CuentaDeAhorros.Controllers
           
         }
 
+
         [HttpPost]
         public ActionResult Create(Beneficiario beneficiario)
         {
@@ -95,12 +96,13 @@ namespace CuentaDeAhorros.Controllers
              * Recibe el beneficiario que va a crear
              */
             try{
-
+                
+                //int retExist = objetoBeneficiario.verificarExiste(beneficiario);
+                //if (retExist == 1)
                 objetoBeneficiario.create(beneficiario);
                 int numeroCuenta = beneficiario.NumeroCuenta;
                 string id = objetoBeneficiario.findIdCA(beneficiario);
                 return RedirectToAction("Inicio/" + id);
-                
                 
             }
             catch{
@@ -108,6 +110,24 @@ namespace CuentaDeAhorros.Controllers
                 return View();
             }
         }
+
+        [HttpPost]
+        public ActionResult CreatePersonaBeneficiario(Beneficiario beneficiario)
+        {
+            /**
+             * Recibe el beneficiario que va a crear como Persona
+             */
+            try
+            {
+                //llamar a crear en PersonaDao
+                return View();
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
 
         // GET: Beneficiarios/Edit/5
         [HttpGet]

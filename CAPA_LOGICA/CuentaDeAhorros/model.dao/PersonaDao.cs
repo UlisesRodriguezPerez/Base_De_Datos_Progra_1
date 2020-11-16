@@ -216,9 +216,34 @@ namespace model.dao
             return;
         }
 
-        public void create(Persona objeto)
+        public void create(Persona persona)
         {
-            throw new NotImplementedException();
+            try
+            {
+                comando = new SqlCommand("SPInsertarBeneficiario", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pIdTipoDocumentoIdentidad", persona.TipoDocumento);
+                comando.Parameters.AddWithValue("@pNombre", persona.Nombre);
+                comando.Parameters.AddWithValue("@pValorDocumentoIdentidad", persona.ValorDocumentoId);
+                comando.Parameters.AddWithValue("@pFechaNacimiento", persona.IdPersona);
+                comando.Parameters.AddWithValue("@pTelefono1", persona.Telefono1);
+                comando.Parameters.AddWithValue("@pTelefono2 ", persona.Telefono2);
+                comando.Parameters.AddWithValue("@pCorreoElectronico ", persona.CorreoElectronico);
+
+                objConexion.getConexion().Open();
+                comando.ExecuteNonQuery();
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            //return existePersona;
         }
 
         public void update(Persona objeto)

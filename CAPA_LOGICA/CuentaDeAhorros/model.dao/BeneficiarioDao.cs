@@ -48,6 +48,53 @@ namespace model.dao
         }
 
 
+    public int verificarExiste(Beneficiario beneficiario)
+        {
+            try
+            {
+                int code;
+                comando = new SqlCommand("SPExisteBeneficiarioEnDB", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", beneficiario.ValorDocumentoId);
+                //var resultCode = comando.Parameters.AddWithValue("@outResultCode", 0);
+                // resultCode.Direction = ParameterDirection.ReturnValue;
+                //int resultCodeInt = Int32.Parse(resultCode.Value.ToString());
+
+                objConexion.getConexion().Open();
+                comando.ExecuteNonQuery();
+
+                SqlDataReader read = comando.ExecuteReader();
+                bool reg = read.Read();
+               
+                if (reg) {
+                    code = Convert.ToInt32(read[0].ToString());
+                    
+                    if (code == 50001)
+                    {
+                        return 0; //Si no existe es 0
+                    }
+                    else
+                    {
+                        return 1;
+                    }
+
+                  
+                }
+      
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+
+            return 0;
+        }
 
     public void create(Beneficiario beneficiario)
         {
