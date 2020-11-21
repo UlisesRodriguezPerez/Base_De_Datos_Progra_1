@@ -1,41 +1,39 @@
+<Datos>
+  <Tipo_Doc>
+    <TipoDocuIdentidad Id="1" Nombre="Cedula Nacional"/>
+    <TipoDocuIdentidad Id="2" Nombre="Cedula Residente"/>
+    <TipoDocuIdentidad Id="3" Nombre="Pasaporte"/>
+    <TipoDocuIdentidad Id="4" Nombre="Cedula Juridica"/>
+    <TipoDocuIdentidad Id="5" Nombre="Permiso de Trabajo"/>
+    <TipoDocuIdentidad Id="6" Nombre="Cedula Extranjera"/>
+  </Tipo_Doc>
+
+  <Tipo_Moneda>
+    <TipoMoneda Id="1" Nombre="Colones" Simbolo="₡"/>
+    <TipoMoneda Id="2" Nombre="Dolares" Simbolo="$"/>
+    <TipoMoneda Id="3" Nombre="Euros" Simbolo="€"/>
+  </Tipo_Moneda>
+  
+  <Parentezcos>
+    <Parentezco Id="1" Nombre="Padre"/>
+    <Parentezco Id="2" Nombre="Madre"/>
+    <Parentezco Id="3" Nombre="Hijo"/>
+    <Parentezco Id="4" Nombre="Hija"/>
+    <Parentezco Id="5" Nombre="Hermano"/>
+    <Parentezco Id="6" Nombre="Hermana"/>
+    <Parentezco Id="7" Nombre="amigo"/>
+    <Parentezco Id="8" Nombre="amiga"/>
+  </Parentezcos>
 
 
-<!-- entidades no-catalogos
-<Personas>
- <Persona
- TipoDocuIdentidad="1" Nombre="Javith Aguero Hernandez" ValorDocumentoIdentidad="117370445" FechaNacimiento="1999-03-20" Email="aguerojavith@gmail.com" telefono1="85343403" telefono2="24197636"/>
- <Persona
- TipoDocuIdentidad="1"
- Nombre="Osvaldo Aguero Hernandez"
- ValorDocumentoIdentidad="12738545"
- FechaNacimiento="1994-10-13"
- Email="osadage@gmail.com"
- telefono1="87541766"
- telefono2="24197545"/>
-</Personas>
-<Cuentas>
- <Cuenta ValorDocumentoIdentidadDelCliente="117370445" TipoCuentaId="1" NumeroCuenta="11000001" FechaCreacion="2020-10-13" Saldo="1000000.00"/>
-</Cuentas>
+  <Tipo_Cuenta_Ahorros>
+    <TipoCuentaAhorro Id="1" Nombre="Proletario" IdTipoMoneda="1" SaldoMinimo="25000.00" MultaSaldoMin="3000.00" CargoAnual = "5000" NumRetirosHumano="5" NumRetirosAutomatico ="8" ComisionHumano="300" ComisionAutomatico="300" Interes ="10" />
+    <TipoCuentaAhorro Id="2" Nombre="Profesional" IdTipoMoneda="1" SaldoMinimo="50000.00" MultaSaldoMin="3000.00" CargoAnual = "15000" NumRetirosHumano="5" NumRetirosAutomatico ="8" ComisionHumano="500" ComisionAutomatico="500" Interes ="15" />
+    <TipoCuentaAhorro Id="3" Nombre="Exclusivo" IdTipoMoneda="1" SaldoMinimo="100000.00" MultaSaldoMin="3000.00" CargoAnual = "30000" NumRetirosHumano="5" NumRetirosAutomatico ="8" ComisionHumano="1000" ComisionAutomatico="1000" Interes ="20" />
+  </Tipo_Cuenta_Ahorros>
 
-
-<Beneficiarios>
- <Beneficiario
- NumeroCuenta="11000001" ValorDocumentoIdentidadBeneficiario="117370445" ParentezcoId="5" Porcentaje="25" />
-</Beneficiarios>
-<Estados_de_Cuenta>
- <Estado_de_Cuenta
-NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinicial="1000000.00" saldo_final="1250000.00" />
-</Estados_de_Cuenta>
-<Usuarios>
- <Usuario User="jaguero" Pass="LaFacil" EsAdministrador="0" />
- <Usuario User="fquiros" Pass="MyPass123*" EsAdministrador="1" />
-</Usuarios>
-<Usuarios_Ver>
- <UsuarioPuedeVer User="jaguero" NumeroCuenta="11000001" />
-</Usuarios_Ver> -->
-
-<!-- TipoDocuIdentidad="1" Nombre="Javith Aguero Hernandez" ValorDocumentoIdentidad="117370445" FechaNacimiento="1999-03-20" Email="aguerojavith@gmail.com" telefono1="85343403" telefono2="24197636"/> -->
-<Personas>
+  <!-- catalogos-->
+  <Personas>
     <Persona TipoDocuIdentidad="1" Nombre="Javith Aguero Hernandez" ValorDocumentoIdentidad="117370445" FechaNacimiento="1999-03-20" Email="aguerojavith@gmail.com" Telefono1="85343403" Telefono2="24197636"/>
     <Persona TipoDocuIdentidad="1" Nombre="Osvaldo Aguero Hernandez" ValorDocumentoIdentidad="12738545" FechaNacimiento="1994-10-13" Email="osadage@gmail.com" Telefono1="87541766" Telefono2="24197545"/>
     <Persona TipoDocuIdentidad="1" Nombre="Franco Quiros Ramirez" ValorDocumentoIdentidad="106030039" FechaNacimiento="1963-04-09" Email="fquiros@itcr.ac.cr" Telefono1="87128720" Telefono2="22124523"/>
@@ -142,8 +140,7 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
   </Personas>
 
 
-<!-- <Cuenta ValorDocumentoIdentidadDelCliente="117370445" TipoCuentaId="1" NumeroCuenta="11000001" FechaCreacion="2020-10-13" Saldo="1000000.00"/> -->
-<Cuentas>
+  <Cuentas>
    <Cuenta ValorDocumentoIdentidadDelCliente="117370445" TipoCuentaId="1" NumeroCuenta="11000001" FechaCreacion="2020-10-13" Saldo="1000000.00"/>
    <Cuenta ValorDocumentoIdentidadDelCliente="197009534" TipoCuentaId="3" NumeroCuenta="11013939" FechaCreacion="2020-07-04" Saldo="45670345.00"/>
    <Cuenta ValorDocumentoIdentidadDelCliente="185351883" TipoCuentaId="1" NumeroCuenta="11493715" FechaCreacion="2016-10-13" Saldo="55904600.00"/>
@@ -248,10 +245,9 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
   </Cuentas>
 
 
-<!-- Entre 20 y 30-->
+  <!-- Entre 20 y 30-->
 
-<!-- NumeroCuenta="11000001" ValorDocumentoIdentidadBeneficiario="117370445" ParentezcoId="5" Porcentaje="25" /> -->
-<Beneficiarios>
+  <Beneficiarios>
     <Beneficiario NumeroCuenta="11000001" ValorDocumentoIdentidadBeneficiario="12738545" ParentezcoId="5" Porcentaje="25" />
     <Beneficiario NumeroCuenta="11461191" ValorDocumentoIdentidadBeneficiario="105711321" ParentezcoId="7" Porcentaje="87"/>
     <Beneficiario NumeroCuenta="11717523" ValorDocumentoIdentidadBeneficiario="153062089" ParentezcoId="1" Porcentaje="74"/>
@@ -347,11 +343,7 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
   </Beneficiarios>
 
 
-<!-- NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinicial="1000000.00" saldo_final="1250000.00" /> -->
-<!-- <Estados_de_Cuenta>
-    <Estado_de_Cuenta NumeroCuenta="11000001" fechaInicio="2020-10-13" fechaFin="2020-11-12"  saldoInicial="1000000.00" saldoFinal="1250000.00" />
-</Estados_de_Cuenta> -->
-<Estados_de_Cuenta>
+  <Estados_de_Cuenta>
     <Estado_de_Cuenta NumeroCuenta="11013939" fechaInicio="2020-07-04" fechaFin="2020-08-04"  saldoInicial="45670345.00" saldoFinal="8371641.00" />
     <Estado_de_Cuenta NumeroCuenta="11013939" fechaInicio="2020-08-04" fechaFin="2020-09-04"  saldoInicial="8371641.00" saldoFinal="8400771.00" />
     <Estado_de_Cuenta NumeroCuenta="11013939" fechaInicio="2020-09-04" fechaFin="2020-10-04"  saldoInicial="8400771.00" saldoFinal="343194.00" />
@@ -3256,6 +3248,7 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
     <Estado_de_Cuenta NumeroCuenta="11717598" fechaInicio="2020-09-28" fechaFin="2020-10-28"  saldoInicial="8435758.00" saldoFinal="8928767.00" />
   </Estados_de_Cuenta>
 
+
   <Usuarios>
     <Usuario User="jaguero" Pass="LaFacil" ValorDocumentoIdentidad="117370445" EsAdministrador="0" />
     <Usuario User="ralvarez" Pass="SiendoFeliz123" ValorDocumentoIdentidad="160713985" EsAdministrador="0" />
@@ -3275,3 +3268,4 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
     <UsuarioPuedeVer User="gzuñiga" NumeroCuenta="11592082" />
     <UsuarioPuedeVer User="gzuñiga" NumeroCuenta="11024586" />
   </Usuarios_Ver>
+</Datos>

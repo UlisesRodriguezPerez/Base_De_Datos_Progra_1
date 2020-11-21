@@ -65,6 +65,7 @@
 <TipoDocuIdentidad Id="6" Nombre="Cedula Extranjera"/>
 </Tipo_Doc>
 
+
 <Tipo_Moneda>
 <TipoMoneda Id="1" Nombre="Colones" Simbolo="₡"/>
 <TipoMoneda Id="2" Nombre="Dolares" Simbolo="$"/>
