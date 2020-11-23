@@ -1,15 +1,17 @@
-﻿using model.entity;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using model.entity;
 
 namespace model.dao
 {
-    class MovimientoDao
+    public class MovimientoDao:TemplateCRUD<Movimiento>
     {
+
         private Conexion objConexion;
         private SqlCommand comando;
 
@@ -35,14 +37,55 @@ namespace model.dao
         {
             return true;
         }
-
-
-        public List<EstadoCuenta> findAll()
+        public List<Movimiento> findAll()
         {
-            List<EstadoCuenta> listaEstadoCuenta = new List<EstadoCuenta>();
+            List<Movimiento> listaMovimientos = new List<Movimiento>();
+            return listaMovimientos;
+        }
 
-           
-            return listaEstadoCuenta;
+        public List<Movimiento> findMovimientos(int id)
+        {
+            List<Movimiento> listaMovimientos = new List<Movimiento>();
+
+            try
+            {
+                //string findAll = "Select * from Movimiento";
+                comando = new SqlCommand("SPObtenerMovimientosEstadoCuenta", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                //comando.Parameters.AddWithValue("@idCuentaAhorro",objeMovimiento.IdCuentaAhorro );
+                comando.Parameters.AddWithValue("@idEstadoCuenta", id);
+                //comando.Parameters.AddWithValue("@fechaInicio", objeMovimiento.f);
+
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+
+                while (read.Read())
+                {
+                    Movimiento objMovimiento = new Movimiento
+                    {
+                        Monto = Convert.ToDecimal(read[0].ToString()),
+                        Fecha = Convert.ToDateTime(read[1].ToString()),
+                        Descripcion = read[2].ToString(),
+                        NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
+                        TipoMovimiento = read[4].ToString(),
+                        IdCuentaAhorro = Convert.ToInt32(read[5].ToString()),
+                        IdEstadoCuenta = Convert.ToInt32(read[6].ToString())
+                    };
+                    listaMovimientos.Add(objMovimiento);
+                }
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+
+            return listaMovimientos;
         }
 
 

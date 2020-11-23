@@ -46,13 +46,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="model.dao, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\model.dao\bin\Debug\model.dao.dll</HintPath>
-    </Reference>
-    <Reference Include="model.entity">
-      <HintPath>..\model.dao\bin\Debug\model.entity.dll</HintPath>
-    </Reference>
     <Reference Include="model.neg">
       <HintPath>..\model.neg\bin\Debug\model.neg.dll</HintPath>
     </Reference>
@@ -223,8 +216,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BeneficiarioController.cs" />
     <Compile Include="Controllers\CuentaAhorroController.cs" />
+    <Compile Include="Controllers\CuentaObjetivoController.cs" />
     <Compile Include="Controllers\EstadosCuentaController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\MovimientoController.cs" />
     <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
@@ -261,6 +256,8 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Shared\NavBar.cshtml" />
+    <Content Include="Views\Movimiento\Inicio.cshtml" />
+    <Content Include="Views\CuentaObjetivo\Inicio.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -277,6 +274,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\model.dao\model.dao.csproj">
+      <Project>{ca3d959b-30c3-4ba5-a03a-24d4bbd9532b}</Project>
+      <Name>model.dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\model.entity\model.entity.csproj">
+      <Project>{420797c4-b89b-4760-a1c9-78beef22415b}</Project>
+      <Name>model.entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

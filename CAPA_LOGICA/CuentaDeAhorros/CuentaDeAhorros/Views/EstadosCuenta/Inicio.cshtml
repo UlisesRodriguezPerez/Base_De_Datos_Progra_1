@@ -15,7 +15,7 @@
 <div class="container-fluid">
     <table class="table">
         <tr class="btn-primary">
-            @*<th>Id Estado Cuenta</th>*@
+            <th>Id Estado Cuenta</th>
             <th>Número de cuenta</th>
             <th>Fecha Inicio</th>
             <th>Fecha Final</th>
@@ -26,17 +26,19 @@
         {
 
 
-            <tr data-href='https://www.htmlquick.com/es/tutorials/tables.html'>
+    <tr data-href='https://www.htmlquick.com/es/tutorials/tables.html'>
 
-                @*<td>@objetoEstadoCuenta.IdEstado</td>*@
-                @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
-                <td>@objetoEstadoCuenta.NumeroCuenta</td>
-                <td>@objetoEstadoCuenta.FechaInicio</td>
-                <td>@objetoEstadoCuenta.FechaFinal</td>
-                <td>@objetoEstadoCuenta.SaldoInicial</td>
-                <td>@objetoEstadoCuenta.SaldoFinal</td>
+        <td>@objetoEstadoCuenta.IdEstado</td>
+        @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
+        <td>@objetoEstadoCuenta.NumeroCuenta</td>
+        <td>@objetoEstadoCuenta.FechaInicio</td>
+        <td>@objetoEstadoCuenta.FechaFinal</td>
+        <td>@objetoEstadoCuenta.SaldoInicial</td>
+        <td>@objetoEstadoCuenta.SaldoFinal</td>
 
-            </tr>
+        <td><a class="btn btn-success" href="~/Movimiento/Inicio/@objetoEstadoCuenta.IdEstado">Ver Movimientos</a></td>
+        <td><a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoEstadoCuenta.IdCuentaAhorro">Regresar</a></td>
+    </tr>
 
         }
     </table>

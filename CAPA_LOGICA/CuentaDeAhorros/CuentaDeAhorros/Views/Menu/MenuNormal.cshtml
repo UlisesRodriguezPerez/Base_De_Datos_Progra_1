@@ -23,17 +23,18 @@
         </tr>
         @foreach (var objetoCuentaAhorro in Model)
         {
-            <tr>
+    <tr>
 
-                <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
-                <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
-                <td>@objetoCuentaAhorro.NumeroCuenta</td>
-                <td>@objetoCuentaAhorro.Saldo</td>
-                <td>@objetoCuentaAhorro.FechaCreacion</td>
-                <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
-                <td><a class="btn btn-success" href="~/EstadosCuenta/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Estado de Cuenta</a></td>
+        <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
+        <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
+        <td>@objetoCuentaAhorro.NumeroCuenta</td>
+        <td>@objetoCuentaAhorro.Saldo</td>
+        <td>@objetoCuentaAhorro.FechaCreacion</td>
+        <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
+        <td><a class="btn btn-success" href="~/EstadosCuenta/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Estado de Cuenta</a></td>
+        <td><a class="btn btn-success" href="~/EstadosCuenta/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Cuenta Objetivo</a></td>
 
-            </tr>
+    </tr>
         }
     </table>
     <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>

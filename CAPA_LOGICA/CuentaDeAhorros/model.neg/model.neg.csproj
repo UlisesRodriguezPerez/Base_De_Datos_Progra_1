@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="model.dao">
-      <HintPath>..\model.dao\bin\Debug\model.dao.dll</HintPath>
-    </Reference>
-    <Reference Include="model.entity">
-      <HintPath>..\model.dao\bin\Debug\model.entity.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -63,6 +57,16 @@
     <None Include="content\toastr.less" />
     <None Include="content\toastr.scss" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\model.dao\model.dao.csproj">
+      <Project>{ca3d959b-30c3-4ba5-a03a-24d4bbd9532b}</Project>
+      <Name>model.dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\model.entity\model.entity.csproj">
+      <Project>{420797c4-b89b-4760-a1c9-78beef22415b}</Project>
+      <Name>model.entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

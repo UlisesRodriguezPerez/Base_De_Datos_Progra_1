@@ -8,6 +8,43 @@ namespace model.entity
 {
     public class Movimiento
     {
-        private int Id;
+        private int id;
+        private int idTipoMovimiento;
+        private int idCuentaAhorro;
+        private int idEstadoCuenta;
+        private decimal monto;
+        private DateTime fecha;
+        private string descripcion;
+        private decimal nuevoSaldo;
+        private string tipoMovimiento;
+
+        public Movimiento() { }
+
+        public Movimiento(int id)
+        {
+            this.id = id;
+        }
+
+        public Movimiento(int idTipoMovimiento, int idCuentaAhorro, int idEstadoCuenta, decimal monto, DateTime fecha, string descripcion, decimal nuevoSaldo, string tipoMovimiento)
+        {
+            this.idTipoMovimiento = idTipoMovimiento;
+            this.idCuentaAhorro = idCuentaAhorro;
+            this.idEstadoCuenta = idEstadoCuenta;
+            this.monto = monto;
+            this.fecha = fecha;
+            this.descripcion = descripcion;
+            this.nuevoSaldo = nuevoSaldo;
+            this.tipoMovimiento = tipoMovimiento;
+        }
+
+        public int Id { get => id; set => id = value; }
+        public int IdTipoMovimiento { get => idTipoMovimiento; set => idTipoMovimiento = value; }
+        public int IdCuentaAhorro { get => idCuentaAhorro; set => idCuentaAhorro = value; }
+        public int IdEstadoCuenta { get => idEstadoCuenta; set => idEstadoCuenta = value; }
+        public decimal Monto { get => monto; set => monto = value; }
+        public DateTime Fecha { get => fecha; set => fecha = value; }
+        public string Descripcion { get => descripcion; set => descripcion = value; }
+        public decimal NuevoSaldo { get => nuevoSaldo; set => nuevoSaldo = value; }
+        public string TipoMovimiento { get => tipoMovimiento; set => tipoMovimiento = value; }
     }
 }

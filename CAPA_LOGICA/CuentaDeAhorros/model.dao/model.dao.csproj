@@ -47,6 +47,7 @@
     <Compile Include="BeneficiarioDao.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="CuentaAhorroDao.cs" />
+    <Compile Include="CuentaObjetivoDao.cs" />
     <Compile Include="EstadoCuentaDao.cs" />
     <Compile Include="MovimientoDao.cs" />
     <Compile Include="TipoParentezcoDao.cs" />
