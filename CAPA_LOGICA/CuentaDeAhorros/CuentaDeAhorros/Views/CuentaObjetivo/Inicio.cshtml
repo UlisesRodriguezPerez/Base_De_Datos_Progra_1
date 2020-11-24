@@ -1,41 +1,56 @@
 ﻿@model List<model.entity.CuentaObjetivo>
-
 @{
-    ViewBag.Title = "MenuNormal";
+    ViewBag.Title = "Inicio";
 }
+
+
 
 @Html.Partial("~/Views/Shared/NavBar.cshtml")
 
-
-
 <div class="container-fluid">
-
-    <h3>Cuentas disponibles</h3>
-    <table class="table">
-        <tr class="btn-primary">
-
-            <th>Tipo de cuenta</th>
-            <th>Usuario</th>
-            <th>Numero de cuenta</th>
-            <th>Saldo</th>
-            <th>Fecha creación</th>
-            <th colspan="3"> Operaciones</th>
-        </tr>
-        @foreach (var objetoCuentaAhorro in Model)
-        {
-            <tr>
-
-                <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
-                <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
-                <td>@objetoCuentaAhorro.NumeroCuenta</td>
-                <td>@objetoCuentaAhorro.Saldo</td>
-                <td>@objetoCuentaAhorro.FechaCreacion</td>
-                <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">No funcional</a></td>
-
-
+    <h3>Cuentas Objetivo </h3>
+        <div>
+            <a class="btn btn-primary" href="~/Beneficiario/create">Agregar Nueva Cuenta Objetivo</a>
+        </div>
+        <table class="table">
+            <tr class="btn-primary">
+                @*<th>Indice</th>*@
+                <th>Nombre del Beneficiario</th>
+                
+                <th colspan="3"></th>
             </tr>
-        }
-    </table>
-    <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>
+
+            @foreach (var objetoCuentaObjetivo in Model)
+            {
+
+                <tr>
+                    <!--<td>-->@*@objetoBeneficiario.IdBeneficiario*@<!--</td>-->
+                    @*<td>@objetoBeneficiario.IdCuenta</td>*@
+                    <td>@objetoCuentaObjetivo</td>
+  
+
+                    <!--  PENDEINTE EL VER  -->
+                    <td><a class="btn btn-success" href="~/CuentaObjetivo/find/@objetoCuentaObjetivo.">Ver</a></td>
+                    <td><a class="btn btn-primary" href="~/CuentaObjetivo/update/@objetoCuentaObjetivo.">Actualizar</a></td>
+                    <td><a class="btn btn-danger" href="~/CuentaObjetivo/delete/@objetoCuentaObjetivo.">Eliminar</a></td>
+
+                </tr>
+            }
+
+
+        </table>
+
+
+
+    @*<div class="card border-warning mb-3" style="max-width: 18rem;">
+        <div class="card-header">Advertencia</div>
+        <div class="card-body text-warning">
+            <h5 class="card-title">Observación</h5>
+            <p id="advertencia" class="card-text" align="justify">Si sus cambios no se ven reflejados, es porqque ya hay 3 beneficiarios, porque excede el 100% del porcentaje o porque la persona no existe</p>
+        </div>
+    </div>*@
+
 
 </div>
+
+
