@@ -1,0 +1,63 @@
+﻿@model model.entity.CuentaObjetivo
+@{
+    ViewBag.Title = "Create";
+}
+
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+
+@using (Html.BeginForm())
+{
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+
+            <div class="form-horizontal">
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <h2>Agregar beneficiario</h2>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.NumeroCuenta, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.NumeroCuenta, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Objetivo, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Objetivo, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Saldo, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Saldo, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.InteresAcumulado, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.InteresAcumulado, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <div class="form-actions col-md-offset-2">
+                <div class="col-md-6">
+                    <input class="btn btn-outline-success" type="submit" name="btnGuardar" value="Guardar" />
+
+
+                </div>
+            </div>
+            @*<a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@Model.IdCuentaAhorro">Regresar</a>*@
+        </div>
+    </div>
+}
+

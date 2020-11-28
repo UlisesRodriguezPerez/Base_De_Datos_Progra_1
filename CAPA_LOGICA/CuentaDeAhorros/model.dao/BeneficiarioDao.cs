@@ -49,7 +49,7 @@ namespace model.dao
 
 
 
-    public void create(Beneficiario beneficiario)
+        public void create(Beneficiario beneficiario)
         {
             string existePersona;
             try
@@ -253,14 +253,14 @@ namespace model.dao
             }
         }
         //-------------------------------------------------------
-        public string findIdCuenta(Beneficiario objetoBeneficiario)
+        public string findIdCuenta(Beneficiario objBeneficiario)
         {
             string indice;
             try
             {
                 comando = new SqlCommand("SPObtenerIdCuentaBeneficiario", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@Id", objetoBeneficiario.IdBeneficiario);
+                comando.Parameters.AddWithValue("@Id", objBeneficiario.IdBeneficiario);
                 objConexion.getConexion().Open();
                 SqlDataReader read = comando.ExecuteReader();
                 read.Read();

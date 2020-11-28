@@ -66,10 +66,10 @@ namespace CuentaDeAhorros.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            Beneficiario objBeneficiario = new Beneficiario();
-            objetoBeneficiario.find(objBeneficiario);
-            //Pasarle el listado de selectItems a la vista
-            ViewBag.Tipos = obtenerListado();  
+            //Beneficiario objBeneficiario = new Beneficiario();
+            //objetoBeneficiario.find(objBeneficiario);
+            ////Pasarle el listado de selectItems a la vista
+            //ViewBag.Tipos = obtenerListado();  
 
             //Traerlo de la base
             //List<TipoParentezco> listaP = objetoTipoParentezco.getTiposParentezco();
@@ -84,7 +84,7 @@ namespace CuentaDeAhorros.Controllers
             //}
             //ViewBag.Tipos = items;
 
-            return View(objBeneficiario);
+            return View();
           
         }
 

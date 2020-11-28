@@ -10,46 +10,41 @@
 <div class="container-fluid">
     <h3>Cuentas Objetivo </h3>
         <div>
-            <a class="btn btn-primary" href="~/Beneficiario/create">Agregar Nueva Cuenta Objetivo</a>
+            <a class="btn btn-primary" href="~/CuentaObjetivo/Create">Agregar Nueva Cuenta Objetivo</a>
         </div>
         <table class="table">
             <tr class="btn-primary">
-                @*<th>Indice</th>*@
-                <th>Nombre del Beneficiario</th>
-                
-                <th colspan="3"></th>
+                <th>Numero de Cuenta</th>
+                <th>Objetivo</th>
+                <th>Saldo</th>
+                <th>Interés acumulado</th>
+
+                <th colspan="6"></th>
             </tr>
 
             @foreach (var objetoCuentaObjetivo in Model)
             {
 
-                <tr>
-                    <!--<td>-->@*@objetoBeneficiario.IdBeneficiario*@<!--</td>-->
-                    @*<td>@objetoBeneficiario.IdCuenta</td>*@
-                    <td>@objetoCuentaObjetivo</td>
-  
+        <tr>
+            <td>@objetoCuentaObjetivo.NumeroCuenta</td>
+            <td>@objetoCuentaObjetivo.Objetivo</td>
+            <td>@objetoCuentaObjetivo.Saldo</td>
+            <td>@objetoCuentaObjetivo.InteresAcumulado</td>
 
-                    <!--  PENDEINTE EL VER  -->
-                    <td><a class="btn btn-success" href="~/CuentaObjetivo/find/@objetoCuentaObjetivo.">Ver</a></td>
-                    <td><a class="btn btn-primary" href="~/CuentaObjetivo/update/@objetoCuentaObjetivo.">Actualizar</a></td>
-                    <td><a class="btn btn-danger" href="~/CuentaObjetivo/delete/@objetoCuentaObjetivo.">Eliminar</a></td>
 
-                </tr>
+            <!--  PENDEINTE EL VER  -->
+            <td><a class="btn btn-success" href="~/CuentaObjetivo/find/@objetoCuentaObjetivo.IdCuentaObjetivo">Ver</a></td>
+            <td><a class="btn btn-primary" href="~/CuentaObjetivo/update/@objetoCuentaObjetivo.IdCuentaObjetivo">Actualizar</a></td>
+            <td><a class="btn btn-danger" href="~/CuentaObjetivo/delete/@objetoCuentaObjetivo.IdCuentaObjetivo">Eliminar</a></td>
+            <td><a class="btn btn-success" href="~/MovimientosCuentaObjetivo/MovimientosCuentaObjetivo/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co</a></td>
+            <td><a class="btn btn-success" href="~/MovimientosCuentaObjetivo/MovimientosCuentaObjetivoInteres/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co Interés</a></td>
+            <td><a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoCuentaObjetivo.IdCuentaAhorro">Regresar</a></td>
+
+        </tr>
             }
 
 
         </table>
-
-
-
-    @*<div class="card border-warning mb-3" style="max-width: 18rem;">
-        <div class="card-header">Advertencia</div>
-        <div class="card-body text-warning">
-            <h5 class="card-title">Observación</h5>
-            <p id="advertencia" class="card-text" align="justify">Si sus cambios no se ven reflejados, es porqque ya hay 3 beneficiarios, porque excede el 100% del porcentaje o porque la persona no existe</p>
-        </div>
-    </div>*@
-
 
 </div>
 

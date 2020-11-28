@@ -18,22 +18,16 @@ namespace CuentaDeAhorros.Controllers
             objetoCuentaObjetivo = new CuentaObjetivoDao();
         }
         // GET: CuentaObjetivo
-        public ActionResult Inicio()
+        public ActionResult Inicio(int Id)
         {
-            return View();
+            List<CuentaObjetivo> lista = objetoCuentaObjetivo.findCuentasObjetivosPorCuenta(Id);
+            return View(lista);
+            
         }
-
+        [HttpGet]
         public ActionResult Create()
         {
-            CuentaObjetivo objCuentaObjetivo = new CuentaObjetivo();
-            objetoCuentaObjetivo.find(objCuentaObjetivo);
-            //Pasarle el listado de selectItems a la vista
-
-
-
-
-            return View(objCuentaObjetivo);
-
+            return View();
         }
 
         [HttpPost]
@@ -46,9 +40,9 @@ namespace CuentaDeAhorros.Controllers
             {
 
                 objetoCuentaObjetivo.create(objCuentaObjetivo);
-                //int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
-                //string id = objetoCuentaObjetivo.findIdCA(objCuentaObjetivo);
-                return RedirectToAction("Inicio/");
+                int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
+                string id = objetoCuentaObjetivo.findIdCA(objCuentaObjetivo);
+                return RedirectToAction("Inicio/"+id);
 
 
             }
@@ -77,9 +71,8 @@ namespace CuentaDeAhorros.Controllers
 
                 objCuentaObjetivo.IdCuentaObjetivo = ID;
                 objetoCuentaObjetivo.update(objCuentaObjetivo);
-                //objetoCuentaObjetivo.updatePersona(objCuentaObjetivo);
-                //string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
-                return RedirectToAction("Inicio/" );
+                string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
+                return RedirectToAction("Inicio/"+id );
             }
             catch
             {
@@ -88,13 +81,14 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Delete/5
-
+        
         public ActionResult Delete(CuentaObjetivo objCuentaObjetivo, int ID)
         {
-            //objCuentaObjetivo.IdBeneficiario = ID;
+            objCuentaObjetivo.IdCuentaObjetivo = ID;
+            string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
             objetoCuentaObjetivo.delete(objCuentaObjetivo);
-            //string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
-            return RedirectToAction("Inicio/");
+            
+            return RedirectToAction("Inicio/"+id);
 
         }
 

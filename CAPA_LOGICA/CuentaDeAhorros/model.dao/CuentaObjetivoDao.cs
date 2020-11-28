@@ -23,17 +23,16 @@ namespace model.dao
 
         public void create(CuentaObjetivo objCuentaObjetivo)
         {
-            string existePersona;
             try
             {
-                comando = new SqlCommand("CREAR SP", objConexion.getConexion());
+                comando = new SqlCommand("SPCrearCuentaObjetivo", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                //comando.Parameters.AddWithValue("@pIdTipoParentezco",objCuentaObjetivo.IdTipoParentezco);
-                comando.Parameters.AddWithValue("@pParentezco", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pDocumentoIdentidadPersona", objCuentaObjetivo);
-                //comando.Parameters.AddWithValue("@pIdPersona", objCuentaObjetivo.IdPersona);
-                comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pPorcentaje ", objCuentaObjetivo);
+                
+                comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", objCuentaObjetivo.NumeroCuenta);
+                comando.Parameters.AddWithValue("@pObjetivo", objCuentaObjetivo.Objetivo);
+
+                comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
+                comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
 
@@ -55,9 +54,9 @@ namespace model.dao
         {
             try
             {
-                comando = new SqlCommand("CREAR SP", objConexion.getConexion());
+                comando = new SqlCommand("SPEliminarCuentaObjetivo", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@Id", objCuentaObjetivo.IdCuentaObjetivo);
+                comando.Parameters.AddWithValue("@pIdCuentaObjetivo", objCuentaObjetivo.IdCuentaObjetivo);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }
@@ -77,7 +76,7 @@ namespace model.dao
             bool hayRegistros;
             try
             {
-                comando = new SqlCommand("CREAR SP", objConexion.getConexion());
+                comando = new SqlCommand("SPObtenerCuentaObjetivo", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@Id", objCuentaObjetivo.IdCuentaObjetivo);
                 objConexion.getConexion().Open();
@@ -85,19 +84,15 @@ namespace model.dao
                 hayRegistros = read.Read();
                 if (hayRegistros)
                 {
-                    //objCuentaObjetivo.IdBeneficiario = Convert.ToInt32(read[0].ToString());
-                    //objCuentaObjetivo.IdPersona = Convert.ToInt32(read[1].ToString());
-                    //objCuentaObjetivo.IdTipoParentezco = Convert.ToInt32(read[2].ToString());
-                    //objCuentaObjetivo.IdCuenta = Convert.ToInt32(read[3].ToString());
-                    //objCuentaObjetivo.Porcentaje = Convert.ToInt32(read[4].ToString());
-                    //objCuentaObjetivo.Nombre = read[5].ToString();
-                    //objCuentaObjetivo.Parentezco = read[6].ToString();
-                    //objCuentaObjetivo.NumeroCuenta = Convert.ToInt32(read[7].ToString());
-                    //objCuentaObjetivo.FechaNacimiento = Convert.ToDateTime(read[8].ToString());
-                    //objCuentaObjetivo.Telefono1 = read[9].ToString();
-                    //objCuentaObjetivo.Telefono2 = read[10].ToString();
-                    //objCuentaObjetivo.CorreoElectronico = read[11].ToString();
-                    //objCuentaObjetivo.ValorDocumentoId = read[12].ToString();
+      
+                    objCuentaObjetivo.IdCuentaObjetivo = Convert.ToInt32(read[0].ToString());
+                    objCuentaObjetivo.IdCuentaAhorro = Convert.ToInt32(read[1].ToString());
+                    objCuentaObjetivo.FechaInicio = Convert.ToDateTime(read[2].ToString());
+                    objCuentaObjetivo.Objetivo = read[3].ToString();
+                    objCuentaObjetivo.Saldo = Convert.ToDecimal(read[4].ToString());
+                    objCuentaObjetivo.InteresAcumulado = Convert.ToDecimal(read[5].ToString());
+                    objCuentaObjetivo.NumeroCuenta = Convert.ToInt32(read[6].ToString());
+
 
                 }
             }
@@ -123,19 +118,14 @@ namespace model.dao
         {
             try
             {
-                comando = new SqlCommand("CREAR SP", objConexion.getConexion());
+                comando = new SqlCommand("SPActualizarCuentaObjetivo", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@pIdBeneficiario", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pIdPersona", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pParentezco", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pIdCuenta", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pPorcentaje", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pNombre", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pValorDocumentoIdentidad", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pFechaNacimiento", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pTelefono1", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pTelefono2", objCuentaObjetivo);
-                comando.Parameters.AddWithValue("@pCorreoElectronico", objCuentaObjetivo);
+                comando.Parameters.AddWithValue("@pIdCuentaObjetivo", objCuentaObjetivo.IdCuentaObjetivo);
+                comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", objCuentaObjetivo.NumeroCuenta);
+                comando.Parameters.AddWithValue("@pObjetivo", objCuentaObjetivo.Objetivo);
+                comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
+                comando.Parameters.AddWithValue("@pInteresAcumulado", objCuentaObjetivo.InteresAcumulado);
+
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
             }
@@ -150,7 +140,98 @@ namespace model.dao
             }
         }
 
+        public List<CuentaObjetivo> findCuentasObjetivosPorCuenta(int id)
+        {
+            List<CuentaObjetivo> listaCuentaObjetivo = new List<CuentaObjetivo>();
 
+            try
+            {
+                comando = new SqlCommand("SPObtenerCuentasObjetivoPorCA", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@idCuentaAhorro", id);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                while (read.Read())
+                {
+
+                    CuentaObjetivo objetoCuentaObjetivo = new CuentaObjetivo
+                    {
+                        IdCuentaObjetivo = Convert.ToInt32(read[0].ToString()),
+                        IdCuentaAhorro = Convert.ToInt32(read[1].ToString()),
+                        FechaInicio = Convert.ToDateTime(read[2].ToString()),
+                        //FechaFinal = Convert.ToDateTime(read[3].ToString()),
+                        Objetivo = read[3].ToString(),
+                        Saldo = Convert.ToDecimal(read[4].ToString()),
+                        InteresAcumulado = Convert.ToDecimal(read[5].ToString()),
+                        NumeroCuenta = Convert.ToInt32(read[6].ToString()),
+                    };
+                    listaCuentaObjetivo.Add(objetoCuentaObjetivo);
+                }
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return listaCuentaObjetivo;
+        }
+
+        public string findIdCA(CuentaObjetivo objCuentaObjetivo)
+        {
+            string indice;
+            try
+            {
+                comando = new SqlCommand("SPFindIdCA", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@pNumeroCuentaDeAhorro", objCuentaObjetivo.NumeroCuenta);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                read.Read();
+                indice = read[0].ToString();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return indice;
+        }
+
+        public string findIdCuenta(CuentaObjetivo objCuentaObjetivo)
+        {
+            string indice;
+            try
+            {
+                comando = new SqlCommand("SPObtenerIdCuentaObjetivo", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", objCuentaObjetivo.IdCuentaObjetivo);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                read.Read();
+                indice = read[0].ToString();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return indice;
+
+
+        }
 
     }
 }

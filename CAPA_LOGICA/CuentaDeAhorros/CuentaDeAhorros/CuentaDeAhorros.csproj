@@ -258,6 +258,9 @@
     <Content Include="Views\Shared\NavBar.cshtml" />
     <Content Include="Views\Movimiento\Inicio.cshtml" />
     <Content Include="Views\CuentaObjetivo\Inicio.cshtml" />
+    <Content Include="Views\CuentaObjetivo\Create.cshtml" />
+    <Content Include="Views\CuentaObjetivo\Find.cshtml" />
+    <Content Include="Views\CuentaObjetivo\Update.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
