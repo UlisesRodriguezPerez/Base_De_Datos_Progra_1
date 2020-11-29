@@ -54,7 +54,7 @@ namespace model.dao
         {
             try
             {
-                comando = new SqlCommand("SPEliminarCuentaObjetivo", objConexion.getConexion());
+                comando = new SqlCommand("SPEliminarCuentaObjetivoLog", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@pIdCuentaObjetivo", objCuentaObjetivo.IdCuentaObjetivo);
                 objConexion.getConexion().Open();
