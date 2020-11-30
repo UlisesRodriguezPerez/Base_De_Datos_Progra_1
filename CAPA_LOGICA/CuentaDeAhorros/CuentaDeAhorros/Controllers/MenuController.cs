@@ -75,5 +75,37 @@ namespace MunicipalidadWebMVC5.Controllers
         }
 
 
+        [HttpPost]
+        public ActionResult Regresar(string idUsuario)
+        {
+            return RedirectToAction("/Inicio/"+ idUsuario); 
+        }
+
+
+
+
+
+
+        //[HttpPost]
+        //public ActionResult BuscarComprar(Usuario usuario)
+        //{
+        //    List<Usuario> listaCompras = objetoUsuario.buscarCompra(usuario);
+        //    //string tipo = objetoUsuario.buscarCompra(usuario);
+        //    //System.Diagnostics.Debug.WriteLine(tipo);
+        //    if (tipo == "Admin")
+        //    {
+        //        return RedirectToAction("/MenuAdmin/" + usuario.IdUsuario);
+        //    }
+        //    else if (tipo == "Normal")
+        //    {
+        //        //user = new Usuario();
+        //        return RedirectToAction("/MenuNormal/" + usuario.IdUsuario);
+        //    }
+        //    else
+        //    {
+        //        usuario = new Usuario();
+        //        return RedirectToAction("/Inicio/");
+        //    }
+        //}
     }
 }

@@ -1,5 +1,6 @@
 ﻿@model List<model.entity.CuentaAhorro>
 
+
 @{
     ViewBag.Title = "MenuNormal";
 }
@@ -11,20 +12,32 @@
 <div class="container-fluid">
 
     <h3>Cuentas disponibles</h3>
-  
-    <form action="~/Menu/Verify" method="post">
+
+    <form action="~/Movimiento/BuscarCompra" method="post">
         <div>
             <label for="say">Ingrese la descripción a buscar</label>
-            <input name="say" id="say" value=""  required/>
+            <input name="say" id="say" value="" required />
+            <label for="say">Ingrese la categoría</label>
+            <input name="categoria" id="categoria" value="Compra" required />
+            @foreach (var objetoCuentaAhorro in Model)
+            {
+
+                <input name="nombreUsuario" id="nombreUsuario" value=@objetoCuentaAhorro.NombreUsuarioPA required disabled='disabled' />
+                <input name="idUsuario" id="idUsuario" value=@objetoCuentaAhorro.IdUsuarioPA required style="display: none">
+                break;
+            }
+
+
         </div>
-       
+
         <div>
             <button>Buscar compras</button>
         </div>
     </form>
+
     <table class="table">
         <tr class="btn-primary">
-
+            <th>ID</th>
             <th>Tipo de cuenta</th>
             <th>Usuario</th>
             <th>Numero de cuenta</th>
@@ -35,20 +48,30 @@
         @foreach (var objetoCuentaAhorro in Model)
         {
             <tr>
-
+                <td>@objetoCuentaAhorro.IdCuentaAhorro  </td>
                 <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
                 <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
                 <td>@objetoCuentaAhorro.NumeroCuenta</td>
                 <td>@objetoCuentaAhorro.Saldo</td>
                 <td>@objetoCuentaAhorro.FechaCreacion</td>
+
                 <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
+
+
+                
+
+
+
                 <td><a class="btn btn-success" href="~/EstadosCuenta/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Estado de Cuenta</a></td>
+
+
                 <td><a class="btn btn-success" href="~/CuentaObjetivo/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Cuenta Objetivo</a></td>
 
 
             </tr>
         }
     </table>
+    
     <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>
 
 </div>

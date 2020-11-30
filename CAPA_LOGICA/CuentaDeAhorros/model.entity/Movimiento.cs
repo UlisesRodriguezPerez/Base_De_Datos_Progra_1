@@ -17,6 +17,7 @@ namespace model.entity
         private string descripcion;
         private decimal nuevoSaldo;
         private string tipoMovimiento;
+        private int numeroCuenta;
 
         public Movimiento() { }
 
@@ -25,7 +26,7 @@ namespace model.entity
             this.id = id;
         }
 
-        public Movimiento(int idTipoMovimiento, int idCuentaAhorro, int idEstadoCuenta, decimal monto, DateTime fecha, string descripcion, decimal nuevoSaldo, string tipoMovimiento)
+        public Movimiento(int idTipoMovimiento, int idCuentaAhorro, int idEstadoCuenta, decimal monto, DateTime fecha, string descripcion, decimal nuevoSaldo, string tipoMovimiento, int numeroCuenta)
         {
             this.idTipoMovimiento = idTipoMovimiento;
             this.idCuentaAhorro = idCuentaAhorro;
@@ -35,6 +36,7 @@ namespace model.entity
             this.descripcion = descripcion;
             this.nuevoSaldo = nuevoSaldo;
             this.tipoMovimiento = tipoMovimiento;
+            this.numeroCuenta = numeroCuenta;
         }
 
         public int Id { get => id; set => id = value; }
@@ -46,5 +48,6 @@ namespace model.entity
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public decimal NuevoSaldo { get => nuevoSaldo; set => nuevoSaldo = value; }
         public string TipoMovimiento { get => tipoMovimiento; set => tipoMovimiento = value; }
+        public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
     }
 }

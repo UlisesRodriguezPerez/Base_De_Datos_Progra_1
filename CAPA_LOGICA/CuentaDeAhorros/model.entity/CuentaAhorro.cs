@@ -17,6 +17,8 @@ namespace model.entity
         private string fechaCreacion;
         private string nombreTipoCuenta;
         private string nombreUsuarioPA;
+        private int idUsuarioPA;
+
 
         public CuentaAhorro() { }
 
@@ -25,7 +27,7 @@ namespace model.entity
             this.idCuentaAhorro = pIdCuentaAhorro;
         }
 
-        public CuentaAhorro(int pIdCuentaAhorro, int pIdTipoCuneta, int pIdPersona, int pIdCuentaObjetivo, int pNumeroCuenta, decimal pSaldo, string pFechaCreacion, string pNombreTipoCuenta, string pNombreUsuarioPA)
+        public CuentaAhorro(int pIdCuentaAhorro, int pIdTipoCuneta, int pIdPersona, int pIdCuentaObjetivo, int pNumeroCuenta, decimal pSaldo, string pFechaCreacion, string pNombreTipoCuenta, string pNombreUsuarioPA, int idUsuarioPA)
         {
             this.idCuentaAhorro = pIdCuentaAhorro;
             this.idTipoCuneta = pIdTipoCuneta;
@@ -36,6 +38,7 @@ namespace model.entity
             this.fechaCreacion = pFechaCreacion;
             this.nombreTipoCuenta = pNombreTipoCuenta;
             this.nombreUsuarioPA = pNombreUsuarioPA;
+            this.idUsuarioPA = idUsuarioPA;
         }
 
         //Getters and Setters
@@ -48,5 +51,6 @@ namespace model.entity
         public string FechaCreacion { get => fechaCreacion; set => fechaCreacion = value; }
         public string NombreTipoCuenta { get => nombreTipoCuenta; set => nombreTipoCuenta = value; }
         public string NombreUsuarioPA { get => nombreUsuarioPA; set => nombreUsuarioPA = value; }
+        public int IdUsuarioPA { get => idUsuarioPA; set => idUsuarioPA = value; }
     }
 }

@@ -37,7 +37,19 @@
         <td>@objetoEstadoCuenta.SaldoFinal</td>
 
         <td><a class="btn btn-success" href="~/Movimiento/Inicio/@objetoEstadoCuenta.IdEstado">Ver Movimientos</a></td>
-        <td><a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoEstadoCuenta.IdCuentaAhorro">Regresar</a></td>
+        @*<td>
+            <form action="~/Menu/Regresar" method="post">
+                <div>
+                    <input name="idUsuario" id="idUsuario" value=@objetoEstadoCuenta. required disabled=»disabled» />
+
+                </div>
+
+                <div>
+                    <button>Regresar</button>
+                </div>
+            </form>
+        </td>*@
+        @*<td><a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoEstadoCuenta.IdCuentaAhorro">Regresar</a></td>*@
     </tr>
 
         }

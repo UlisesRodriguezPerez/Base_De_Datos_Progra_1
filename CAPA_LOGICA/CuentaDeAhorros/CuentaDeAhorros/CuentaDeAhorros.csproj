@@ -261,6 +261,7 @@
     <Content Include="Views\CuentaObjetivo\Create.cshtml" />
     <Content Include="Views\CuentaObjetivo\Find.cshtml" />
     <Content Include="Views\CuentaObjetivo\Update.cshtml" />
+    <Content Include="Views\Movimiento\BuscarCompra.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

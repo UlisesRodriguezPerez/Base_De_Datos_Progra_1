@@ -88,6 +88,53 @@ namespace model.dao
             return listaMovimientos;
         }
 
+        public List<Movimiento> findCompras(string descripcionBuscar, string categoria, string idUsuario)
+        {
+            List<Movimiento> listaMovimientosCompra = new List<Movimiento>();
+
+            try
+            {
+                //string findAll = "Select * from Movimiento";
+                comando = new SqlCommand("SPObtenerMovimientosDescripcion", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+
+                comando.Parameters.AddWithValue("@pDescripcion", descripcionBuscar);
+                comando.Parameters.AddWithValue("@pCategoria", categoria);
+                comando.Parameters.AddWithValue("@pIdUsuarioPA", Convert.ToInt32(idUsuario));
+
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+
+                while (read.Read())
+                {
+                    Movimiento objMovimiento = new Movimiento
+                    {
+                        Monto = Convert.ToDecimal(read[0].ToString()),
+                        Fecha = Convert.ToDateTime(read[1].ToString()),
+                        Descripcion = read[2].ToString(),
+                        NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
+                        TipoMovimiento = read[4].ToString(),
+                        IdCuentaAhorro = Convert.ToInt32(read[5].ToString()),
+                        IdEstadoCuenta = Convert.ToInt32(read[6].ToString()),
+                        NumeroCuenta = Convert.ToInt32(read[7].ToString()),
+                    };
+                    listaMovimientosCompra.Add(objMovimiento);
+                }
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+
+            return listaMovimientosCompra;
+        }
+
 
         public void update(Movimiento objetoMovimiento)
         {

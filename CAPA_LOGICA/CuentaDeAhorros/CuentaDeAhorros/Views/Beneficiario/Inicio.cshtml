@@ -26,21 +26,22 @@
             @foreach (var objetoBeneficiario in Model)
             {
 
-                <tr>
-                    <!--<td>-->@*@objetoBeneficiario.IdBeneficiario*@<!--</td>-->
-                    @*<td>@objetoBeneficiario.IdCuenta</td>*@
-                    <td>@objetoBeneficiario.Nombre</td>
-                    <td>@objetoBeneficiario.Parentezco</td>
-                    <td>@objetoBeneficiario.NumeroCuenta</td>
-                    <td>@objetoBeneficiario.Porcentaje</td>
-                    @*<td>@objetoBeneficiario.Activo</td>*@
+        <tr>
+            <!--<td>-->@*@objetoBeneficiario.IdBeneficiario*@<!--</td>-->
+            @*<td>@objetoBeneficiario.IdCuenta</td>*@
+            <td>@objetoBeneficiario.Nombre</td>
+            <td>@objetoBeneficiario.Parentezco</td>
+            <td>@objetoBeneficiario.NumeroCuenta</td>
+            <td>@objetoBeneficiario.Porcentaje</td>
+            @*<td>@objetoBeneficiario.Activo</td>*@
 
-                    <!--  PENDEINTE EL VER  -->
-                    <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
-                    <td><a class="btn btn-primary" href="~/Beneficiario/update/@objetoBeneficiario.IdBeneficiario">Actualizar</a></td>
-                    <td><a class="btn btn-danger" href="~/Beneficiario/delete/@objetoBeneficiario.IdBeneficiario">Eliminar</a></td>
+            <!--  PENDEINTE EL VER  -->
+            <td><a class="btn btn-success" href="~/Beneficiario/find/@objetoBeneficiario.IdBeneficiario">Ver</a></td>
+            <td><a class="btn btn-primary" href="~/Beneficiario/update/@objetoBeneficiario.IdBeneficiario">Actualizar</a></td>
+            <td><a class="btn btn-danger" href="~/Beneficiario/delete/@objetoBeneficiario.IdBeneficiario">Eliminar</a></td>
+            @*<td><a class="btn btn-success" href="~/Menu/MenuNormal/@objetoBeneficiario.">Regresar</a></td>*@
 
-                </tr>
+        </tr>
             }
 
 
@@ -58,26 +59,26 @@
         </div>
     </div>
 
-    <a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>
+    @*<a class='btn btn-outline-primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Regresar</a>*@
     
     <input class='btn btn-outline-primary' type="button" value="Verificar" onclick="guardar();">
-    <script>
+    @*<script>
 
             function guardar() {
                 var cantidad = @Model.Count();
-                var indice = (@Model.Sum(j => j.IdCuenta)) / cantidad;
+                //var indice = (@Model.Sum(j => j.IdCuenta)) / cantidad;
                 var x = @Model.Sum(i => i.Porcentaje);
                 if (x == "100" && cantidad < 4) {
                     toastr.success("Beneficiarios verificados con éxito", "Guardado con éxito");
 
-                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuenta)/@Model.Count())'>Volver al menu de cuentas.</a>");
+                    //document.write("<a class='btn btn - primary' href='/Menu/MenuNormal'>Volver al menu de cuentas.</a>");
                 }
                 else {
                     toastr.warning("No cumple con el 100% en la distribución de porcentajes.", "Advertencia");
                 }
         }
 
-    </script>
+    </script>*@
 
 
 </div>
