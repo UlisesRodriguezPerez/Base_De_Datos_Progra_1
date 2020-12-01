@@ -69,7 +69,8 @@ namespace model.dao
                         //NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
                         TipoMovimiento = read[3].ToString(),
                         IdCuentaAhorro = Convert.ToInt32(read[4].ToString()),
-                        IdEstadoCuenta = Convert.ToInt32(read[5].ToString())
+                        IdEstadoCuenta = Convert.ToInt32(read[5].ToString()),
+                        Tipo = read[6].ToString(),
                     };
                     listaMovimientos.Add(objMovimiento);
                 }
@@ -117,6 +118,7 @@ namespace model.dao
                         IdCuentaAhorro = Convert.ToInt32(read[4].ToString()),
                         IdEstadoCuenta = Convert.ToInt32(read[5].ToString()),
                         NumeroCuenta = Convert.ToInt32(read[6].ToString()),
+                        Tipo = read[7].ToString(),
                     };
                     listaMovimientosCompra.Add(objMovimiento);
                 }

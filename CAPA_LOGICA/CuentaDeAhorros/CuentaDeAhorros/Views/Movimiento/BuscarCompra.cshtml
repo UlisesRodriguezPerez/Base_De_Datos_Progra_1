@@ -20,6 +20,7 @@
             <th>Descripción</th>
             @*<th>Nuevo Saldo</th>*@
             <th>Tipo Movimiento</th>
+            <th>Tipo</th>
 
         </tr>
         @foreach (var objetoMovimiento in Model)
@@ -31,6 +32,7 @@
                 <td>@objetoMovimiento.Descripcion</td>
                 @*<td>@objetoMovimiento.NuevoSaldo</td>*@
                 <td>@objetoMovimiento.TipoMovimiento</td>
+                <td>@objetoMovimiento.Tipo</td>
                 <td><a class="btn btn-outline-primary" href="~/Menu/Inicio/">Salir</a></td>
 
             </tr>

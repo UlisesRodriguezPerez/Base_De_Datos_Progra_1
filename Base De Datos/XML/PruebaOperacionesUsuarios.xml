@@ -1,0 +1,27 @@
+  <Usuarios>
+    <Usuario User="1" Pass="1" ValorDocumentoIdentidad="117370445" EsAdministrador="0" />
+    <Usuario User="jaguero" Pass="LaFacil" ValorDocumentoIdentidad="117370445" EsAdministrador="0" />
+    <Usuario User="ralvarez" Pass="SiendoFeliz123" ValorDocumentoIdentidad="160713985" EsAdministrador="0" />
+    <Usuario User="imendez" Pass="DebajoDelMar5454" ValorDocumentoIdentidad="143062990" EsAdministrador="0" />
+    <Usuario User="gruiz" Pass="LaGloriaEsMia" ValorDocumentoIdentidad="134225981" EsAdministrador="0" />
+    <Usuario User="fquiros" Pass="MyPass123*" ValorDocumentoIdentidad="106030039" EsAdministrador="1" />
+    <Usuario User="gzuñiga" Pass="miCumple123" ValorDocumentoIdentidad="105711321" EsAdministrador="0" />
+    <Usuario User="jperez" Pass="miCumple123" ValorDocumentoIdentidad="11717598" EsAdministrador="0" />
+  </Usuarios>
+
+  <Usuarios_Ver>
+    <UsuarioPuedeVer User="ralvarez" NumeroCuenta="11000001" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11000002" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11895861" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11724671" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11943745" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11936606" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11509890" />
+    <UsuarioPuedeVer User="jaguero" NumeroCuenta="11000001" />
+    <UsuarioPuedeVer User="ralvarez" NumeroCuenta="11326139" />
+    <UsuarioPuedeVer User="imendez" NumeroCuenta="11656323" />
+    <UsuarioPuedeVer User="imendez" NumeroCuenta="11245285" />
+    <UsuarioPuedeVer User="imendez" NumeroCuenta="11461191" />
+    <UsuarioPuedeVer User="gzuñiga" NumeroCuenta="11592082" />
+    <UsuarioPuedeVer User="gzuñiga" NumeroCuenta="11024586" />
+  </Usuarios_Ver>
