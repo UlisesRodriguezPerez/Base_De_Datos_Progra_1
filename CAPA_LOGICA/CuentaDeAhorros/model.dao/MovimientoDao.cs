@@ -66,10 +66,10 @@ namespace model.dao
                         Monto = Convert.ToDecimal(read[0].ToString()),
                         Fecha = Convert.ToDateTime(read[1].ToString()),
                         Descripcion = read[2].ToString(),
-                        NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
-                        TipoMovimiento = read[4].ToString(),
-                        IdCuentaAhorro = Convert.ToInt32(read[5].ToString()),
-                        IdEstadoCuenta = Convert.ToInt32(read[6].ToString())
+                        //NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
+                        TipoMovimiento = read[3].ToString(),
+                        IdCuentaAhorro = Convert.ToInt32(read[4].ToString()),
+                        IdEstadoCuenta = Convert.ToInt32(read[5].ToString())
                     };
                     listaMovimientos.Add(objMovimiento);
                 }
@@ -112,11 +112,11 @@ namespace model.dao
                         Monto = Convert.ToDecimal(read[0].ToString()),
                         Fecha = Convert.ToDateTime(read[1].ToString()),
                         Descripcion = read[2].ToString(),
-                        NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
-                        TipoMovimiento = read[4].ToString(),
-                        IdCuentaAhorro = Convert.ToInt32(read[5].ToString()),
-                        IdEstadoCuenta = Convert.ToInt32(read[6].ToString()),
-                        NumeroCuenta = Convert.ToInt32(read[7].ToString()),
+                        //NuevoSaldo = Convert.ToDecimal(read[3].ToString()),
+                        TipoMovimiento = read[3].ToString(),
+                        IdCuentaAhorro = Convert.ToInt32(read[4].ToString()),
+                        IdEstadoCuenta = Convert.ToInt32(read[5].ToString()),
+                        NumeroCuenta = Convert.ToInt32(read[6].ToString()),
                     };
                     listaMovimientosCompra.Add(objMovimiento);
                 }
