@@ -3257,6 +3257,7 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
   </Estados_de_Cuenta>
 
   <Usuarios>
+    <Usuario User="1" Pass="1" ValorDocumentoIdentidad="1" EsAdministrador="0" />
     <Usuario User="jaguero" Pass="LaFacil" ValorDocumentoIdentidad="117370445" EsAdministrador="0" />
     <Usuario User="ralvarez" Pass="SiendoFeliz123" ValorDocumentoIdentidad="160713985" EsAdministrador="0" />
     <Usuario User="imendez" Pass="DebajoDelMar5454" ValorDocumentoIdentidad="143062990" EsAdministrador="0" />
@@ -3267,6 +3268,14 @@ NumeroCuenta="11000001" fechaInicio="2020-10-13" fechafin="2020-11-12" saldoinic
   </Usuarios>
 
   <Usuarios_Ver>
+    <UsuarioPuedeVer User="1" NumeroCuenta="11000001" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11000002" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11895861" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11724671" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11943745" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11936606" />
+    <UsuarioPuedeVer User="1" NumeroCuenta="11509890" />
+
     <UsuarioPuedeVer User="jaguero" NumeroCuenta="11000001" />
     <UsuarioPuedeVer User="ralvarez" NumeroCuenta="11326139" />
     <UsuarioPuedeVer User="imendez" NumeroCuenta="11656323" />
