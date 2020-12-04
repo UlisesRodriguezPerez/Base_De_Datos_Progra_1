@@ -5,7 +5,7 @@ using model.dao;
 using System;
 
 
-namespace MunicipalidadWebMVC5.Controllers
+namespace CuentaDeAhorros.Controllers
 {
     public class MenuController : Controller
     {

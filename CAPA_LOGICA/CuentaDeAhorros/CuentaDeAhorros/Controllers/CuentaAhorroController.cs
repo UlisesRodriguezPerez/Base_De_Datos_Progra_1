@@ -3,7 +3,7 @@ using model.entity;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace MunicipalidadWebMVC5.Controllers
+namespace CuentaDeAhorros.Controllers
 {
     public class CuentaAhorroController : Controller
     {
