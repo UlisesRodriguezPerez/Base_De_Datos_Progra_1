@@ -29,10 +29,12 @@ namespace model.dao
                 comando.CommandType = CommandType.StoredProcedure;
                 
                 comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", objCuentaObjetivo.NumeroCuenta);
+                comando.Parameters.AddWithValue("@pNumeroCuentaObjetivo", objCuentaObjetivo.NumeroCuentaObjetivo);
                 comando.Parameters.AddWithValue("@pObjetivo", objCuentaObjetivo.Objetivo);
 
                 comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
                 comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
+
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
 

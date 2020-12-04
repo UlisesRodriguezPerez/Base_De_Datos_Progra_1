@@ -29,6 +29,12 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                @Html.LabelFor(model => model.NumeroCuentaObjetivo, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.NumeroCuentaObjetivo, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
 
             <div class="form-group">
                 @Html.LabelFor(model => model.Objetivo, htmlAttributes: new { @class = "control-kabel col-md-2" })
