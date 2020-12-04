@@ -1,4 +1,4 @@
-<Catalogos>
+<!-- <Catalogos> -->
   <Tipo_Doc>
     <TipoDocuIdentidad Id="1" Nombre="Cedula Nacional"/>
     <TipoDocuIdentidad Id="2" Nombre="Cedula Residente"/>
@@ -41,4 +41,4 @@
    <Tipo_Movimiento Id="5" Nombre="Deposito Ventana" Tipo="Credito"/>
    <Tipo_Movimiento Id="6" Nombre="Devolución de Compra" Tipo="Credito"/>
   </Tipo_Movimientos>
-</Catalogos>
+<!-- </Catalogos> -->
