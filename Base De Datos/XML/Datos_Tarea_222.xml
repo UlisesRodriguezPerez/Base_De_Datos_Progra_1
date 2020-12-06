@@ -4,7 +4,33 @@
 	   <Persona TipoDocuIdentidad="1" Nombre="Marco Umaña Serrano" ValorDocumentoIdentidad="106129872" FechaNacimiento="1982-12-09" Email="umañamarco8093@hotmail.com" Telefono1="66035188" Telefono2="28350149"/>
 	   <Cuenta ValorDocumentoIdentidadDelCliente="117171162" TipoCuentaId="3" NumeroCuenta="11887777"/>
 	   <Beneficiario NumeroCuenta="11887777" ValorDocumentoIdentidadBeneficiario="106129872" ParentezcoId="9" Porcentaje="23" />
+	   
+	   
+	   
 	   <Movimientos Tipo="5" CodigoCuenta="11887777" Monto="4129304.00" Descripcion="Banco Central" />
+
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="500.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="400.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="700.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="800.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="650.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="800.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="950.00" Descripcion="Retiro de efectivo en Automatico" />
+	   <Movimientos Tipo="2" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Automatico" />
+
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="500.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="400.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="700.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="800.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="650.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="800.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="950.00" Descripcion="Retiro de efectivo en Humano" />
+	   <Movimientos Tipo="3" CodigoCuenta="11887777" Monto="600.00" Descripcion="Retiro de efectivo en Humano" />
+
 	   <Movimientos Tipo="1" CodigoCuenta="11887777" Monto="436026.00" Descripcion="ESTABLISHMENT LAB" />
 	   <Movimientos Tipo="4" CodigoCuenta="11887777" Monto="1396981.00" Descripcion="ATM CENTRAL" />
 	   <Movimientos Tipo="1" CodigoCuenta="11887777" Monto="1248332.00" Descripcion="CORPORACIoN PIPASA-CARGILL" />

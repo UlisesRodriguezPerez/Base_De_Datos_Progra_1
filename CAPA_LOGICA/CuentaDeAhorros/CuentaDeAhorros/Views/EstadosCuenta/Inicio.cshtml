@@ -19,8 +19,11 @@
             <th>Número de cuenta</th>
             <th>Fecha Inicio</th>
             <th>Fecha Final</th>
-            <th>saldoInicial</th>
-            <th>saldoFinal</th>
+            <th>SaldoInicial</th>
+            <th>SaldoFinal</th>
+            <th>Saldo Mínimo</th>
+            <th>Retiros Cajero H</th>
+            <th>Retiros Cajero A</th>
         </tr>
         @foreach (var objetoEstadoCuenta in Model)
         {
@@ -35,6 +38,9 @@
         <td>@objetoEstadoCuenta.FechaFinal</td>
         <td>@objetoEstadoCuenta.SaldoInicial</td>
         <td>@objetoEstadoCuenta.SaldoFinal</td>
+        <td>@objetoEstadoCuenta.SaldoMinimo</td>
+        <td>@objetoEstadoCuenta.RetirosCajeroHumano</td>
+        <td>@objetoEstadoCuenta.RetirosCajeroAutomatico</td>
 
         <td><a class="btn btn-success" href="~/Movimiento/Inicio/@objetoEstadoCuenta.IdEstado">Ver Movimientos</a></td>
         @*<td>

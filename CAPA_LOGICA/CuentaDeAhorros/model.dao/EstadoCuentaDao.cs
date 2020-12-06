@@ -194,6 +194,9 @@ namespace model.dao
                         SaldoInicial = Convert.ToDecimal(read[4].ToString()),
                         SaldoFinal = Convert.ToDecimal(read[5].ToString()),
                         NumeroCuenta = read[6].ToString(),
+                        RetirosCajeroHumano = Convert.ToInt32(read[7].ToString()),
+                        RetirosCajeroAutomatico = Convert.ToInt32(read[8].ToString()),
+                        SaldoMinimo = Convert.ToDecimal(read[9].ToString()),
                     };
                     listaEstados.Add(objetoEstado);
                 }

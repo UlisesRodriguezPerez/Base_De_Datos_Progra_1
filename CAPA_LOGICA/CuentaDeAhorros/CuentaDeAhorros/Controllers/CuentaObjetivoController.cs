@@ -36,8 +36,8 @@ namespace CuentaDeAhorros.Controllers
             /**
              * Recibe el cuentaObjetivo que va a crear
              */
-            try
-            {
+            //try
+            //{
 
                 objetoCuentaObjetivo.create(objCuentaObjetivo);
                 int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
@@ -45,12 +45,11 @@ namespace CuentaDeAhorros.Controllers
                 return RedirectToAction("Inicio/"+id);
 
 
-            }
-            catch
-            {
-                Console.WriteLine("No se pudo agregar");
-                return View();
-            }
+            //}
+            //catch
+            //{
+            //    return View();
+            //}
         }
 
         // GET: CuentaObjetivo/Edit/5

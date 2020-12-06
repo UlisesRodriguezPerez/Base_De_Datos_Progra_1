@@ -1,4 +1,4 @@
-<Catalogos>
+
   <Tipo_Doc>
     <TipoDocuIdentidad Id="1" Nombre="Cedula Nacional"/>
     <TipoDocuIdentidad Id="2" Nombre="Cedula Residente"/>
@@ -44,4 +44,3 @@
    <Tipo_Movimiento Id="8" Nombre="Comision exceso de operacion en CH" Tipo="Debito"/>
    <Tipo_Movimiento Id="9" Nombre="Comision exceso de operacion en CA" Tipo="Debito"/>
   </Tipo_Movimientos>
-</Catalogos>
