@@ -8,63 +8,66 @@
 @using (Html.BeginForm())
 { 
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
 
-            <div class="form-horizontal">
-
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <h2>Agregar beneficiario</h2>
-                    </div>
-                </div>
-
-            </div>
-            @*<div class="form-group">
-                    @html.labelfor(model => model.parentezco, htmlattributes: new { @class = "control-kabel col-md-2" })
-                    <div class="col-md-6">
-
-                        @html.dropdownlistfor(model => model.idtipoparentezco,(list<selectlistitem>)viewbag.tipos)
-
-                    </div>
-                </div>*@
-
+        <div class="form-horizontal">
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Parentezco, htmlAttributes: new { @class = "control-kabel col-md-2" })
                 <div class="col-md-6">
-                    @Html.EditorFor(model => model.Parentezco, new { htmlAttrbutes = new { @class = "form-control" } })
+                    <h2>Agregar beneficiario</h2>
                 </div>
             </div>
 
+        </div>
+        @*<div class="form-group">
+                @html.labelfor(model => model.parentezco, htmlattributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
 
-            <div class="form-group">
-                @Html.LabelFor(model => model.ValorDocumentoId, htmlAttributes: new { @class = "control-kabel col-md-2" })
-                <div class="col-md-6">
-                    @Html.EditorFor(model => model.ValorDocumentoId, new { htmlAttrbutes = new { @class = "form-control" } })
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(model => model.NumeroCuenta, htmlAttributes: new { @class = "control-kabel col-md-2" })
-                <div class="col-md-6">
-                    @Html.EditorFor(model => model.NumeroCuenta, new { htmlAttrbutes = new { @class = "form-control" } })
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(model => model.Porcentaje, htmlAttributes: new { @class = "control-kabel col-md-2" })
-                <div class="col-md-6">
-                    @Html.EditorFor(model => model.Porcentaje, new { htmlAttrbutes = new { @class = "form-control" } })
-                </div>
-            </div>
+                    @html.dropdownlistfor(model => model.idtipoparentezco,(list<selectlistitem>)viewbag.tipos)
 
-            <div class="form-actions col-md-offset-2">
-                <div class="col-md-6">
-                    <input class="btn btn-outline-success" type="submit" name="btnGuardar" value="Guardar" />
-                    @*<a class="btn btn-outline-primary" href="~/Beneficiario/Inicio/@Model.IdCuenta">Regresar</a>*@
+                </div>
+            </div>*@
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Parentezco, htmlAttributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Parentezco, new { htmlAttrbutes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ValorDocumentoId, htmlAttributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.ValorDocumentoId, new { htmlAttrbutes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.NumeroCuenta, htmlAttributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.NumeroCuenta, new { htmlAttrbutes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Porcentaje, htmlAttributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Porcentaje, new { htmlAttrbutes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-actions col-md-offset-2">
+            <div class="col-md-6">
+                <input class="btn btn-outline-success" type="submit" name="btnGuardar" value="Guardar" />
+                @*<a class="btn btn-outline-primary" href="~/Beneficiario/Inicio/@Model.IdCuenta">Regresar</a>*@
 
                 </div>
             </div>
         </div>
     </div>
-}
+
+        <p>@ViewBag.ErrorMessage</p>
+
+    }
 

@@ -36,8 +36,8 @@ namespace CuentaDeAhorros.Controllers
             /**
              * Recibe el cuentaObjetivo que va a crear
              */
-            //try
-            //{
+            try
+            {
 
                 objetoCuentaObjetivo.create(objCuentaObjetivo);
                 int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
@@ -45,11 +45,12 @@ namespace CuentaDeAhorros.Controllers
                 return RedirectToAction("Inicio/"+id);
 
 
-            //}
-            //catch
-            //{
-            //    return View();
-            //}
+            }
+            catch
+            {
+                ViewBag.ErrorMessage = "Error al crear la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                return View();
+            }
         }
 
         // GET: CuentaObjetivo/Edit/5
@@ -75,6 +76,7 @@ namespace CuentaDeAhorros.Controllers
             }
             catch
             {
+                ViewBag.ErrorMessage = "Error al actualizar la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
                 return View();
             }
         }
@@ -83,12 +85,19 @@ namespace CuentaDeAhorros.Controllers
         
         public ActionResult Delete(CuentaObjetivo objCuentaObjetivo, int ID)
         {
-            objCuentaObjetivo.IdCuentaObjetivo = ID;
-            string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
-            objetoCuentaObjetivo.delete(objCuentaObjetivo);
-            
-            return RedirectToAction("Inicio/"+id);
+            try
+            {
+                objCuentaObjetivo.IdCuentaObjetivo = ID;
+                string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
+                objetoCuentaObjetivo.delete(objCuentaObjetivo);
 
+                return RedirectToAction("Inicio/" + id);
+            }
+            catch
+            {
+                ViewBag.ErrorMessage = "Error al eliminar la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                return View();
+            }
         }
 
         [HttpGet]
@@ -103,13 +112,29 @@ namespace CuentaDeAhorros.Controllers
         [HttpPost]
         public ActionResult Find(string ID)
         {
-            return RedirectToAction("Inicio" + ID);
+            try
+            {
+                return RedirectToAction("Inicio" + ID);
+            }
+            catch
+            {
+                ViewBag.ErrorMessage = "Error al buscar la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                return View();
+            }
         }
 
         [HttpPost]
         public ActionResult FindAll(string ID)
         {
-            return RedirectToAction("Inicio" + ID);
+            try
+            {
+                return RedirectToAction("Inicio" + ID);
+            }
+            catch
+            {
+                ViewBag.ErrorMessage = "Error al buscar las cuentas objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                return View();
+            }
         }
 
 

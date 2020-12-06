@@ -10,7 +10,7 @@
 
 
 <div class="container-fluid">
-
+    <p>@ViewBag.ErrorMessage</p>
     <h3>Cuentas disponibles</h3>
 
     <form action="~/Movimiento/BuscarCompra" method="post">
@@ -27,7 +27,7 @@
                 break;
             }
 
- 
+
         </div>
 
         <div>
@@ -58,7 +58,7 @@
                 <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
 
 
-                
+
 
 
 
@@ -71,7 +71,7 @@
             </tr>
         }
     </table>
-    
+
     <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>
 
 </div>

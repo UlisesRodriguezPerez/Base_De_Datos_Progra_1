@@ -104,7 +104,8 @@ namespace CuentaDeAhorros.Controllers
                 
             }
             catch{
-                Console.WriteLine("No se pudo agregar");
+                ViewBag.ErrorMessage = "Error al crear el beneficiario, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                //Console.WriteLine("No se pudo agregar");
                 return View();
             }
         }
@@ -133,6 +134,7 @@ namespace CuentaDeAhorros.Controllers
             }
             catch
             {
+                ViewBag.ErrorMessage = "Error al actualizar el beneficiario, para ver el error consulta la tabla de manejo de errores en la Base de datos";
                 return View();
             }
         }

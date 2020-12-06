@@ -70,6 +70,7 @@ namespace CuentaDeAhorros.Controllers
             }
             catch
             {
+                ViewBag.ErrorMessage = "Error al obtener el usuario, para ver el error consulta la tabla de manejo de errores en la Base de datos";
                 return View();
             }
         }
