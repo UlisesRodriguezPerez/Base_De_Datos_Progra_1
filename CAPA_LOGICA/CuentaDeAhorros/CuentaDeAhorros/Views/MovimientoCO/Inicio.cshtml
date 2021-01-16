@@ -1,7 +1,42 @@
-﻿
+﻿@model List<model.entity.MovimientoCo>
+
 @{
-    ViewBag.Title = "MovimientoCo";
+    ViewBag.Title = "Inicio";
 }
+<style>
+    tr[data-href] {
+        cursor: pointer;
+    }
+</style>
 
-<h2>MovimientoCo</h2>
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+<h3>Movimientos Estados de cuenta</h3>
+<div class="container-fluid">
+    <table class="table">
+        <tr class="btn-primary">
+            <th>Numero Cuenta Objetivo</th>
+            <th>Número de cuenta Ahorro</th>
+            <th>Fecha</th>
+            <th>Monto</th>
+            <th>Nuevo monto</th>
+            <th>Descripción</th>
 
+        </tr>
+        @foreach (var objetoMovimientoCO in Model)
+        {
+
+                <td>@objetoMovimientoCO.NumeroCuentaObjetivo</td>
+                @*<td>@objetoMovimientoCO.IdCuentaAhorro</td>*@
+                <td>@objetoMovimientoCO.NumeroCuentaAhorro</td>
+                <td>@objetoMovimientoCO.Fecha</td>
+                <td>@objetoMovimientoCO.Monto</td>
+                <td>@objetoMovimientoCO.NuevoMonto</td>
+                <td>@objetoMovimientoCO.Descripcion</td>
+                <td><a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@objetoMovimientoCO.IdCuentaObjetivo">Regresar</a></td>
+
+
+
+        }
+    </table>
+
+</div> 

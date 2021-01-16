@@ -16,8 +16,9 @@ namespace model.entity
         private decimal monto;
         private decimal nuevoMonto;
         private int idCuentaAhorro;
-        private string numeroCuenta;
+        private string numeroCuentaAhorro;
         private string descripcion;
+        private int numeroCuentaObjetivo;
         
 
 
@@ -27,24 +28,25 @@ namespace model.entity
         {
             this.idMovimientoCo = id;
         }
-        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuenta, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto, string descripcion)
+        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuentaAhorro, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto, string descripcion, int numeroCuentaObjetivo)
         {
             this.idMovimientoCo = id;
             this.idCuentaAhorro = idCuentaAhorro;
             this.idCuentaObjetivo = idCuentaObjetivo;
             this.idTipoMovimientoCo = idTipoMovimientoCo;
-            this.numeroCuenta = pNumeroCuenta;
+            this.numeroCuentaAhorro = pNumeroCuentaAhorro;
             this.fecha = fecha;
             this.tipoMovimientoCo = tipoMovimientoCo;
             this.monto = monto;
             this.nuevoMonto = nuevoMonto;
             this.descripcion = descripcion;
+            this.numeroCuentaObjetivo = numeroCuentaObjetivo;
         }
 
         //Getters and Setters
         public int IdMovimientoCo { get => idMovimientoCo; set => idMovimientoCo = value; }
         public int IdCuentaAhorro { get => idCuentaAhorro; set => idCuentaAhorro = value; }
-        public string NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
+        public string NumeroCuentaAhorro { get => numeroCuentaAhorro; set => numeroCuentaAhorro = value; }
         public int IdTipoMovimientoCo { get => idTipoMovimientoCo; set => idTipoMovimientoCo = value; }
         public int IdCuentaObjetivo { get => idCuentaObjetivo; set => idCuentaObjetivo = value; }
         public DateTime Fecha { get => fecha; set => fecha = value; }
@@ -52,5 +54,6 @@ namespace model.entity
         public decimal Monto { get => monto; set => monto = value; }
         public decimal NuevoMonto { get => nuevoMonto; set => nuevoMonto = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
+        public int NumeroCuentaObjetivo { get => numeroCuentaObjetivo; set => numeroCuentaObjetivo = value; }
     }
 }

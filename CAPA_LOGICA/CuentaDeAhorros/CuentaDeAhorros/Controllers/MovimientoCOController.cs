@@ -23,14 +23,14 @@ namespace CuentaDeAhorros.Controllers
         [HttpGet]
         public ActionResult Inicio(int Id)
         {
-            List<EstadoCuenta> lista = objetoMovimientoCo.findLastStates(Id);
+            List<MovimientoCo> lista = objetoMovimientoCo.buscarMoviminetosCO(Id);
             return View(lista);
         }
 
-        [HttpGet]
-        public ActionResult Create()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public ActionResult Create()
+        //{
+        //    return View();
+        //}
     }
 }

@@ -25,13 +25,6 @@ namespace CuentaDeAhorros.Controllers
 
         }
 
-        [HttpGet]
-        public ActionResult MovimientoCo()
-        {
-            return View();
-        }
-
-
 
 
         [HttpGet]

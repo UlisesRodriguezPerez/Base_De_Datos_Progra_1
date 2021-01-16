@@ -24,7 +24,7 @@ namespace model.dao
             List<MovimientoCo> listaMovimientosCO = new List<MovimientoCo>();
             try
             {
-                comando = new SqlCommand("SPCREAR", objConexion.getConexion());
+                comando = new SqlCommand("SPObtenerMovimientosCO", objConexion.getConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@pIdCuentaObjetivo", id);
                 objConexion.getConexion().Open();
@@ -36,11 +36,12 @@ namespace model.dao
 
                         IdCuentaObjetivo = Convert.ToInt32(read[0].ToString()),
                         IdCuentaAhorro = Convert.ToInt32(read[1].ToString()),
-                        Fecha = Convert.ToDateTime(read[2].ToString()),
-                        Monto = Convert.ToDecimal(read[3].ToString()),
-                        NuevoMonto = Convert.ToDecimal(read[4].ToString()),
-                        Descripcion = read[5].ToString(),
-                        NumeroCuenta = read[6].ToString(),
+                        NumeroCuentaObjetivo = Convert.ToInt32(read[2].ToString()),
+                        Fecha = Convert.ToDateTime(read[3].ToString()),
+                        Monto = Convert.ToDecimal(read[4].ToString()),
+                        NuevoMonto = Convert.ToDecimal(read[5].ToString()),
+                        Descripcion = read[6].ToString(),
+                        NumeroCuentaAhorro = read[7].ToString(),
 
                     };
                     listaMovimientosCO.Add(objetoEstado);
