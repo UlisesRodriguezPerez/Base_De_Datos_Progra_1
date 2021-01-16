@@ -18,8 +18,8 @@ namespace model.dao
         private Conexion()
         {
             //conexion = new SqlConnection("Data Source =amazon-server.cgalpjkz55ag.us-east-1.rds.amazonaws.com; Initial Catalog = BD_TP1_Cuenta_De_Ahorros; Persist Security Info = True; User ID = UlisesRodriguez; Password = BaseAWS2020");
-            //conexion = new SqlConnection("Data Source =DESKTOP-FBGDAQE; Initial Catalog = BD_TP1_Cuenta_De_Ahorros; Integrated Security = True");
-            conexion = new SqlConnection("Data Source =LAPTOP-RHFFFTGS; Initial Catalog = BD_TP1_Cuenta_De_Ahorros; Integrated Security = True");
+            conexion = new SqlConnection("Data Source =DESKTOP-FBGDAQE; Initial Catalog = BD_TP1_Cuenta_De_Ahorros; Integrated Security = True");
+            //conexion = new SqlConnection("Data Source =LAPTOP-RHFFFTGS; Initial Catalog = BD_TP1_Cuenta_De_Ahorros; Integrated Security = True");
         }
 
 
