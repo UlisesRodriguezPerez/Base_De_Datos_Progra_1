@@ -265,6 +265,7 @@
     <Content Include="Views\CuentaObjetivo\Update.cshtml" />
     <Content Include="Views\Movimiento\BuscarCompra.cshtml" />
     <Content Include="Views\MovimientoCO\Inicio.cshtml" />
+    <Content Include="Views\MovimientoCOI\Inicio.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -275,7 +276,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\MovimientoCOI\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
