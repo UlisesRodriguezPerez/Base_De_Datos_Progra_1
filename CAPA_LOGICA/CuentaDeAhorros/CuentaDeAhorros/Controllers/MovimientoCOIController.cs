@@ -23,7 +23,7 @@ namespace CuentaDeAhorros.Controllers
         [HttpGet]
         public ActionResult Inicio(int Id)
         {
-            List<MovimientoCo> lista = objetoMovimientoCOI.buscarMoviminetosCOI(Id);
+            List<MovimientoCOI> lista = objetoMovimientoCOI.buscarMoviminetosCOI(Id);
             return View(lista);
         }
 
