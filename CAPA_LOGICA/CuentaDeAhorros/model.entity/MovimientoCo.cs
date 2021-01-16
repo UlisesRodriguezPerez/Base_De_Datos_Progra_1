@@ -17,6 +17,7 @@ namespace model.entity
         private decimal nuevoMonto;
         private int idCuentaAhorro;
         private string numeroCuenta;
+        private string descripcion;
         
 
 
@@ -26,7 +27,7 @@ namespace model.entity
         {
             this.idMovimientoCo = id;
         }
-        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuenta, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto)
+        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuenta, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto, string descripcion)
         {
             this.idMovimientoCo = id;
             this.idCuentaAhorro = idCuentaAhorro;
@@ -37,6 +38,7 @@ namespace model.entity
             this.tipoMovimientoCo = tipoMovimientoCo;
             this.monto = monto;
             this.nuevoMonto = nuevoMonto;
+            this.descripcion = descripcion;
         }
 
         //Getters and Setters
@@ -49,6 +51,6 @@ namespace model.entity
         public string TipoMovimientoCo { get => tipoMovimientoCo; set => tipoMovimientoCo = value; }
         public decimal Monto { get => monto; set => monto = value; }
         public decimal NuevoMonto { get => nuevoMonto; set => nuevoMonto = value; }
-
+        public string Descripcion { get => descripcion; set => descripcion = value; }
     }
 }
