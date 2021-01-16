@@ -19,6 +19,7 @@ namespace model.entity
         private int numeroCuenta;
         private Boolean activo;
         private int numeroCuentaObjetivo;
+        private int diaDeAhorro;
 
 
         public CuentaObjetivo() { }
@@ -28,7 +29,7 @@ namespace model.entity
             this.idCuentaObjetivo = pIdCuentaObjetivo;
         }
 
-        public CuentaObjetivo(int numeroCuentaObjetivo, int idCuentaAhorro, DateTime fechaInicio, DateTime fechaFinal, string objetivo, decimal saldo, decimal interesAcumulado, int numeroCuenta, bool activo)
+        public CuentaObjetivo(int numeroCuentaObjetivo, int idCuentaAhorro, DateTime fechaInicio, DateTime fechaFinal, string objetivo, decimal saldo, decimal interesAcumulado, int numeroCuenta, bool activo, int diaDeAhorro )
         {
             this.idCuentaAhorro = idCuentaAhorro;
             this.fechaInicio = fechaInicio;
@@ -39,6 +40,7 @@ namespace model.entity
             this.numeroCuenta = numeroCuenta;
             this.activo = activo;
             this.numeroCuentaObjetivo = numeroCuentaObjetivo;
+            this.diaDeAhorro = diaDeAhorro;
         }
 
         public int IdCuentaObjetivo { get => idCuentaObjetivo; set => idCuentaObjetivo = value; }
@@ -51,6 +53,7 @@ namespace model.entity
         public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
         public bool Activo { get => activo; set => activo = value; }
         public int NumeroCuentaObjetivo { get => numeroCuentaObjetivo; set => numeroCuentaObjetivo = value; }
+        public int DiaDeAhorro { get => diaDeAhorro; set => diaDeAhorro = value; }
     }
 
 }

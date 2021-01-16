@@ -15,9 +15,12 @@
         <table class="table">
             <tr class="btn-primary">
                 <th>Numero de Cuenta</th>
+                <th>Númerto CO</th>
                 <th>Objetivo</th>
                 <th>Saldo</th>
-                <th>Interés acumulado</th>
+                @*<th>Interés acumulado</th>*@
+                <th>Fecha final</th>
+                <th>Dia de Ahorro</th>
 
                 <th colspan="6"></th>
             </tr>
@@ -27,16 +30,17 @@
 
         <tr>
             <td>@objetoCuentaObjetivo.NumeroCuenta</td>
+            <td>@objetoCuentaObjetivo.NumeroCuentaObjetivo</td>
             <td>@objetoCuentaObjetivo.Objetivo</td>
             <td>@objetoCuentaObjetivo.Saldo</td>
-            <td>@objetoCuentaObjetivo.InteresAcumulado</td>
-
+            <td>@objetoCuentaObjetivo.FechaFinal</td>
+            <td>@objetoCuentaObjetivo.DiaDeAhorro</td>
 
             <!--  PENDEINTE EL VER  -->
             <td><a class="btn btn-success" href="~/CuentaObjetivo/find/@objetoCuentaObjetivo.IdCuentaObjetivo">Ver</a></td>
             <td><a class="btn btn-primary" href="~/CuentaObjetivo/update/@objetoCuentaObjetivo.IdCuentaObjetivo">Actualizar</a></td>
             <td><a class="btn btn-danger" href="~/CuentaObjetivo/delete/@objetoCuentaObjetivo.IdCuentaObjetivo">Eliminar</a></td>
-            <td><a class="btn btn-success" href="~/MovimientosCuentaObjetivo/MovimientosCuentaObjetivo/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co</a></td>
+            <td><a class="btn btn-success" href="~/CuentaObjetivo/MovimientoCo/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co</a></td>
             <td><a class="btn btn-success" href="~/MovimientosCuentaObjetivo/MovimientosCuentaObjetivoInteres/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co Interés</a></td>
             <td>@*<a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoCuentaObjetivo.IdCuentaAhorro">Regresar</a>*@</td>
 

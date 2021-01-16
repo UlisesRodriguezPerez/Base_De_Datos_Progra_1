@@ -32,7 +32,9 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pObjetivo", objCuentaObjetivo.Objetivo);
                 comando.Parameters.AddWithValue("@pNumeroCuentaObjetivo", objCuentaObjetivo.NumeroCuentaObjetivo);
                 comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
-                comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
+                comando.Parameters.AddWithValue("@pFechaFinal", objCuentaObjetivo.FechaFinal);
+                comando.Parameters.AddWithValue("@pDiaDeAhorro", objCuentaObjetivo.DiaDeAhorro);
+                //comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
 
@@ -90,9 +92,11 @@ namespace model.dao
                     objCuentaObjetivo.FechaInicio = Convert.ToDateTime(read[2].ToString());
                     objCuentaObjetivo.Objetivo = read[3].ToString();
                     objCuentaObjetivo.Saldo = Convert.ToDecimal(read[4].ToString());
-                    objCuentaObjetivo.InteresAcumulado = Convert.ToDecimal(read[5].ToString());
+                    objCuentaObjetivo.FechaFinal = Convert.ToDateTime(read[5].ToString());
+                    //objCuentaObjetivo.InteresAcumulado = Convert.ToDecimal(read[5].ToString());
                     objCuentaObjetivo.NumeroCuenta = Convert.ToInt32(read[6].ToString());
-
+                    objCuentaObjetivo.DiaDeAhorro = Convert.ToInt32(read[7].ToString());
+                    objCuentaObjetivo.NumeroCuentaObjetivo = Convert.ToInt32(read[8].ToString());
 
                 }
             }
@@ -124,7 +128,10 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pNumeroCuentaAhorro", objCuentaObjetivo.NumeroCuenta);
                 comando.Parameters.AddWithValue("@pObjetivo", objCuentaObjetivo.Objetivo);
                 comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
-                comando.Parameters.AddWithValue("@pInteresAcumulado", objCuentaObjetivo.InteresAcumulado);
+                comando.Parameters.AddWithValue("@pFechaFinal", objCuentaObjetivo.FechaFinal);
+                comando.Parameters.AddWithValue("@pDiaDeAhorro", objCuentaObjetivo.DiaDeAhorro);
+                //comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
+                //comando.Parameters.AddWithValue("@pInteresAcumulado", objCuentaObjetivo.InteresAcumulado);
 
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
@@ -162,8 +169,12 @@ namespace model.dao
                         //FechaFinal = Convert.ToDateTime(read[3].ToString()),
                         Objetivo = read[3].ToString(),
                         Saldo = Convert.ToDecimal(read[4].ToString()),
-                        InteresAcumulado = Convert.ToDecimal(read[5].ToString()),
+                        //InteresAcumulado = Convert.ToDecimal(read[5].ToString()),
+                        FechaFinal = Convert.ToDateTime(read[5].ToString()),
+                        
                         NumeroCuenta = Convert.ToInt32(read[6].ToString()),
+                        DiaDeAhorro = Convert.ToInt32(read[7].ToString()),
+                        NumeroCuentaObjetivo = Convert.ToInt32(read[8].ToString()),
                     };
                     listaCuentaObjetivo.Add(objetoCuentaObjetivo);
                 }

@@ -49,11 +49,23 @@
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor(model => model.InteresAcumulado, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                @Html.LabelFor(model => model.FechaFinal, htmlAttributes: new { @class = "control-kabel col-md-2" })
                 <div class="col-md-6">
-                    @Html.EditorFor(model => model.InteresAcumulado, new { htmlAttrbutes = new { @class = "form-control" } })
+                    @Html.EditorFor(model => model.FechaFinal, new { htmlAttrbutes = new { @class = "form-control" } })
                 </div>
             </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.DiaDeAhorro, htmlAttributes: new { @class = "control-kabel col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.DiaDeAhorro, new { htmlAttrbutes = new { @class = "form-control" } })
+                </div>
+            </div>
+            @*<div class="form-group">
+            @Html.LabelFor(model => model.InteresAcumulado, htmlAttributes: new { @class = "control-kabel col-md-2" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.InteresAcumulado, new { htmlAttrbutes = new { @class = "form-control" } })
+            </div>
+        </div>*@
 
             <div class="form-actions col-md-offset-2">
                 <div class="col-md-6">

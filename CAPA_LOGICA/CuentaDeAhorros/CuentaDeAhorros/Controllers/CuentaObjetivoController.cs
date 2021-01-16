@@ -22,8 +22,18 @@ namespace CuentaDeAhorros.Controllers
         {
             List<CuentaObjetivo> lista = objetoCuentaObjetivo.findCuentasObjetivosPorCuenta(Id);
             return View(lista);
-            
+
         }
+
+        [HttpGet]
+        public ActionResult MovimientoCo()
+        {
+            return View();
+        }
+
+
+
+
         [HttpGet]
         public ActionResult Create()
         {
@@ -36,21 +46,21 @@ namespace CuentaDeAhorros.Controllers
             /**
              * Recibe el cuentaObjetivo que va a crear
              */
-            try
-            {
+            //try
+            //{
 
-                objetoCuentaObjetivo.create(objCuentaObjetivo);
-                int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
-                string id = objetoCuentaObjetivo.findIdCA(objCuentaObjetivo);
-                return RedirectToAction("Inicio/"+id);
+            objetoCuentaObjetivo.create(objCuentaObjetivo);
+            int numeroCuenta = objCuentaObjetivo.NumeroCuenta;
+            string id = objetoCuentaObjetivo.findIdCA(objCuentaObjetivo);
+            return RedirectToAction("Inicio/" + id);
 
 
-            }
-            catch
-            {
-                ViewBag.ErrorMessage = "Error al crear la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
-                return View();
-            }
+            //}
+            //catch
+            //{
+            //    ViewBag.ErrorMessage = "Error al crear la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+            //    return View();
+            //}
         }
 
         // GET: CuentaObjetivo/Edit/5
@@ -72,7 +82,7 @@ namespace CuentaDeAhorros.Controllers
                 objCuentaObjetivo.IdCuentaObjetivo = ID;
                 objetoCuentaObjetivo.update(objCuentaObjetivo);
                 string id = objetoCuentaObjetivo.findIdCuenta(objCuentaObjetivo);
-                return RedirectToAction("Inicio/"+id );
+                return RedirectToAction("Inicio/" + id);
             }
             catch
             {
@@ -82,7 +92,7 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: Beneficiarios/Delete/5
-        
+
         public ActionResult Delete(CuentaObjetivo objCuentaObjetivo, int ID)
         {
             try
@@ -103,7 +113,7 @@ namespace CuentaDeAhorros.Controllers
         [HttpGet]
         public ActionResult Find(int Id)
         {
-            
+
             CuentaObjetivo objCuentaObjetivo = new CuentaObjetivo(Id);
             objetoCuentaObjetivo.find(objCuentaObjetivo);
             return View(objCuentaObjetivo);
@@ -136,7 +146,6 @@ namespace CuentaDeAhorros.Controllers
                 return View();
             }
         }
-
 
     }
 }

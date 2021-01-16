@@ -44,6 +44,7 @@
     <Compile Include="Beneficiario.cs" />
     <Compile Include="CuentaObjetivo.cs" />
     <Compile Include="Movimiento.cs" />
+    <Compile Include="MovimientoCo.cs" />
     <Compile Include="TipoParentezco.cs" />
     <Compile Include="CuentaAhorro.cs" />
     <Compile Include="EstadoCuenta.cs" />
