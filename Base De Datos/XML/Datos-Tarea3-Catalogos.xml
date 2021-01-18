@@ -1,4 +1,4 @@
-<Catalogos>
+
     <TipoDoc>
         <TipoDocuIdentidad Id="1" Nombre="Cedula Nacional" />
         <TipoDocuIdentidad Id="2" Nombre="Cedula Residente" />
@@ -8,9 +8,9 @@
         <TipoDocuIdentidad Id="6" Nombre="Cedula Extranjera" />
     </TipoDoc>
     <TipoMoneda>
-        <TipoMoneda Id="1" Nombre="Colones" Simbolo="&#8353;" />
+        <TipoMoneda Id="1" Nombre="Colones" Simbolo="₡" />
         <TipoMoneda Id="2" Nombre="Dolares" Simbolo="$" />
-        <TipoMoneda Id="3" Nombre="Euros" Simbolo="&#8364;" />
+        <TipoMoneda Id="3" Nombre="Euros" Simbolo="€" />
     </TipoMoneda>
     <Parentezcos>
         <Parentezco Id="1" Nombre="Padre" />
@@ -52,4 +52,3 @@
         <TipoEvento Id="5" Nombre="Modificar CO" />
         <TipoEvento Id="6" Nombre="Eliminar (desactivar) CO" />
     </TiposEvento>
-</Catalogos>
