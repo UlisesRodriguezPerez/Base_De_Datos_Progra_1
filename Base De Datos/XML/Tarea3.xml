@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-<?xml version="1.0"?>
 
 <Operaciones>
 
-
-<FechaOperacion Fecha="08-01-2020">
-=======
-
-<Operaciones>
-
-<FechaOperacion Fecha="2020-08-01">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
+<!-- <FechaOperacion Fecha="2020-08-01">
 
 <Persona Telefono2="79769831" Telefono1="80330968" Email="bulbasaur@outlook.com" FechaNacimiento="11-22-1952" ValorDocumentoIdentidad="44730465" Nombre="Bulbasaur" TipoDocuIdentidad="6"/>
 
@@ -49,11 +40,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-02-2020">
-=======
 <FechaOperacion Fecha="2020-08-02">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="86443084" Telefono1="77924567" Email="charmeleon@outlook.com" FechaNacimiento="03-28-1983" ValorDocumentoIdentidad="86922024" Nombre="Charmeleon" TipoDocuIdentidad="1"/>
 
@@ -91,14 +78,10 @@
 
 <Usuario Email="wartortle@gmail.com" ValorDocumentoIdentidad="99436484" EsAdministrador="1" Pass="99436484" User="Wartortle"/>
 
-</FechaOperacion>
+</FechaOperacion> -->
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-03-2020">
-=======
 <FechaOperacion Fecha="2020-08-03">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="83447884" Telefono1="84091036" Email="blastoise@gmail.com" FechaNacimiento="02-22-1960" ValorDocumentoIdentidad="80576424" Nombre="Blastoise" TipoDocuIdentidad="4"/>
 
@@ -137,11 +120,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-04-2020">
-=======
 <FechaOperacion Fecha="2020-08-04">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="85398396" Telefono1="81666732" Email="weedle@gmail.com" FechaNacimiento="03-29-1974" ValorDocumentoIdentidad="1692829" Nombre="Weedle" TipoDocuIdentidad="1"/>
 
@@ -182,11 +161,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-05-2020">
-=======
 <FechaOperacion Fecha="2020-08-05">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80669797" Telefono1="87264450" Email="pidgeotto@yahoo.com" FechaNacimiento="03-07-1980" ValorDocumentoIdentidad="52486794" Nombre="Pidgeotto" TipoDocuIdentidad="2"/>
 
@@ -225,11 +200,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-06-2020">
-=======
 <FechaOperacion Fecha="2020-08-06">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="87325357" Telefono1="79316997" Email="spearow@outlook.com" FechaNacimiento="04-28-1965" ValorDocumentoIdentidad="8387988" Nombre="Spearow" TipoDocuIdentidad="2"/>
 
@@ -268,11 +239,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-07-2020">
-=======
 <FechaOperacion Fecha="2020-08-07">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="88447294" Telefono1="79336095" Email="pikachu@yahoo.com" FechaNacimiento="01-16-1958" ValorDocumentoIdentidad="13162500" Nombre="Pikachu" TipoDocuIdentidad="4"/>
 
@@ -311,11 +278,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-08-2020">
-=======
 <FechaOperacion Fecha="2020-08-08">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="83419886" Telefono1="88811710" Email="nidoran(macho)@outlook.com" FechaNacimiento="03-02-1960" ValorDocumentoIdentidad="3136364" Nombre="Nidoran(macho)" TipoDocuIdentidad="6"/>
 
@@ -354,11 +317,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-09-2020">
-=======
 <FechaOperacion Fecha="2020-08-09">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="85539495" Telefono1="85634678" Email="nidorino@outlook.com" FechaNacimiento="11-01-2002" ValorDocumentoIdentidad="83239027" Nombre="Nidorino" TipoDocuIdentidad="5"/>
 
@@ -397,11 +356,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-10-2020">
-=======
 <FechaOperacion Fecha="2020-08-10">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="83318546" Telefono1="81503310" Email="vulpix@gmail.com" FechaNacimiento="07-14-1968" ValorDocumentoIdentidad="69379825" Nombre="Vulpix" TipoDocuIdentidad="4"/>
 
@@ -442,11 +397,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-11-2020">
-=======
 <FechaOperacion Fecha="2020-08-11">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="88637824" Telefono1="86691504" Email="zubat@gmail.com" FechaNacimiento="09-15-1990" ValorDocumentoIdentidad="60516271" Nombre="Zubat" TipoDocuIdentidad="2"/>
 
@@ -485,11 +436,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-12-2020">
-=======
 <FechaOperacion Fecha="2020-08-12">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="79342284" Telefono1="84821251" Email="vileplume@yahoo.com" FechaNacimiento="06-07-1995" ValorDocumentoIdentidad="39821894" Nombre="Vileplume" TipoDocuIdentidad="1"/>
 
@@ -528,11 +475,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-13-2020">
-=======
 <FechaOperacion Fecha="2020-08-13">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80155504" Telefono1="81590344" Email="venomoth@yahoo.com" FechaNacimiento="07-29-2001" ValorDocumentoIdentidad="83118843" Nombre="Venomoth" TipoDocuIdentidad="6"/>
 
@@ -571,11 +514,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-14-2020">
-=======
 <FechaOperacion Fecha="2020-08-14">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80874709" Telefono1="79377721" Email="persian@yahoo.com" FechaNacimiento="04-13-1965" ValorDocumentoIdentidad="70985248" Nombre="Persian" TipoDocuIdentidad="4"/>
 
@@ -614,11 +553,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-15-2020">
-=======
 <FechaOperacion Fecha="2020-08-15">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80682280" Telefono1="82411128" Email="primeape@hotmail.com" FechaNacimiento="07-12-1957" ValorDocumentoIdentidad="30854652" Nombre="Primeape" TipoDocuIdentidad="6"/>
 
@@ -657,11 +592,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-16-2020">
-=======
 <FechaOperacion Fecha="2020-08-16">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="81424154" Telefono1="82036545" Email="poliwhirl@gmail.com" FechaNacimiento="09-06-1967" ValorDocumentoIdentidad="86018162" Nombre="Poliwhirl" TipoDocuIdentidad="6"/>
 
@@ -702,11 +633,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-17-2020">
-=======
 <FechaOperacion Fecha="2020-08-17">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="78450588" Telefono1="80160322" Email="alakazam@yahoo.com" FechaNacimiento="11-15-1963" ValorDocumentoIdentidad="28402967" Nombre="Alakazam" TipoDocuIdentidad="4"/>
 
@@ -747,11 +674,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-18-2020">
-=======
 <FechaOperacion Fecha="2020-08-18">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80013509" Telefono1="83490986" Email="bellsprout@gmail.com" FechaNacimiento="11-13-1973" ValorDocumentoIdentidad="58175912" Nombre="Bellsprout" TipoDocuIdentidad="1"/>
 
@@ -790,11 +713,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-19-2020">
-=======
 <FechaOperacion Fecha="2020-08-19">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="78152143" Telefono1="80931329" Email="tentacruel@yahoo.com" FechaNacimiento="08-04-1951" ValorDocumentoIdentidad="22820361" Nombre="Tentacruel" TipoDocuIdentidad="3"/>
 
@@ -833,11 +752,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-20-2020">
-=======
 <FechaOperacion Fecha="2020-08-20">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="83145347" Telefono1="86215057" Email="ponyta@outlook.com" FechaNacimiento="11-20-1995" ValorDocumentoIdentidad="19378608" Nombre="Ponyta" TipoDocuIdentidad="1"/>
 
@@ -878,11 +793,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-21-2020">
-=======
 <FechaOperacion Fecha="2020-08-21">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="87562077" Telefono1="86998596" Email="magnemite@hotmail.com" FechaNacimiento="07-08-1998" ValorDocumentoIdentidad="75724503" Nombre="Magnemite" TipoDocuIdentidad="3"/>
 
@@ -923,11 +834,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-22-2020">
-=======
 <FechaOperacion Fecha="2020-08-22">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="82688628" Telefono1="79404129" Email="dodrio@yahoo.com" FechaNacimiento="09-28-1979" ValorDocumentoIdentidad="80371697" Nombre="Dodrio" TipoDocuIdentidad="2"/>
 
@@ -966,11 +873,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-23-2020">
-=======
 <FechaOperacion Fecha="2020-08-23">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="80777922" Telefono1="82269237" Email="muk@yahoo.com" FechaNacimiento="06-10-1950" ValorDocumentoIdentidad="84036851" Nombre="Muk" TipoDocuIdentidad="1"/>
 
@@ -1009,11 +912,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-24-2020">
-=======
 <FechaOperacion Fecha="2020-08-24">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="84544250" Telefono1="81862319" Email="haunter@yahoo.com" FechaNacimiento="08-24-1990" ValorDocumentoIdentidad="83116210" Nombre="Haunter" TipoDocuIdentidad="2"/>
 
@@ -1052,11 +951,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-25-2020">
-=======
 <FechaOperacion Fecha="2020-08-25">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="87251174" Telefono1="79997203" Email="hypno@gmail.com" FechaNacimiento="09-26-1957" ValorDocumentoIdentidad="45654722" Nombre="Hypno" TipoDocuIdentidad="4"/>
 
@@ -1097,11 +992,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-26-2020">
-=======
 <FechaOperacion Fecha="2020-08-26">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="88584372" Telefono1="88741997" Email="electrode@hotmail.com" FechaNacimiento="02-14-1972" ValorDocumentoIdentidad="10822196" Nombre="Electrode" TipoDocuIdentidad="6"/>
 
@@ -1142,11 +1033,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-27-2020">
-=======
 <FechaOperacion Fecha="2020-08-27">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="86241916" Telefono1="80319778" Email="marowak@outlook.com" FechaNacimiento="04-29-1956" ValorDocumentoIdentidad="65044363" Nombre="Marowak" TipoDocuIdentidad="3"/>
 
@@ -1185,11 +1072,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-28-2020">
-=======
 <FechaOperacion Fecha="2020-08-28">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="81204159" Telefono1="79258036" Email="koffing@gmail.com" FechaNacimiento="11-05-1954" ValorDocumentoIdentidad="78707049" Nombre="Koffing" TipoDocuIdentidad="4"/>
 
@@ -1230,11 +1113,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-29-2020">
-=======
 <FechaOperacion Fecha="2020-08-29">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="78548576" Telefono1="77830394" Email="chansey@yahoo.com" FechaNacimiento="04-28-1981" ValorDocumentoIdentidad="37776877" Nombre="Chansey" TipoDocuIdentidad="3"/>
 
@@ -1275,11 +1154,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-30-2020">
-=======
 <FechaOperacion Fecha="2020-08-30">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="81453810" Telefono1="87571090" Email="seadra@outlook.com" FechaNacimiento="03-03-1973" ValorDocumentoIdentidad="94069950" Nombre="Seadra" TipoDocuIdentidad="5"/>
 
@@ -1318,11 +1193,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="08-31-2020">
-=======
 <FechaOperacion Fecha="2020-08-31">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Persona Telefono2="88422932" Telefono1="83930652" Email="starmie@yahoo.com" FechaNacimiento="12-11-1976" ValorDocumentoIdentidad="80234155" Nombre="Starmie" TipoDocuIdentidad="1"/>
 
@@ -1363,11 +1234,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-01-2020">
-=======
 <FechaOperacion Fecha="2020-09-01">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="213503" CodigoCuenta="85339034" Tipo="1"/>
 
@@ -1410,11 +1277,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-02-2020">
-=======
 <FechaOperacion Fecha="2020-09-02">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="50049" CodigoCuenta="15118378" Tipo="3"/>
 
@@ -1457,11 +1320,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-03-2020">
-=======
 <FechaOperacion Fecha="2020-09-03">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="291310" CodigoCuenta="86073678" Tipo="5"/>
 
@@ -1504,11 +1363,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-04-2020">
-=======
 <FechaOperacion Fecha="2020-09-04">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="287271" CodigoCuenta="73735032" Tipo="4"/>
 
@@ -1551,11 +1406,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-05-2020">
-=======
 <FechaOperacion Fecha="2020-09-05">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="353322" CodigoCuenta="64865831" Tipo="1"/>
 
@@ -1598,11 +1449,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-06-2020">
-=======
 <FechaOperacion Fecha="2020-09-06">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="377359" CodigoCuenta="85393790" Tipo="2"/>
 
@@ -1645,11 +1492,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-07-2020">
-=======
 <FechaOperacion Fecha="2020-09-07">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="91552" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -1692,11 +1535,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-08-2020">
-=======
 <FechaOperacion Fecha="2020-09-08">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="452074" CodigoCuenta="64865831" Tipo="6"/>
 
@@ -1739,11 +1578,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-09-2020">
-=======
 <FechaOperacion Fecha="2020-09-09">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="486466" CodigoCuenta="71145252" Tipo="1"/>
 
@@ -1786,11 +1621,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-10-2020">
-=======
 <FechaOperacion Fecha="2020-09-10">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="239583" CodigoCuenta="32666385" Tipo="4"/>
 
@@ -1833,11 +1664,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-11-2020">
-=======
 <FechaOperacion Fecha="2020-09-11">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="411894" CodigoCuenta="58493144" Tipo="2"/>
 
@@ -1880,11 +1707,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-12-2020">
-=======
 <FechaOperacion Fecha="2020-09-12">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="157503" CodigoCuenta="30713560" Tipo="3"/>
 
@@ -1927,11 +1750,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-13-2020">
-=======
 <FechaOperacion Fecha="2020-09-13">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="421480" CodigoCuenta="71145252" Tipo="4"/>
 
@@ -1974,11 +1793,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-14-2020">
-=======
 <FechaOperacion Fecha="2020-09-14">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="427498" CodigoCuenta="56793445" Tipo="5"/>
 
@@ -2021,11 +1836,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-15-2020">
-=======
 <FechaOperacion Fecha="2020-09-15">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="68001" CodigoCuenta="52921997" Tipo="6"/>
 
@@ -2068,11 +1879,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-16-2020">
-=======
 <FechaOperacion Fecha="2020-09-16">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="95170" CodigoCuenta="36349756" Tipo="5"/>
 
@@ -2115,11 +1922,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-17-2020">
-=======
 <FechaOperacion Fecha="2020-09-17">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="108729" CodigoCuenta="30713560" Tipo="3"/>
 
@@ -2162,11 +1965,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-18-2020">
-=======
 <FechaOperacion Fecha="2020-09-18">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="336581" CodigoCuenta="97301515" Tipo="6"/>
 
@@ -2209,11 +2008,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-19-2020">
-=======
 <FechaOperacion Fecha="2020-09-19">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="134977" CodigoCuenta="83253220" Tipo="2"/>
 
@@ -2256,11 +2051,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-20-2020">
-=======
 <FechaOperacion Fecha="2020-09-20">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="140024" CodigoCuenta="58493144" Tipo="4"/>
 
@@ -2303,11 +2094,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-21-2020">
-=======
 <FechaOperacion Fecha="2020-09-21">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="418877" CodigoCuenta="63759760" Tipo="2"/>
 
@@ -2350,11 +2137,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-22-2020">
-=======
 <FechaOperacion Fecha="2020-09-22">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="188545" CodigoCuenta="15118378" Tipo="3"/>
 
@@ -2397,11 +2180,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-23-2020">
-=======
 <FechaOperacion Fecha="2020-09-23">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="453156" CodigoCuenta="22689040" Tipo="6"/>
 
@@ -2444,11 +2223,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-24-2020">
-=======
 <FechaOperacion Fecha="2020-09-24">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="303459" CodigoCuenta="36349756" Tipo="3"/>
 
@@ -2491,11 +2266,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-25-2020">
-=======
 <FechaOperacion Fecha="2020-09-25">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="63784" CodigoCuenta="89045693" Tipo="4"/>
 
@@ -2538,11 +2309,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-26-2020">
-=======
 <FechaOperacion Fecha="2020-09-26">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="256552" CodigoCuenta="97301515" Tipo="5"/>
 
@@ -2585,11 +2352,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-27-2020">
-=======
 <FechaOperacion Fecha="2020-09-27">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="32371" CodigoCuenta="97301515" Tipo="2"/>
 
@@ -2632,11 +2395,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-28-2020">
-=======
 <FechaOperacion Fecha="2020-09-28">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="246920" CodigoCuenta="89045693" Tipo="1"/>
 
@@ -2679,11 +2438,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="09-29-2020">
-=======
 <FechaOperacion Fecha="2020-09-29">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="159089" CodigoCuenta="13699566" Tipo="4"/>
 
@@ -2725,12 +2480,7 @@
 
 </FechaOperacion>
 
-<<<<<<< HEAD
-
-<FechaOperacion Fecha="09-30-2020">
-=======
 <FechaOperacion Fecha="2020-09-30">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="120044" CodigoCuenta="94269013" Tipo="6"/>
 
@@ -2773,11 +2523,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-01-2020">
-=======
 <FechaOperacion Fecha="2020-10-01">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="110274" CodigoCuenta="56793445" Tipo="1"/>
 
@@ -2820,11 +2566,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-02-2020">
-=======
 <FechaOperacion Fecha="2020-10-02">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="108106" CodigoCuenta="32666385" Tipo="3"/>
 
@@ -2867,11 +2609,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-03-2020">
-=======
 <FechaOperacion Fecha="2020-10-03">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="172692" CodigoCuenta="24093199" Tipo="5"/>
 
@@ -2914,11 +2652,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-04-2020">
-=======
 <FechaOperacion Fecha="2020-10-04">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="74382" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -2961,11 +2695,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-05-2020">
-=======
 <FechaOperacion Fecha="2020-10-05">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="132993" CodigoCuenta="13747030" Tipo="4"/>
 
@@ -3008,11 +2738,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-06-2020">
-=======
 <FechaOperacion Fecha="2020-10-06">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="184040" CodigoCuenta="41519945" Tipo="6"/>
 
@@ -3055,11 +2781,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-07-2020">
-=======
 <FechaOperacion Fecha="2020-10-07">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="142072" CodigoCuenta="94269013" Tipo="1"/>
 
@@ -3102,11 +2824,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-08-2020">
-=======
 <FechaOperacion Fecha="2020-10-08">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="328340" CodigoCuenta="82792055" Tipo="3"/>
 
@@ -3149,11 +2867,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-09-2020">
-=======
 <FechaOperacion Fecha="2020-10-09">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="123928" CodigoCuenta="59274731" Tipo="1"/>
 
@@ -3196,11 +2910,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-10-2020">
-=======
 <FechaOperacion Fecha="2020-10-10">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="67311" CodigoCuenta="36349756" Tipo="2"/>
 
@@ -3243,11 +2953,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-11-2020">
-=======
 <FechaOperacion Fecha="2020-10-11">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="36805" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -3290,11 +2996,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-12-2020">
-=======
 <FechaOperacion Fecha="2020-10-12">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="383343" CodigoCuenta="92972525" Tipo="6"/>
 
@@ -3337,11 +3039,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-13-2020">
-=======
 <FechaOperacion Fecha="2020-10-13">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="268687" CodigoCuenta="71145252" Tipo="6"/>
 
@@ -3384,11 +3082,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-14-2020">
-=======
 <FechaOperacion Fecha="2020-10-14">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="194076" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -3431,11 +3125,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-15-2020">
-=======
 <FechaOperacion Fecha="2020-10-15">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="367590" CodigoCuenta="94269013" Tipo="4"/>
 
@@ -3478,11 +3168,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-16-2020">
-=======
 <FechaOperacion Fecha="2020-10-16">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="430912" CodigoCuenta="32666385" Tipo="6"/>
 
@@ -3525,11 +3211,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-17-2020">
-=======
 <FechaOperacion Fecha="2020-10-17">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="326273" CodigoCuenta="97301515" Tipo="5"/>
 
@@ -3572,11 +3254,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-18-2020">
-=======
 <FechaOperacion Fecha="2020-10-18">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="407172" CodigoCuenta="13699566" Tipo="2"/>
 
@@ -3619,11 +3297,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-19-2020">
-=======
 <FechaOperacion Fecha="2020-10-19">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="363100" CodigoCuenta="81851092" Tipo="5"/>
 
@@ -3666,11 +3340,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-20-2020">
-=======
 <FechaOperacion Fecha="2020-10-20">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="335188" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -3713,11 +3383,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-21-2020">
-=======
 <FechaOperacion Fecha="2020-10-21">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="496211" CodigoCuenta="71145252" Tipo="6"/>
 
@@ -3760,11 +3426,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-22-2020">
-=======
 <FechaOperacion Fecha="2020-10-22">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="383094" CodigoCuenta="85339034" Tipo="5"/>
 
@@ -3807,11 +3469,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-23-2020">
-=======
 <FechaOperacion Fecha="2020-10-23">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="370821" CodigoCuenta="97301515" Tipo="2"/>
 
@@ -3854,11 +3512,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-24-2020">
-=======
 <FechaOperacion Fecha="2020-10-24">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="383294" CodigoCuenta="92972525" Tipo="5"/>
 
@@ -3901,11 +3555,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-25-2020">
-=======
 <FechaOperacion Fecha="2020-10-25">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="416512" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -3948,11 +3598,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-26-2020">
-=======
 <FechaOperacion Fecha="2020-10-26">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="289622" CodigoCuenta="94269013" Tipo="4"/>
 
@@ -3995,11 +3641,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-27-2020">
-=======
 <FechaOperacion Fecha="2020-10-27">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="178256" CodigoCuenta="89045693" Tipo="4"/>
 
@@ -4042,11 +3684,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-28-2020">
-=======
 <FechaOperacion Fecha="2020-10-28">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="124347" CodigoCuenta="86073678" Tipo="2"/>
 
@@ -4089,11 +3727,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-29-2020">
-=======
 <FechaOperacion Fecha="2020-10-29">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="352669" CodigoCuenta="71145252" Tipo="3"/>
 
@@ -4136,11 +3770,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-30-2020">
-=======
 <FechaOperacion Fecha="2020-10-30">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="231992" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -4183,11 +3813,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="10-31-2020">
-=======
 <FechaOperacion Fecha="2020-10-31">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="269538" CodigoCuenta="22689040" Tipo="3"/>
 
@@ -4230,11 +3856,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-01-2020">
-=======
 <FechaOperacion Fecha="2020-11-01">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="104183" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -4277,11 +3899,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-02-2020">
-=======
 <FechaOperacion Fecha="2020-11-02">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="240711" CodigoCuenta="86073678" Tipo="3"/>
 
@@ -4324,11 +3942,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-03-2020">
-=======
 <FechaOperacion Fecha="2020-11-03">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="75738" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -4371,11 +3985,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-04-2020">
-=======
 <FechaOperacion Fecha="2020-11-04">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="410247" CodigoCuenta="86073678" Tipo="5"/>
 
@@ -4418,11 +4028,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-05-2020">
-=======
 <FechaOperacion Fecha="2020-11-05">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="187511" CodigoCuenta="58493144" Tipo="4"/>
 
@@ -4465,11 +4071,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-06-2020">
-=======
 <FechaOperacion Fecha="2020-11-06">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="379053" CodigoCuenta="15411425" Tipo="6"/>
 
@@ -4512,11 +4114,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-07-2020">
-=======
 <FechaOperacion Fecha="2020-11-07">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="354972" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -4559,11 +4157,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-08-2020">
-=======
 <FechaOperacion Fecha="2020-11-08">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="139608" CodigoCuenta="71145252" Tipo="3"/>
 
@@ -4606,11 +4200,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-09-2020">
-=======
 <FechaOperacion Fecha="2020-11-09">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="226462" CodigoCuenta="28555668" Tipo="3"/>
 
@@ -4653,11 +4243,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-10-2020">
-=======
 <FechaOperacion Fecha="2020-11-10">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="69488" CodigoCuenta="89045693" Tipo="6"/>
 
@@ -4700,11 +4286,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-11-2020">
-=======
 <FechaOperacion Fecha="2020-11-11">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="48804" CodigoCuenta="86073678" Tipo="3"/>
 
@@ -4747,11 +4329,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-12-2020">
-=======
 <FechaOperacion Fecha="2020-11-12">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="444020" CodigoCuenta="30713560" Tipo="1"/>
 
@@ -4794,11 +4372,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-13-2020">
-=======
 <FechaOperacion Fecha="2020-11-13">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="299175" CodigoCuenta="13747030" Tipo="3"/>
 
@@ -4841,11 +4415,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-14-2020">
-=======
 <FechaOperacion Fecha="2020-11-14">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="409576" CodigoCuenta="36349756" Tipo="5"/>
 
@@ -4888,11 +4458,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-15-2020">
-=======
 <FechaOperacion Fecha="2020-11-15">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="333579" CodigoCuenta="87359138" Tipo="2"/>
 
@@ -4935,11 +4501,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-16-2020">
-=======
 <FechaOperacion Fecha="2020-11-16">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="94036" CodigoCuenta="52921997" Tipo="6"/>
 
@@ -4982,11 +4544,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-17-2020">
-=======
 <FechaOperacion Fecha="2020-11-17">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Compra" Monto="206474" CodigoCuenta="97301515" Tipo="1"/>
 
@@ -5029,11 +4587,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-18-2020">
-=======
 <FechaOperacion Fecha="2020-11-18">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro Ventana" Monto="484738" CodigoCuenta="82792055" Tipo="3"/>
 
@@ -5076,11 +4630,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-19-2020">
-=======
 <FechaOperacion Fecha="2020-11-19">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="81247" CodigoCuenta="13747030" Tipo="6"/>
 
@@ -5123,11 +4673,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-20-2020">
-=======
 <FechaOperacion Fecha="2020-11-20">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="61262" CodigoCuenta="89045693" Tipo="6"/>
 
@@ -5170,11 +4716,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-21-2020">
-=======
 <FechaOperacion Fecha="2020-11-21">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="41756" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -5217,11 +4759,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-22-2020">
-=======
 <FechaOperacion Fecha="2020-11-22">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="289301" CodigoCuenta="52921997" Tipo="2"/>
 
@@ -5264,11 +4802,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-23-2020">
-=======
 <FechaOperacion Fecha="2020-11-23">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="360785" CodigoCuenta="81851092" Tipo="2"/>
 
@@ -5311,11 +4845,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-24-2020">
-=======
 <FechaOperacion Fecha="2020-11-24">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="476685" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -5358,11 +4888,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-25-2020">
-=======
 <FechaOperacion Fecha="2020-11-25">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="13711" CodigoCuenta="15118378" Tipo="5"/>
 
@@ -5405,11 +4931,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-26-2020">
-=======
 <FechaOperacion Fecha="2020-11-26">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="334738" CodigoCuenta="59274731" Tipo="5"/>
 
@@ -5452,11 +4974,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-27-2020">
-=======
 <FechaOperacion Fecha="2020-11-27">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="162331" CodigoCuenta="13699566" Tipo="5"/>
 
@@ -5499,11 +5017,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-28-2020">
-=======
 <FechaOperacion Fecha="2020-11-28">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito Ventana" Monto="359467" CodigoCuenta="59274731" Tipo="5"/>
 
@@ -5546,11 +5060,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-29-2020">
-=======
 <FechaOperacion Fecha="2020-11-29">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="487089" CodigoCuenta="82792055" Tipo="4"/>
 
@@ -5593,11 +5103,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="11-30-2020">
-=======
 <FechaOperacion Fecha="2020-11-30">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Deposito en ATM" Monto="97743" CodigoCuenta="52921997" Tipo="4"/>
 
@@ -5640,11 +5146,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="12-01-2020">
-=======
 <FechaOperacion Fecha="2020-12-01">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Retiro ATM" Monto="343532" CodigoCuenta="85339034" Tipo="2"/>
 
@@ -5687,11 +5189,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="12-02-2020">
-=======
 <FechaOperacion Fecha="2020-12-02">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="413640" CodigoCuenta="58493144" Tipo="6"/>
 
@@ -5734,11 +5232,7 @@
 </FechaOperacion>
 
 
-<<<<<<< HEAD
-<FechaOperacion Fecha="12-03-2020">
-=======
 <FechaOperacion Fecha="2020-12-03">
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="156120" CodigoCuenta="36349756" Tipo="6"/>
 
@@ -5776,1214 +5270,6 @@
 
 <Movimientos Descripcion="Retiro Ventana" Monto="497773" CodigoCuenta="13747030" Tipo="3"/>
 
-<<<<<<< HEAD
-<Movimientos Descripcion="Compra" Monto="290807" CodigoCuenta="85339034" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-04-2020">
-
-<Movimientos Descripcion="Compra" Monto="24041" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="368248" CodigoCuenta="82792055" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="122788" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="22052" CodigoCuenta="82792055" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="26280" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="496888" CodigoCuenta="71145252" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="407375" CodigoCuenta="87359138" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="68015" CodigoCuenta="28555668" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="12511" CodigoCuenta="64865831" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="39333" CodigoCuenta="71145252" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="314130" CodigoCuenta="92972525" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="182291" CodigoCuenta="24093199" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="445937" CodigoCuenta="15118378" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="59864" CodigoCuenta="36349756" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="342371" CodigoCuenta="22689040" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="75278" CodigoCuenta="85393790" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="207081" CodigoCuenta="13699566" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="192774" CodigoCuenta="97301515" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="176017" CodigoCuenta="94269013" Tipo="5"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-05-2020">
-
-<Movimientos Descripcion="Retiro Ventana" Monto="164826" CodigoCuenta="92972525" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="331980" CodigoCuenta="52921997" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="387885" CodigoCuenta="15411425" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="309963" CodigoCuenta="82792055" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="469302" CodigoCuenta="82792055" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="476128" CodigoCuenta="83253220" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="64174" CodigoCuenta="71145252" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="458743" CodigoCuenta="85339034" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="334238" CodigoCuenta="22689040" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="140686" CodigoCuenta="71145252" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="138809" CodigoCuenta="73735032" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="181223" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="469098" CodigoCuenta="85339034" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="359105" CodigoCuenta="24491553" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="399199" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="325729" CodigoCuenta="89045693" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="485526" CodigoCuenta="97301515" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="68593" CodigoCuenta="94269013" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="370378" CodigoCuenta="13699566" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-06-2020">
-
-<Movimientos Descripcion="Compra" Monto="375527" CodigoCuenta="85393790" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="97689" CodigoCuenta="15411425" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="337401" CodigoCuenta="13699566" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="336079" CodigoCuenta="81851092" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="459611" CodigoCuenta="85393790" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="368195" CodigoCuenta="56793445" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="311687" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="465371" CodigoCuenta="32666385" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="147960" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="340863" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="147569" CodigoCuenta="71145252" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="329357" CodigoCuenta="85339034" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="35442" CodigoCuenta="15118378" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="144884" CodigoCuenta="24093199" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="439471" CodigoCuenta="15411425" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="457575" CodigoCuenta="83253220" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="337667" CodigoCuenta="22689040" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="248850" CodigoCuenta="30713560" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="106532" CodigoCuenta="81851092" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-07-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="358289" CodigoCuenta="59274731" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="418694" CodigoCuenta="41519945" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="192990" CodigoCuenta="89045693" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="399581" CodigoCuenta="85339034" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="237382" CodigoCuenta="59274731" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="498403" CodigoCuenta="94269013" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="323774" CodigoCuenta="71145252" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="388059" CodigoCuenta="30713560" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="237102" CodigoCuenta="30713560" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="257679" CodigoCuenta="15411425" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="102894" CodigoCuenta="63759760" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="71424" CodigoCuenta="56793445" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="134644" CodigoCuenta="28555668" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="475366" CodigoCuenta="71145252" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="263326" CodigoCuenta="97301515" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="276846" CodigoCuenta="82792055" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="250058" CodigoCuenta="36349756" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="311866" CodigoCuenta="22689040" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="483763" CodigoCuenta="85339034" Tipo="4"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-08-2020">
-
-<Movimientos Descripcion="Compra" Monto="305243" CodigoCuenta="22689040" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="385858" CodigoCuenta="28555668" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="369170" CodigoCuenta="85393790" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="140621" CodigoCuenta="24491553" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="86532" CodigoCuenta="71145252" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="70699" CodigoCuenta="97301515" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="202286" CodigoCuenta="94269013" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="74444" CodigoCuenta="13699566" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="61243" CodigoCuenta="85393790" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="150043" CodigoCuenta="64865831" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="256630" CodigoCuenta="83253220" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="92620" CodigoCuenta="89045693" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="222626" CodigoCuenta="87359138" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="146895" CodigoCuenta="85339034" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="80402" CodigoCuenta="28555668" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="433471" CodigoCuenta="15411425" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="395627" CodigoCuenta="92972525" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="97549" CodigoCuenta="82792055" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="33920" CodigoCuenta="89045693" Tipo="5"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-09-2020">
-
-<Movimientos Descripcion="Deposito en ATM" Monto="209225" CodigoCuenta="92972525" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="112541" CodigoCuenta="36349756" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="455595" CodigoCuenta="24093199" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="373589" CodigoCuenta="94269013" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="497693" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="166083" CodigoCuenta="85339034" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="196429" CodigoCuenta="52921997" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="332627" CodigoCuenta="87359138" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="482012" CodigoCuenta="82792055" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="182452" CodigoCuenta="41519945" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="413192" CodigoCuenta="81851092" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="208542" CodigoCuenta="52921997" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="385356" CodigoCuenta="73735032" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="213099" CodigoCuenta="85393790" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="312138" CodigoCuenta="82792055" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="423015" CodigoCuenta="81851092" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="90590" CodigoCuenta="87359138" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="224708" CodigoCuenta="82792055" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="216634" CodigoCuenta="89045693" Tipo="2"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-10-2020">
-
-<Movimientos Descripcion="Retiro ATM" Monto="190772" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="214726" CodigoCuenta="71145252" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="368383" CodigoCuenta="15411425" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="484490" CodigoCuenta="58493144" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="195612" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="336101" CodigoCuenta="63759760" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="499638" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="449894" CodigoCuenta="15411425" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="386699" CodigoCuenta="24093199" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="470958" CodigoCuenta="24093199" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="431097" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="273491" CodigoCuenta="83253220" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="153445" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="194831" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="235489" CodigoCuenta="32666385" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="172263" CodigoCuenta="22689040" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="346155" CodigoCuenta="30713560" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="479698" CodigoCuenta="56793445" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="277285" CodigoCuenta="41519945" Tipo="3"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-11-2020">
-
-<Movimientos Descripcion="Retiro Ventana" Monto="403213" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="204988" CodigoCuenta="64865831" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="126338" CodigoCuenta="94269013" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="122161" CodigoCuenta="81851092" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="378181" CodigoCuenta="15118378" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="397460" CodigoCuenta="58493144" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="309101" CodigoCuenta="85393790" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="132541" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="63816" CodigoCuenta="97301515" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="208218" CodigoCuenta="82792055" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="409889" CodigoCuenta="22689040" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="162943" CodigoCuenta="36349756" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="54917" CodigoCuenta="87359138" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="358807" CodigoCuenta="63759760" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="362990" CodigoCuenta="13747030" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="381976" CodigoCuenta="86073678" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="184761" CodigoCuenta="81851092" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="46413" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="472077" CodigoCuenta="63759760" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-12-2020">
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="344157" CodigoCuenta="30713560" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="97739" CodigoCuenta="73735032" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="56561" CodigoCuenta="22689040" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="248551" CodigoCuenta="82792055" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="130803" CodigoCuenta="92972525" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="382069" CodigoCuenta="58493144" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="477615" CodigoCuenta="36349756" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="104942" CodigoCuenta="22689040" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="118782" CodigoCuenta="24093199" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="47887" CodigoCuenta="85393790" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="104038" CodigoCuenta="71145252" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="29044" CodigoCuenta="81851092" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="55388" CodigoCuenta="56793445" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="253703" CodigoCuenta="97301515" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="177147" CodigoCuenta="28555668" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="25540" CodigoCuenta="24491553" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="293119" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="155339" CodigoCuenta="64865831" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="369026" CodigoCuenta="36349756" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-13-2020">
-
-<Movimientos Descripcion="Compra" Monto="310660" CodigoCuenta="22689040" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="183739" CodigoCuenta="15411425" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="444520" CodigoCuenta="94269013" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="48096" CodigoCuenta="85393790" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="219425" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="113469" CodigoCuenta="15118378" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="318289" CodigoCuenta="30713560" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="211389" CodigoCuenta="81851092" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="218732" CodigoCuenta="83253220" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="95294" CodigoCuenta="52921997" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="30397" CodigoCuenta="59274731" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="246771" CodigoCuenta="58493144" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="171737" CodigoCuenta="28555668" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="483835" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="248725" CodigoCuenta="63759760" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="192729" CodigoCuenta="92972525" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="466065" CodigoCuenta="85393790" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="117204" CodigoCuenta="30713560" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="146170" CodigoCuenta="89045693" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-14-2020">
-
-<Movimientos Descripcion="Retiro Ventana" Monto="416641" CodigoCuenta="86073678" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="395503" CodigoCuenta="13699566" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="466812" CodigoCuenta="87359138" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="445595" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="276145" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="391015" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="357422" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="208011" CodigoCuenta="36349756" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="218671" CodigoCuenta="13699566" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="289497" CodigoCuenta="94269013" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="371798" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="307377" CodigoCuenta="13699566" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="29238" CodigoCuenta="86073678" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="224465" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="133724" CodigoCuenta="15411425" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="441443" CodigoCuenta="15118378" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="173280" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="376934" CodigoCuenta="32666385" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="106550" CodigoCuenta="97301515" Tipo="2"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-15-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="384749" CodigoCuenta="36349756" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="496164" CodigoCuenta="64865831" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="350345" CodigoCuenta="13699566" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="225181" CodigoCuenta="64865831" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="362011" CodigoCuenta="15411425" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="417903" CodigoCuenta="41519945" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="480334" CodigoCuenta="41519945" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="308029" CodigoCuenta="81851092" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="67706" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="297211" CodigoCuenta="52921997" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="78966" CodigoCuenta="71145252" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="414965" CodigoCuenta="94269013" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="422582" CodigoCuenta="94269013" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="400956" CodigoCuenta="32666385" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="313893" CodigoCuenta="92972525" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="301661" CodigoCuenta="36349756" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="234878" CodigoCuenta="24093199" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="367376" CodigoCuenta="64865831" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="55648" CodigoCuenta="81851092" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-16-2020">
-
-<Movimientos Descripcion="Compra" Monto="394731" CodigoCuenta="89045693" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="60876" CodigoCuenta="97301515" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="417735" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="236130" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="302305" CodigoCuenta="56793445" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="377911" CodigoCuenta="15411425" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="170929" CodigoCuenta="81851092" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="385975" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="205972" CodigoCuenta="28555668" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="411839" CodigoCuenta="32666385" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="186337" CodigoCuenta="86073678" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="348340" CodigoCuenta="15118378" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="69957" CodigoCuenta="22689040" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="378445" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="160226" CodigoCuenta="13747030" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="425275" CodigoCuenta="71145252" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="179038" CodigoCuenta="86073678" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="63421" CodigoCuenta="81851092" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="468676" CodigoCuenta="94269013" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-17-2020">
-
-<Movimientos Descripcion="Compra" Monto="401918" CodigoCuenta="41519945" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="119482" CodigoCuenta="15118378" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="250904" CodigoCuenta="86073678" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="264386" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="95710" CodigoCuenta="41519945" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="241126" CodigoCuenta="83253220" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="67153" CodigoCuenta="97301515" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="446720" CodigoCuenta="22689040" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="340577" CodigoCuenta="81851092" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="36099" CodigoCuenta="81851092" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="112506" CodigoCuenta="24093199" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="401564" CodigoCuenta="92972525" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="46339" CodigoCuenta="83253220" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="451131" CodigoCuenta="15411425" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="69655" CodigoCuenta="89045693" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="184554" CodigoCuenta="30713560" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="95719" CodigoCuenta="32666385" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="445353" CodigoCuenta="15118378" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="167911" CodigoCuenta="83253220" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-18-2020">
-
-<Movimientos Descripcion="Retiro ATM" Monto="242615" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="421085" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="332597" CodigoCuenta="24491553" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="163985" CodigoCuenta="94269013" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="131780" CodigoCuenta="58493144" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="81582" CodigoCuenta="30713560" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="241189" CodigoCuenta="15118378" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="218246" CodigoCuenta="15411425" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="132780" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="131705" CodigoCuenta="22689040" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="463487" CodigoCuenta="59274731" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="81279" CodigoCuenta="36349756" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="475070" CodigoCuenta="24093199" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="474702" CodigoCuenta="87359138" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="61369" CodigoCuenta="52921997" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="326921" CodigoCuenta="82792055" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="416723" CodigoCuenta="15411425" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="433354" CodigoCuenta="15411425" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="391931" CodigoCuenta="92972525" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-19-2020">
-
-<Movimientos Descripcion="Retiro Ventana" Monto="30791" CodigoCuenta="94269013" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="423230" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="279675" CodigoCuenta="89045693" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="179661" CodigoCuenta="58493144" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="139869" CodigoCuenta="56793445" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="414455" CodigoCuenta="89045693" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="311681" CodigoCuenta="24491553" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="35492" CodigoCuenta="41519945" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="149109" CodigoCuenta="58493144" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="245417" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="172191" CodigoCuenta="63759760" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="339504" CodigoCuenta="56793445" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="238725" CodigoCuenta="52921997" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="269561" CodigoCuenta="13699566" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="296788" CodigoCuenta="15411425" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="201172" CodigoCuenta="92972525" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="46757" CodigoCuenta="36349756" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="211937" CodigoCuenta="13699566" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="321643" CodigoCuenta="82792055" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-20-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="498342" CodigoCuenta="94269013" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="345527" CodigoCuenta="73735032" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="118398" CodigoCuenta="87359138" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="382958" CodigoCuenta="63759760" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="284294" CodigoCuenta="24491553" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="139152" CodigoCuenta="56793445" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="438906" CodigoCuenta="36349756" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="353858" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="450385" CodigoCuenta="13747030" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="85319" CodigoCuenta="83253220" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="316683" CodigoCuenta="24491553" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="332527" CodigoCuenta="56793445" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="79550" CodigoCuenta="85393790" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="423960" CodigoCuenta="59274731" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="343683" CodigoCuenta="24491553" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="469207" CodigoCuenta="89045693" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="12948" CodigoCuenta="13699566" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="386705" CodigoCuenta="82792055" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="211613" CodigoCuenta="71145252" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-21-2020">
-
-<Movimientos Descripcion="Compra" Monto="446718" CodigoCuenta="36349756" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="109918" CodigoCuenta="22689040" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="400547" CodigoCuenta="71145252" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="216438" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="184674" CodigoCuenta="97301515" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="374135" CodigoCuenta="28555668" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="348326" CodigoCuenta="63759760" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="53097" CodigoCuenta="41519945" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="403969" CodigoCuenta="85393790" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="71055" CodigoCuenta="73735032" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="27295" CodigoCuenta="63759760" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="432778" CodigoCuenta="36349756" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="40251" CodigoCuenta="73735032" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="481354" CodigoCuenta="24491553" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="483219" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="340245" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="314716" CodigoCuenta="24093199" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="433971" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="302139" CodigoCuenta="81851092" Tipo="3"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-22-2020">
-
-<Movimientos Descripcion="Compra" Monto="194452" CodigoCuenta="52921997" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="329708" CodigoCuenta="24491553" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="194906" CodigoCuenta="97301515" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="40860" CodigoCuenta="24093199" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="312706" CodigoCuenta="85393790" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="194034" CodigoCuenta="22689040" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="289492" CodigoCuenta="15118378" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="11618" CodigoCuenta="94269013" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="373631" CodigoCuenta="63759760" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="14091" CodigoCuenta="59274731" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="114906" CodigoCuenta="87359138" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="33032" CodigoCuenta="13747030" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="97650" CodigoCuenta="41519945" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="452833" CodigoCuenta="36349756" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="94893" CodigoCuenta="52921997" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="40419" CodigoCuenta="59274731" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="152279" CodigoCuenta="89045693" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="36122" CodigoCuenta="36349756" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="23085" CodigoCuenta="22689040" Tipo="5"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-23-2020">
-
-<Movimientos Descripcion="Retiro ATM" Monto="140354" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="241554" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="20479" CodigoCuenta="15118378" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="14360" CodigoCuenta="36349756" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="431352" CodigoCuenta="85339034" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="169816" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="161424" CodigoCuenta="22689040" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="165368" CodigoCuenta="58493144" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="346857" CodigoCuenta="92972525" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="317072" CodigoCuenta="59274731" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="36610" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="230576" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="378553" CodigoCuenta="28555668" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="440551" CodigoCuenta="73735032" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="160245" CodigoCuenta="36349756" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="372605" CodigoCuenta="13747030" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="124330" CodigoCuenta="85393790" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="208252" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="355123" CodigoCuenta="24491553" Tipo="2"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-24-2020">
-
-<Movimientos Descripcion="Retiro ATM" Monto="321367" CodigoCuenta="64865831" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="218867" CodigoCuenta="24491553" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="296939" CodigoCuenta="56793445" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="24173" CodigoCuenta="97301515" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="290889" CodigoCuenta="41519945" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="442977" CodigoCuenta="86073678" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="241094" CodigoCuenta="64865831" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="441601" CodigoCuenta="41519945" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="435908" CodigoCuenta="63759760" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="412505" CodigoCuenta="85393790" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="256158" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="499286" CodigoCuenta="30713560" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="129639" CodigoCuenta="24093199" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="380393" CodigoCuenta="97301515" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="238789" CodigoCuenta="87359138" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="40270" CodigoCuenta="59274731" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="369835" CodigoCuenta="15411425" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="441018" CodigoCuenta="52921997" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="137598" CodigoCuenta="41519945" Tipo="2"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-25-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="331946" CodigoCuenta="32666385" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="84518" CodigoCuenta="24093199" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="472022" CodigoCuenta="59274731" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="368571" CodigoCuenta="87359138" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="143462" CodigoCuenta="41519945" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="424816" CodigoCuenta="13747030" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="377368" CodigoCuenta="59274731" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="56854" CodigoCuenta="13699566" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="400799" CodigoCuenta="81851092" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="327953" CodigoCuenta="52921997" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="344349" CodigoCuenta="73735032" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="80538" CodigoCuenta="13747030" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="479867" CodigoCuenta="24491553" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="480911" CodigoCuenta="82792055" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="78630" CodigoCuenta="41519945" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="124248" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="472067" CodigoCuenta="87359138" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="104905" CodigoCuenta="30713560" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="165927" CodigoCuenta="24491553" Tipo="4"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-26-2020">
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="490784" CodigoCuenta="97301515" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="196639" CodigoCuenta="83253220" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="421989" CodigoCuenta="92972525" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="35675" CodigoCuenta="82792055" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="38370" CodigoCuenta="73735032" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="314504" CodigoCuenta="86073678" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="323059" CodigoCuenta="58493144" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="28119" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="63494" CodigoCuenta="15411425" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="61325" CodigoCuenta="30713560" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="415288" CodigoCuenta="13747030" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="157354" CodigoCuenta="86073678" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="29832" CodigoCuenta="24093199" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="214143" CodigoCuenta="83253220" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="483358" CodigoCuenta="92972525" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="410765" CodigoCuenta="32666385" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="283669" CodigoCuenta="24491553" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="26161" CodigoCuenta="86073678" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="159702" CodigoCuenta="64865831" Tipo="3"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-27-2020">
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="53743" CodigoCuenta="36349756" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="366767" CodigoCuenta="28555668" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="395850" CodigoCuenta="24093199" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="33348" CodigoCuenta="94269013" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="442271" CodigoCuenta="83253220" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="330194" CodigoCuenta="15411425" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="111772" CodigoCuenta="64865831" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="281054" CodigoCuenta="13699566" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="489991" CodigoCuenta="24491553" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="273807" CodigoCuenta="89045693" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="327290" CodigoCuenta="87359138" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="250295" CodigoCuenta="63759760" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="397028" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="297105" CodigoCuenta="28555668" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="196739" CodigoCuenta="64865831" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="186736" CodigoCuenta="64865831" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="358135" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="85012" CodigoCuenta="87359138" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="430827" CodigoCuenta="32666385" Tipo="3"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-28-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="83154" CodigoCuenta="94269013" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="11560" CodigoCuenta="81851092" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="277645" CodigoCuenta="63759760" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="198316" CodigoCuenta="58493144" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="134359" CodigoCuenta="94269013" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="334781" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="140970" CodigoCuenta="87359138" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="348668" CodigoCuenta="24491553" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="150620" CodigoCuenta="30713560" Tipo="3"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="76711" CodigoCuenta="22689040" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="432047" CodigoCuenta="63759760" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="284299" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="457102" CodigoCuenta="82792055" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="357108" CodigoCuenta="28555668" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="328210" CodigoCuenta="71145252" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="465931" CodigoCuenta="59274731" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="427497" CodigoCuenta="15411425" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="73840" CodigoCuenta="64865831" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="253181" CodigoCuenta="32666385" Tipo="6"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-29-2020">
-
-<Movimientos Descripcion="Compra" Monto="65560" CodigoCuenta="85393790" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="264607" CodigoCuenta="41519945" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="46809" CodigoCuenta="92972525" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="107861" CodigoCuenta="41519945" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="306688" CodigoCuenta="58493144" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="192365" CodigoCuenta="24093199" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="488350" CodigoCuenta="97301515" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="37455" CodigoCuenta="24093199" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="423987" CodigoCuenta="41519945" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="14993" CodigoCuenta="83253220" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="106732" CodigoCuenta="89045693" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="384885" CodigoCuenta="56793445" Tipo="3"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="277280" CodigoCuenta="92972525" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="20503" CodigoCuenta="24093199" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="478017" CodigoCuenta="86073678" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="377622" CodigoCuenta="94269013" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="199075" CodigoCuenta="97301515" Tipo="2"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="426811" CodigoCuenta="22689040" Tipo="5"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="221831" CodigoCuenta="94269013" Tipo="5"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-30-2020">
-
-<Movimientos Descripcion="Deposito Ventana" Monto="80713" CodigoCuenta="85339034" Tipo="5"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="456920" CodigoCuenta="81851092" Tipo="6"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="473014" CodigoCuenta="15118378" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="161029" CodigoCuenta="22689040" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="416598" CodigoCuenta="13747030" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="35563" CodigoCuenta="15118378" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="392214" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="98051" CodigoCuenta="64865831" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="450987" CodigoCuenta="82792055" Tipo="4"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="253125" CodigoCuenta="59274731" Tipo="6"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="326412" CodigoCuenta="85393790" Tipo="3"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="156912" CodigoCuenta="32666385" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="126970" CodigoCuenta="82792055" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="130153" CodigoCuenta="30713560" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="80933" CodigoCuenta="41519945" Tipo="4"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="479213" CodigoCuenta="63759760" Tipo="2"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="474316" CodigoCuenta="13747030" Tipo="2"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="127790" CodigoCuenta="22689040" Tipo="6"/>
-
-<Movimientos Descripcion="Compra" Monto="53670" CodigoCuenta="15411425" Tipo="1"/>
-
-</FechaOperacion>
-
-
-<FechaOperacion Fecha="12-31-2020">
-
-<Movimientos Descripcion="Deposito en ATM" Monto="325928" CodigoCuenta="86073678" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="417578" CodigoCuenta="22689040" Tipo="4"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="240674" CodigoCuenta="24491553" Tipo="5"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="220199" CodigoCuenta="24093199" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="305081" CodigoCuenta="32666385" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="118105" CodigoCuenta="56793445" Tipo="1"/>
-
-<Movimientos Descripcion="Compra" Monto="411350" CodigoCuenta="15118378" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="429251" CodigoCuenta="59274731" Tipo="2"/>
-
-<Movimientos Descripcion="Compra" Monto="406965" CodigoCuenta="63759760" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito en ATM" Monto="356136" CodigoCuenta="87359138" Tipo="4"/>
-
-<Movimientos Descripcion="Compra" Monto="130534" CodigoCuenta="73735032" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro Ventana" Monto="204374" CodigoCuenta="89045693" Tipo="3"/>
-
-<Movimientos Descripcion="Compra" Monto="181764" CodigoCuenta="94269013" Tipo="1"/>
-
-<Movimientos Descripcion="Devolucion de Compra" Monto="139851" CodigoCuenta="63759760" Tipo="6"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="192870" CodigoCuenta="24491553" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="457501" CodigoCuenta="59274731" Tipo="1"/>
-
-<Movimientos Descripcion="Deposito Ventana" Monto="432241" CodigoCuenta="82792055" Tipo="5"/>
-
-<Movimientos Descripcion="Compra" Monto="463971" CodigoCuenta="28555668" Tipo="1"/>
-
-<Movimientos Descripcion="Retiro ATM" Monto="269575" CodigoCuenta="83253220" Tipo="2"/>
-=======
->>>>>>> 1d935e8996949383dbb72e5137b886db1af504b5
 
 </FechaOperacion>
 
