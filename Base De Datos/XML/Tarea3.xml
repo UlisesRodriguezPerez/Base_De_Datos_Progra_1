@@ -50,7 +50,7 @@
 
 <Persona Telefono2="80376969" Telefono1="82297969" Email="wartortle@yahoo.com" FechaNacimiento="04-29-1961" ValorDocumentoIdentidad="99436484" Nombre="Wartortle" TipoDocuIdentidad="6"/>
 
-<UsuarioPuedeVer User="99436484" Cuenta="58493144"/>
+<!-- <UsuarioPuedeVer User="99436484" Cuenta="58493144"/> -->
 
 <Cuenta NumeroCuenta="58493144" TipoCuentaId="2" ValorDocumentoIdentidadDelCliente="99436484"/>
 
