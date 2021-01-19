@@ -1,7 +1,7 @@
 
 <Operaciones>
 
-<FechaOperacion Fecha="2020-08-01">
+<!-- <FechaOperacion Fecha="2020-08-01">
 
 <Persona Telefono2="79769831" Telefono1="80330968" Email="bulbasaur@outlook.com" FechaNacimiento="11-22-1952" ValorDocumentoIdentidad="44730465" Nombre="Bulbasaur" TipoDocuIdentidad="6"/>
 
@@ -78,7 +78,7 @@
 
 <Usuario Email="wartortle@gmail.com" ValorDocumentoIdentidad="99436484" EsAdministrador="1" Pass="99436484" User="Wartortle"/>
 
-</FechaOperacion>
+</FechaOperacion> -->
 
 
 <FechaOperacion Fecha="2020-08-03">
