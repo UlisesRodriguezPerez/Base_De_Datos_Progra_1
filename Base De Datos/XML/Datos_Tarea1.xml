@@ -14,6 +14,7 @@
     <TipoMoneda Id="3" Nombre="Euros" Simbolo="€"/>
   </Tipo_Moneda>
   
+  
   <Parentezcos>
     <Parentezco Id="1" Nombre="Padre"/>
     <Parentezco Id="2" Nombre="Madre"/>
