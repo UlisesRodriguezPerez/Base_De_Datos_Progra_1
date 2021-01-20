@@ -34,6 +34,7 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
                 comando.Parameters.AddWithValue("@pFechaFinal", objCuentaObjetivo.FechaFinal);
                 comando.Parameters.AddWithValue("@pDiaDeAhorro", objCuentaObjetivo.DiaDeAhorro);
+                comando.Parameters.AddWithValue("@pMontoMensual", objCuentaObjetivo.MontoMensual);
                 //comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
                 objConexion.getConexion().Open();
                 comando.ExecuteNonQuery();
@@ -97,6 +98,7 @@ namespace model.dao
                     objCuentaObjetivo.NumeroCuenta = Convert.ToInt32(read[6].ToString());
                     objCuentaObjetivo.DiaDeAhorro = Convert.ToInt32(read[7].ToString());
                     objCuentaObjetivo.NumeroCuentaObjetivo = Convert.ToInt32(read[8].ToString());
+                    objCuentaObjetivo.MontoMensual = Convert.ToDecimal(read[9].ToString());
 
                 }
             }
@@ -130,6 +132,8 @@ namespace model.dao
                 comando.Parameters.AddWithValue("@pSaldo", objCuentaObjetivo.Saldo);
                 comando.Parameters.AddWithValue("@pFechaFinal", objCuentaObjetivo.FechaFinal);
                 comando.Parameters.AddWithValue("@pDiaDeAhorro", objCuentaObjetivo.DiaDeAhorro);
+                comando.Parameters.AddWithValue("@pMontoMensual", objCuentaObjetivo.MontoMensual);
+
                 //comando.Parameters.AddWithValue("@pInteresAcumulado ", objCuentaObjetivo.InteresAcumulado);
                 //comando.Parameters.AddWithValue("@pInteresAcumulado", objCuentaObjetivo.InteresAcumulado);
 
@@ -175,6 +179,7 @@ namespace model.dao
                         NumeroCuenta = Convert.ToInt32(read[6].ToString()),
                         DiaDeAhorro = Convert.ToInt32(read[7].ToString()),
                         NumeroCuentaObjetivo = Convert.ToInt32(read[8].ToString()),
+                        MontoMensual = Convert.ToDecimal(read[9].ToString()),
                     };
                     listaCuentaObjetivo.Add(objetoCuentaObjetivo);
                 }
