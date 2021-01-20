@@ -24,16 +24,16 @@
         </tr>
         @foreach (var objetoMovimientoCOI in Model)
         {
-
-            <td>@objetoMovimientoCOI.NumeroCuentaObjetivo</td>
-            @*<td>@objetoMovimientoCOI.IdCuentaAhorro</td>*@
-            <td>@objetoMovimientoCOI.NumeroCuentaAhorro</td>
-            <td>@objetoMovimientoCOI.Fecha</td>
-            <td>@objetoMovimientoCOI.Monto</td>
-            <td>@objetoMovimientoCOI.NuevoMonto</td>
-            <td>@objetoMovimientoCOI.Descripcion</td>
-            <td><a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@objetoMovimientoCOI.IdCuentaObjetivo">Regresar</a></td>
-
+    <tr>
+        <td>@objetoMovimientoCOI.NumeroCuentaObjetivo</td>
+        @*<td>@objetoMovimientoCOI.IdCuentaAhorro</td>*@
+        <td>@objetoMovimientoCOI.NumeroCuentaAhorro</td>
+        <td>@objetoMovimientoCOI.Fecha</td>
+        <td>@objetoMovimientoCOI.Monto</td>
+        <td>@objetoMovimientoCOI.NuevoMonto</td>
+        <td>@objetoMovimientoCOI.Descripcion</td>
+        <td><a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@objetoMovimientoCOI.IdCuentaObjetivo">Regresar</a></td>
+    </tr>
 
 
         }

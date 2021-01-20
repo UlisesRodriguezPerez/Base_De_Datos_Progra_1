@@ -54,7 +54,7 @@
 
 <Cuenta NumeroCuenta="58493144" TipoCuentaId="2" ValorDocumentoIdentidadDelCliente="99436484"/>
 
-<CuentaAhorro Descripcion="Pociones y Antidotos" FechaFinal="2021-02-02 00:00:00" DiaAhorro="1" MontoAhorro="30000" NumeroCuentaAhorro="71455856" NumeroCuentaPrimaria="58493144"/>
+<CuentaAhorro Descripcion="Pociones y Antidotos" FechaFinal="2020-11-02 00:00:00" DiaAhorro="1" MontoAhorro="30000" NumeroCuentaAhorro="71455856" NumeroCuentaPrimaria="58493144"/>
 
 <Beneficiario NumeroCuenta="58493144" Porcentaje="32" ParentezcoId="6" ValorDocumentoIdentidadBeneficiario="40916618"/>
 

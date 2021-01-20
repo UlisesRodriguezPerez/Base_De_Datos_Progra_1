@@ -21,8 +21,9 @@
                 @*<th>Interés acumulado</th>*@
                 <th>Fecha final</th>
                 <th>Dia de Ahorro</th>
-
-                <th colspan="6"></th>
+                <th>Activo</th>
+                <th>Monto Mensual</th>
+                <th colspan="8"></th>
             </tr>
 
             @foreach (var objetoCuentaObjetivo in Model)
@@ -35,6 +36,8 @@
             <td>@objetoCuentaObjetivo.Saldo</td>
             <td>@objetoCuentaObjetivo.FechaFinal</td>
             <td>@objetoCuentaObjetivo.DiaDeAhorro</td>
+            <td>@objetoCuentaObjetivo.Activo</td>
+            <td>@objetoCuentaObjetivo.MontoMensual</td>
 
             <!--  PENDEINTE EL VER  -->
             <td><a class="btn btn-success" href="~/CuentaObjetivo/find/@objetoCuentaObjetivo.IdCuentaObjetivo">Ver</a></td>

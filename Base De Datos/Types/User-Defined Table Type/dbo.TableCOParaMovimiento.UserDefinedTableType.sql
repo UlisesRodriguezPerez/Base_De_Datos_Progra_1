@@ -1,8 +1,9 @@
 USE [BD_TP1_Cuenta_De_Ahorros]
 GO
 
-/****** Object:  UserDefinedTableType [dbo].[TableCOParaMovimiento]    Script Date: 19/1/2021 15:44:31 ******/
-CREATE TYPE [dbo].[TableCOParaMovimientos] AS TABLE(
+/****** Object:  UserDefinedTableType [dbo].[TableCOParaMovimientos]    Script Date: 19/1/2021 14:19:00 ******/
+CREATE TYPE [dbo].[TableCOParaMovimiento] AS TABLE(
+	
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[idCuentaObjetivo] [int] NULL,
 	[idCuentaAhorro] [int] NULL,
@@ -13,8 +14,7 @@ CREATE TYPE [dbo].[TableCOParaMovimientos] AS TABLE(
 	[saldo] [money] NULL,
 	[diDeAhorro] [int] NULL,
 	[interesAcumulado] [money] NULL,
-	[activo] [bit] NULL,
-	[montoMensual] [money] NULL
+	[activo] [bit] NULL
 )
 
 

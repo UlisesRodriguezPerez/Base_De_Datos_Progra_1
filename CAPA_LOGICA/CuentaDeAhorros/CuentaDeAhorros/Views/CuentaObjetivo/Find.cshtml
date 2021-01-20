@@ -70,6 +70,13 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                @Html.LabelFor(model => model.MontoMensual, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-6">
+                    @Html.DisplayFor(model => model.MontoMensual, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
 
             @*<div class="form-group">
             @Html.LabelFor(model => model.InteresAcumulado, htmlAttributes: new { @class = "control-label col-md-2" })

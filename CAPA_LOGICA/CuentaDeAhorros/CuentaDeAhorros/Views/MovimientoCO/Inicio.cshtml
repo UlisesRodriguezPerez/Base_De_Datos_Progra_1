@@ -10,7 +10,7 @@
 </style>
 
 @Html.Partial("~/Views/Shared/NavBar.cshtml")
-<h3>Movimientos Estados de cuenta</h3>
+<h3>Movimientos Cuenta Objetivo</h3>
 <div class="container-fluid">
     <table class="table">
         <tr class="btn-primary">
@@ -24,7 +24,7 @@
         </tr>
         @foreach (var objetoMovimientoCO in Model)
         {
-
+        <tr>
                 <td>@objetoMovimientoCO.NumeroCuentaObjetivo</td>
                 @*<td>@objetoMovimientoCO.IdCuentaAhorro</td>*@
                 <td>@objetoMovimientoCO.NumeroCuentaAhorro</td>
@@ -34,7 +34,7 @@
                 <td>@objetoMovimientoCO.Descripcion</td>
                 <td><a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@objetoMovimientoCO.IdCuentaObjetivo">Regresar</a></td>
 
-
+                </tr>
 
         }
     </table>
