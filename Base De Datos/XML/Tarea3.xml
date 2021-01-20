@@ -1,7 +1,7 @@
 
 <Operaciones>
 
-<!-- <FechaOperacion Fecha="2020-08-01">
+<FechaOperacion Fecha="2020-08-01">
 
 <Persona Telefono2="79769831" Telefono1="80330968" Email="bulbasaur@outlook.com" FechaNacimiento="11-22-1952" ValorDocumentoIdentidad="44730465" Nombre="Bulbasaur" TipoDocuIdentidad="6"/>
 
@@ -40,7 +40,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-02">
+<FechaOperacion Fecha="08-02-2020">
 
 <Persona Telefono2="86443084" Telefono1="77924567" Email="charmeleon@outlook.com" FechaNacimiento="03-28-1983" ValorDocumentoIdentidad="86922024" Nombre="Charmeleon" TipoDocuIdentidad="1"/>
 
@@ -50,7 +50,7 @@
 
 <Persona Telefono2="80376969" Telefono1="82297969" Email="wartortle@yahoo.com" FechaNacimiento="04-29-1961" ValorDocumentoIdentidad="99436484" Nombre="Wartortle" TipoDocuIdentidad="6"/>
 
-<!-- <UsuarioPuedeVer User="99436484" Cuenta="58493144"/> -->
+<UsuarioPuedeVer User="99436484" Cuenta="58493144"/>
 
 <Cuenta NumeroCuenta="58493144" TipoCuentaId="2" ValorDocumentoIdentidadDelCliente="99436484"/>
 
@@ -78,10 +78,10 @@
 
 <Usuario Email="wartortle@gmail.com" ValorDocumentoIdentidad="99436484" EsAdministrador="1" Pass="99436484" User="Wartortle"/>
 
-</FechaOperacion> -->
+</FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-03">
+<FechaOperacion Fecha="08-03-2020">
 
 <Persona Telefono2="83447884" Telefono1="84091036" Email="blastoise@gmail.com" FechaNacimiento="02-22-1960" ValorDocumentoIdentidad="80576424" Nombre="Blastoise" TipoDocuIdentidad="4"/>
 
@@ -120,7 +120,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-04">
+<FechaOperacion Fecha="08-04-2020">
 
 <Persona Telefono2="85398396" Telefono1="81666732" Email="weedle@gmail.com" FechaNacimiento="03-29-1974" ValorDocumentoIdentidad="1692829" Nombre="Weedle" TipoDocuIdentidad="1"/>
 
@@ -161,7 +161,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-05">
+<FechaOperacion Fecha="08-05-2020">
 
 <Persona Telefono2="80669797" Telefono1="87264450" Email="pidgeotto@yahoo.com" FechaNacimiento="03-07-1980" ValorDocumentoIdentidad="52486794" Nombre="Pidgeotto" TipoDocuIdentidad="2"/>
 
@@ -200,7 +200,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-06">
+<FechaOperacion Fecha="08-06-2020">
 
 <Persona Telefono2="87325357" Telefono1="79316997" Email="spearow@outlook.com" FechaNacimiento="04-28-1965" ValorDocumentoIdentidad="8387988" Nombre="Spearow" TipoDocuIdentidad="2"/>
 
@@ -239,7 +239,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-07">
+<FechaOperacion Fecha="08-07-2020">
 
 <Persona Telefono2="88447294" Telefono1="79336095" Email="pikachu@yahoo.com" FechaNacimiento="01-16-1958" ValorDocumentoIdentidad="13162500" Nombre="Pikachu" TipoDocuIdentidad="4"/>
 
@@ -278,7 +278,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-08">
+<FechaOperacion Fecha="08-08-2020">
 
 <Persona Telefono2="83419886" Telefono1="88811710" Email="nidoran(macho)@outlook.com" FechaNacimiento="03-02-1960" ValorDocumentoIdentidad="3136364" Nombre="Nidoran(macho)" TipoDocuIdentidad="6"/>
 
@@ -317,7 +317,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-09">
+<FechaOperacion Fecha="08-09-2020">
 
 <Persona Telefono2="85539495" Telefono1="85634678" Email="nidorino@outlook.com" FechaNacimiento="11-01-2002" ValorDocumentoIdentidad="83239027" Nombre="Nidorino" TipoDocuIdentidad="5"/>
 
@@ -356,7 +356,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-10">
+<FechaOperacion Fecha="08-10-2020">
 
 <Persona Telefono2="83318546" Telefono1="81503310" Email="vulpix@gmail.com" FechaNacimiento="07-14-1968" ValorDocumentoIdentidad="69379825" Nombre="Vulpix" TipoDocuIdentidad="4"/>
 
@@ -397,7 +397,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-11">
+<FechaOperacion Fecha="08-11-2020">
 
 <Persona Telefono2="88637824" Telefono1="86691504" Email="zubat@gmail.com" FechaNacimiento="09-15-1990" ValorDocumentoIdentidad="60516271" Nombre="Zubat" TipoDocuIdentidad="2"/>
 
@@ -436,7 +436,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-12">
+<FechaOperacion Fecha="08-12-2020">
 
 <Persona Telefono2="79342284" Telefono1="84821251" Email="vileplume@yahoo.com" FechaNacimiento="06-07-1995" ValorDocumentoIdentidad="39821894" Nombre="Vileplume" TipoDocuIdentidad="1"/>
 
@@ -475,7 +475,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-13">
+<FechaOperacion Fecha="08-13-2020">
 
 <Persona Telefono2="80155504" Telefono1="81590344" Email="venomoth@yahoo.com" FechaNacimiento="07-29-2001" ValorDocumentoIdentidad="83118843" Nombre="Venomoth" TipoDocuIdentidad="6"/>
 
@@ -514,7 +514,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-14">
+<FechaOperacion Fecha="08-14-2020">
 
 <Persona Telefono2="80874709" Telefono1="79377721" Email="persian@yahoo.com" FechaNacimiento="04-13-1965" ValorDocumentoIdentidad="70985248" Nombre="Persian" TipoDocuIdentidad="4"/>
 
@@ -553,7 +553,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-15">
+<FechaOperacion Fecha="08-15-2020">
 
 <Persona Telefono2="80682280" Telefono1="82411128" Email="primeape@hotmail.com" FechaNacimiento="07-12-1957" ValorDocumentoIdentidad="30854652" Nombre="Primeape" TipoDocuIdentidad="6"/>
 
@@ -592,7 +592,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-16">
+<FechaOperacion Fecha="08-16-2020">
 
 <Persona Telefono2="81424154" Telefono1="82036545" Email="poliwhirl@gmail.com" FechaNacimiento="09-06-1967" ValorDocumentoIdentidad="86018162" Nombre="Poliwhirl" TipoDocuIdentidad="6"/>
 
@@ -633,7 +633,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-17">
+<FechaOperacion Fecha="08-17-2020">
 
 <Persona Telefono2="78450588" Telefono1="80160322" Email="alakazam@yahoo.com" FechaNacimiento="11-15-1963" ValorDocumentoIdentidad="28402967" Nombre="Alakazam" TipoDocuIdentidad="4"/>
 
@@ -674,7 +674,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-18">
+<FechaOperacion Fecha="08-18-2020">
 
 <Persona Telefono2="80013509" Telefono1="83490986" Email="bellsprout@gmail.com" FechaNacimiento="11-13-1973" ValorDocumentoIdentidad="58175912" Nombre="Bellsprout" TipoDocuIdentidad="1"/>
 
@@ -713,7 +713,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-19">
+<FechaOperacion Fecha="08-19-2020">
 
 <Persona Telefono2="78152143" Telefono1="80931329" Email="tentacruel@yahoo.com" FechaNacimiento="08-04-1951" ValorDocumentoIdentidad="22820361" Nombre="Tentacruel" TipoDocuIdentidad="3"/>
 
@@ -752,7 +752,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-20">
+<FechaOperacion Fecha="08-20-2020">
 
 <Persona Telefono2="83145347" Telefono1="86215057" Email="ponyta@outlook.com" FechaNacimiento="11-20-1995" ValorDocumentoIdentidad="19378608" Nombre="Ponyta" TipoDocuIdentidad="1"/>
 
@@ -793,7 +793,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-21">
+<FechaOperacion Fecha="08-21-2020">
 
 <Persona Telefono2="87562077" Telefono1="86998596" Email="magnemite@hotmail.com" FechaNacimiento="07-08-1998" ValorDocumentoIdentidad="75724503" Nombre="Magnemite" TipoDocuIdentidad="3"/>
 
@@ -834,7 +834,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-22">
+<FechaOperacion Fecha="08-22-2020">
 
 <Persona Telefono2="82688628" Telefono1="79404129" Email="dodrio@yahoo.com" FechaNacimiento="09-28-1979" ValorDocumentoIdentidad="80371697" Nombre="Dodrio" TipoDocuIdentidad="2"/>
 
@@ -873,7 +873,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-23">
+<FechaOperacion Fecha="08-23-2020">
 
 <Persona Telefono2="80777922" Telefono1="82269237" Email="muk@yahoo.com" FechaNacimiento="06-10-1950" ValorDocumentoIdentidad="84036851" Nombre="Muk" TipoDocuIdentidad="1"/>
 
@@ -912,7 +912,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-24">
+<FechaOperacion Fecha="08-24-2020">
 
 <Persona Telefono2="84544250" Telefono1="81862319" Email="haunter@yahoo.com" FechaNacimiento="08-24-1990" ValorDocumentoIdentidad="83116210" Nombre="Haunter" TipoDocuIdentidad="2"/>
 
@@ -951,7 +951,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-25">
+<FechaOperacion Fecha="08-25-2020">
 
 <Persona Telefono2="87251174" Telefono1="79997203" Email="hypno@gmail.com" FechaNacimiento="09-26-1957" ValorDocumentoIdentidad="45654722" Nombre="Hypno" TipoDocuIdentidad="4"/>
 
@@ -992,7 +992,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-26">
+<FechaOperacion Fecha="08-26-2020">
 
 <Persona Telefono2="88584372" Telefono1="88741997" Email="electrode@hotmail.com" FechaNacimiento="02-14-1972" ValorDocumentoIdentidad="10822196" Nombre="Electrode" TipoDocuIdentidad="6"/>
 
@@ -1033,7 +1033,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-27">
+<FechaOperacion Fecha="08-27-2020">
 
 <Persona Telefono2="86241916" Telefono1="80319778" Email="marowak@outlook.com" FechaNacimiento="04-29-1956" ValorDocumentoIdentidad="65044363" Nombre="Marowak" TipoDocuIdentidad="3"/>
 
@@ -1072,7 +1072,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-28">
+<FechaOperacion Fecha="08-28-2020">
 
 <Persona Telefono2="81204159" Telefono1="79258036" Email="koffing@gmail.com" FechaNacimiento="11-05-1954" ValorDocumentoIdentidad="78707049" Nombre="Koffing" TipoDocuIdentidad="4"/>
 
@@ -1113,7 +1113,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-29">
+<FechaOperacion Fecha="08-29-2020">
 
 <Persona Telefono2="78548576" Telefono1="77830394" Email="chansey@yahoo.com" FechaNacimiento="04-28-1981" ValorDocumentoIdentidad="37776877" Nombre="Chansey" TipoDocuIdentidad="3"/>
 
@@ -1154,7 +1154,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-30">
+<FechaOperacion Fecha="08-30-2020">
 
 <Persona Telefono2="81453810" Telefono1="87571090" Email="seadra@outlook.com" FechaNacimiento="03-03-1973" ValorDocumentoIdentidad="94069950" Nombre="Seadra" TipoDocuIdentidad="5"/>
 
@@ -1193,7 +1193,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-08-31">
+<FechaOperacion Fecha="08-31-2020">
 
 <Persona Telefono2="88422932" Telefono1="83930652" Email="starmie@yahoo.com" FechaNacimiento="12-11-1976" ValorDocumentoIdentidad="80234155" Nombre="Starmie" TipoDocuIdentidad="1"/>
 
@@ -1234,7 +1234,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-01">
+<FechaOperacion Fecha="09-01-2020">
 
 <Movimientos Descripcion="Compra" Monto="213503" CodigoCuenta="85339034" Tipo="1"/>
 
@@ -1277,7 +1277,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-02">
+<FechaOperacion Fecha="09-02-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="50049" CodigoCuenta="15118378" Tipo="3"/>
 
@@ -1320,7 +1320,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-03">
+<FechaOperacion Fecha="09-03-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="291310" CodigoCuenta="86073678" Tipo="5"/>
 
@@ -1363,7 +1363,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-04">
+<FechaOperacion Fecha="09-04-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="287271" CodigoCuenta="73735032" Tipo="4"/>
 
@@ -1406,7 +1406,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-05">
+<FechaOperacion Fecha="09-05-2020">
 
 <Movimientos Descripcion="Compra" Monto="353322" CodigoCuenta="64865831" Tipo="1"/>
 
@@ -1449,7 +1449,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-06">
+<FechaOperacion Fecha="09-06-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="377359" CodigoCuenta="85393790" Tipo="2"/>
 
@@ -1492,7 +1492,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-07">
+<FechaOperacion Fecha="09-07-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="91552" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -1535,7 +1535,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-08">
+<FechaOperacion Fecha="09-08-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="452074" CodigoCuenta="64865831" Tipo="6"/>
 
@@ -1578,7 +1578,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-09">
+<FechaOperacion Fecha="09-09-2020">
 
 <Movimientos Descripcion="Compra" Monto="486466" CodigoCuenta="71145252" Tipo="1"/>
 
@@ -1621,7 +1621,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-10">
+<FechaOperacion Fecha="09-10-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="239583" CodigoCuenta="32666385" Tipo="4"/>
 
@@ -1664,7 +1664,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-11">
+<FechaOperacion Fecha="09-11-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="411894" CodigoCuenta="58493144" Tipo="2"/>
 
@@ -1707,7 +1707,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-12">
+<FechaOperacion Fecha="09-12-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="157503" CodigoCuenta="30713560" Tipo="3"/>
 
@@ -1750,7 +1750,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-13">
+<FechaOperacion Fecha="09-13-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="421480" CodigoCuenta="71145252" Tipo="4"/>
 
@@ -1793,7 +1793,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-14">
+<FechaOperacion Fecha="09-14-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="427498" CodigoCuenta="56793445" Tipo="5"/>
 
@@ -1836,7 +1836,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-15">
+<FechaOperacion Fecha="09-15-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="68001" CodigoCuenta="52921997" Tipo="6"/>
 
@@ -1879,7 +1879,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-16">
+<FechaOperacion Fecha="09-16-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="95170" CodigoCuenta="36349756" Tipo="5"/>
 
@@ -1922,7 +1922,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-17">
+<FechaOperacion Fecha="09-17-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="108729" CodigoCuenta="30713560" Tipo="3"/>
 
@@ -1965,7 +1965,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-18">
+<FechaOperacion Fecha="09-18-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="336581" CodigoCuenta="97301515" Tipo="6"/>
 
@@ -2008,7 +2008,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-19">
+<FechaOperacion Fecha="09-19-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="134977" CodigoCuenta="83253220" Tipo="2"/>
 
@@ -2051,7 +2051,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-20">
+<FechaOperacion Fecha="09-20-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="140024" CodigoCuenta="58493144" Tipo="4"/>
 
@@ -2094,7 +2094,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-21">
+<FechaOperacion Fecha="09-21-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="418877" CodigoCuenta="63759760" Tipo="2"/>
 
@@ -2137,7 +2137,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-22">
+<FechaOperacion Fecha="09-22-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="188545" CodigoCuenta="15118378" Tipo="3"/>
 
@@ -2180,7 +2180,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-23">
+<FechaOperacion Fecha="09-23-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="453156" CodigoCuenta="22689040" Tipo="6"/>
 
@@ -2223,7 +2223,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-24">
+<FechaOperacion Fecha="09-24-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="303459" CodigoCuenta="36349756" Tipo="3"/>
 
@@ -2266,7 +2266,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-25">
+<FechaOperacion Fecha="09-25-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="63784" CodigoCuenta="89045693" Tipo="4"/>
 
@@ -2309,7 +2309,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-26">
+<FechaOperacion Fecha="09-26-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="256552" CodigoCuenta="97301515" Tipo="5"/>
 
@@ -2352,7 +2352,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-27">
+<FechaOperacion Fecha="09-27-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="32371" CodigoCuenta="97301515" Tipo="2"/>
 
@@ -2395,7 +2395,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-28">
+<FechaOperacion Fecha="09-28-2020">
 
 <Movimientos Descripcion="Compra" Monto="246920" CodigoCuenta="89045693" Tipo="1"/>
 
@@ -2438,7 +2438,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-09-29">
+<FechaOperacion Fecha="09-29-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="159089" CodigoCuenta="13699566" Tipo="4"/>
 
@@ -2480,7 +2480,8 @@
 
 </FechaOperacion>
 
-<FechaOperacion Fecha="2020-09-30">
+<!-- JOSUÉ -->
+<FechaOperacion Fecha="09-30-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="120044" CodigoCuenta="94269013" Tipo="6"/>
 
@@ -2523,7 +2524,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-01">
+<FechaOperacion Fecha="10-01-2020">
 
 <Movimientos Descripcion="Compra" Monto="110274" CodigoCuenta="56793445" Tipo="1"/>
 
@@ -2566,7 +2567,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-02">
+<FechaOperacion Fecha="10-02-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="108106" CodigoCuenta="32666385" Tipo="3"/>
 
@@ -2609,7 +2610,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-03">
+<FechaOperacion Fecha="10-03-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="172692" CodigoCuenta="24093199" Tipo="5"/>
 
@@ -2652,7 +2653,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-04">
+<FechaOperacion Fecha="10-04-2020">
 
 <Movimientos Descripcion="Compra" Monto="74382" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -2695,7 +2696,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-05">
+<FechaOperacion Fecha="10-05-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="132993" CodigoCuenta="13747030" Tipo="4"/>
 
@@ -2738,7 +2739,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-06">
+<FechaOperacion Fecha="10-06-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="184040" CodigoCuenta="41519945" Tipo="6"/>
 
@@ -2781,7 +2782,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-07">
+<FechaOperacion Fecha="10-07-2020">
 
 <Movimientos Descripcion="Compra" Monto="142072" CodigoCuenta="94269013" Tipo="1"/>
 
@@ -2824,7 +2825,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-08">
+<FechaOperacion Fecha="10-08-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="328340" CodigoCuenta="82792055" Tipo="3"/>
 
@@ -2867,7 +2868,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-09">
+<FechaOperacion Fecha="10-09-2020">
 
 <Movimientos Descripcion="Compra" Monto="123928" CodigoCuenta="59274731" Tipo="1"/>
 
@@ -2910,7 +2911,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-10">
+<FechaOperacion Fecha="10-10-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="67311" CodigoCuenta="36349756" Tipo="2"/>
 
@@ -2953,7 +2954,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-11">
+<FechaOperacion Fecha="10-11-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="36805" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -2996,7 +2997,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-12">
+<FechaOperacion Fecha="10-12-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="383343" CodigoCuenta="92972525" Tipo="6"/>
 
@@ -3039,7 +3040,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-13">
+<FechaOperacion Fecha="10-13-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="268687" CodigoCuenta="71145252" Tipo="6"/>
 
@@ -3082,7 +3083,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-14">
+<FechaOperacion Fecha="10-14-2020">
 
 <Movimientos Descripcion="Compra" Monto="194076" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -3125,7 +3126,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-15">
+<FechaOperacion Fecha="10-15-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="367590" CodigoCuenta="94269013" Tipo="4"/>
 
@@ -3168,7 +3169,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-16">
+<FechaOperacion Fecha="10-16-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="430912" CodigoCuenta="32666385" Tipo="6"/>
 
@@ -3211,7 +3212,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-17">
+<FechaOperacion Fecha="10-17-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="326273" CodigoCuenta="97301515" Tipo="5"/>
 
@@ -3254,7 +3255,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-18">
+<FechaOperacion Fecha="10-18-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="407172" CodigoCuenta="13699566" Tipo="2"/>
 
@@ -3297,7 +3298,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-19">
+<FechaOperacion Fecha="10-19-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="363100" CodigoCuenta="81851092" Tipo="5"/>
 
@@ -3340,7 +3341,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-20">
+<FechaOperacion Fecha="10-20-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="335188" CodigoCuenta="64865831" Tipo="3"/>
 
@@ -3383,7 +3384,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-21">
+<FechaOperacion Fecha="10-21-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="496211" CodigoCuenta="71145252" Tipo="6"/>
 
@@ -3426,7 +3427,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-22">
+<FechaOperacion Fecha="10-22-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="383094" CodigoCuenta="85339034" Tipo="5"/>
 
@@ -3469,7 +3470,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-23">
+<FechaOperacion Fecha="10-23-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="370821" CodigoCuenta="97301515" Tipo="2"/>
 
@@ -3512,7 +3513,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-24">
+<FechaOperacion Fecha="10-24-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="383294" CodigoCuenta="92972525" Tipo="5"/>
 
@@ -3555,7 +3556,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-25">
+<FechaOperacion Fecha="10-25-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="416512" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -3598,7 +3599,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-26">
+<FechaOperacion Fecha="10-26-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="289622" CodigoCuenta="94269013" Tipo="4"/>
 
@@ -3641,7 +3642,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-27">
+<FechaOperacion Fecha="10-27-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="178256" CodigoCuenta="89045693" Tipo="4"/>
 
@@ -3684,7 +3685,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-28">
+<FechaOperacion Fecha="10-28-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="124347" CodigoCuenta="86073678" Tipo="2"/>
 
@@ -3727,7 +3728,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-29">
+<FechaOperacion Fecha="10-29-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="352669" CodigoCuenta="71145252" Tipo="3"/>
 
@@ -3770,7 +3771,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-30">
+<FechaOperacion Fecha="10-30-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="231992" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -3813,7 +3814,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-10-31">
+<FechaOperacion Fecha="10-31-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="269538" CodigoCuenta="22689040" Tipo="3"/>
 
@@ -3856,7 +3857,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-01">
+<FechaOperacion Fecha="11-01-2020">
 
 <Movimientos Descripcion="Compra" Monto="104183" CodigoCuenta="81851092" Tipo="1"/>
 
@@ -3899,7 +3900,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-02">
+<FechaOperacion Fecha="11-02-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="240711" CodigoCuenta="86073678" Tipo="3"/>
 
@@ -3942,7 +3943,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-03">
+<FechaOperacion Fecha="11-03-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="75738" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -3985,7 +3986,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-04">
+<FechaOperacion Fecha="11-04-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="410247" CodigoCuenta="86073678" Tipo="5"/>
 
@@ -4028,7 +4029,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-05">
+<FechaOperacion Fecha="11-05-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="187511" CodigoCuenta="58493144" Tipo="4"/>
 
@@ -4071,7 +4072,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-06">
+<FechaOperacion Fecha="11-06-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="379053" CodigoCuenta="15411425" Tipo="6"/>
 
@@ -4114,7 +4115,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-07">
+<FechaOperacion Fecha="11-07-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="354972" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -4157,7 +4158,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-08">
+<FechaOperacion Fecha="11-08-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="139608" CodigoCuenta="71145252" Tipo="3"/>
 
@@ -4200,7 +4201,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-09">
+<FechaOperacion Fecha="11-09-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="226462" CodigoCuenta="28555668" Tipo="3"/>
 
@@ -4243,7 +4244,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-10">
+<FechaOperacion Fecha="11-10-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="69488" CodigoCuenta="89045693" Tipo="6"/>
 
@@ -4286,7 +4287,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-11">
+<FechaOperacion Fecha="11-11-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="48804" CodigoCuenta="86073678" Tipo="3"/>
 
@@ -4329,7 +4330,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-12">
+<FechaOperacion Fecha="11-12-2020">
 
 <Movimientos Descripcion="Compra" Monto="444020" CodigoCuenta="30713560" Tipo="1"/>
 
@@ -4372,7 +4373,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-13">
+<FechaOperacion Fecha="11-13-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="299175" CodigoCuenta="13747030" Tipo="3"/>
 
@@ -4415,7 +4416,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-14">
+<FechaOperacion Fecha="11-14-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="409576" CodigoCuenta="36349756" Tipo="5"/>
 
@@ -4458,7 +4459,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-15">
+<FechaOperacion Fecha="11-15-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="333579" CodigoCuenta="87359138" Tipo="2"/>
 
@@ -4501,7 +4502,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-16">
+<FechaOperacion Fecha="11-16-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="94036" CodigoCuenta="52921997" Tipo="6"/>
 
@@ -4544,7 +4545,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-17">
+<FechaOperacion Fecha="11-17-2020">
 
 <Movimientos Descripcion="Compra" Monto="206474" CodigoCuenta="97301515" Tipo="1"/>
 
@@ -4587,7 +4588,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-18">
+<FechaOperacion Fecha="11-18-2020">
 
 <Movimientos Descripcion="Retiro Ventana" Monto="484738" CodigoCuenta="82792055" Tipo="3"/>
 
@@ -4630,7 +4631,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-19">
+<FechaOperacion Fecha="11-19-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="81247" CodigoCuenta="13747030" Tipo="6"/>
 
@@ -4673,7 +4674,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-20">
+<FechaOperacion Fecha="11-20-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="61262" CodigoCuenta="89045693" Tipo="6"/>
 
@@ -4716,7 +4717,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-21">
+<FechaOperacion Fecha="11-21-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="41756" CodigoCuenta="59274731" Tipo="6"/>
 
@@ -4759,7 +4760,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-22">
+<FechaOperacion Fecha="11-22-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="289301" CodigoCuenta="52921997" Tipo="2"/>
 
@@ -4802,7 +4803,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-23">
+<FechaOperacion Fecha="11-23-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="360785" CodigoCuenta="81851092" Tipo="2"/>
 
@@ -4845,7 +4846,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-24">
+<FechaOperacion Fecha="11-24-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="476685" CodigoCuenta="83253220" Tipo="4"/>
 
@@ -4888,7 +4889,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-25">
+<FechaOperacion Fecha="11-25-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="13711" CodigoCuenta="15118378" Tipo="5"/>
 
@@ -4931,7 +4932,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-26">
+<FechaOperacion Fecha="11-26-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="334738" CodigoCuenta="59274731" Tipo="5"/>
 
@@ -4974,7 +4975,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-27">
+<FechaOperacion Fecha="11-27-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="162331" CodigoCuenta="13699566" Tipo="5"/>
 
@@ -5017,7 +5018,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-28">
+<FechaOperacion Fecha="11-28-2020">
 
 <Movimientos Descripcion="Deposito Ventana" Monto="359467" CodigoCuenta="59274731" Tipo="5"/>
 
@@ -5060,7 +5061,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-29">
+<FechaOperacion Fecha="11-29-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="487089" CodigoCuenta="82792055" Tipo="4"/>
 
@@ -5103,7 +5104,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-11-30">
+<FechaOperacion Fecha="11-30-2020">
 
 <Movimientos Descripcion="Deposito en ATM" Monto="97743" CodigoCuenta="52921997" Tipo="4"/>
 
@@ -5146,7 +5147,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-12-01">
+<FechaOperacion Fecha="12-01-2020">
 
 <Movimientos Descripcion="Retiro ATM" Monto="343532" CodigoCuenta="85339034" Tipo="2"/>
 
@@ -5189,7 +5190,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-12-02">
+<FechaOperacion Fecha="12-02-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="413640" CodigoCuenta="58493144" Tipo="6"/>
 
@@ -5232,7 +5233,7 @@
 </FechaOperacion>
 
 
-<FechaOperacion Fecha="2020-12-03">
+<FechaOperacion Fecha="12-03-2020">
 
 <Movimientos Descripcion="Devolucion de Compra" Monto="156120" CodigoCuenta="36349756" Tipo="6"/>
 
