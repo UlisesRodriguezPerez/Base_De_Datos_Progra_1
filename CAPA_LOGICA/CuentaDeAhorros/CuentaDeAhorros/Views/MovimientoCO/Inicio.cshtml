@@ -24,7 +24,7 @@
         </tr>
         @foreach (var objetoMovimientoCO in Model)
         {
-
+        <tr>
                 <td>@objetoMovimientoCO.NumeroCuentaObjetivo</td>
                 @*<td>@objetoMovimientoCO.IdCuentaAhorro</td>*@
                 <td>@objetoMovimientoCO.NumeroCuentaAhorro</td>
@@ -34,7 +34,7 @@
                 <td>@objetoMovimientoCO.Descripcion</td>
                 <td><a class="btn btn-outline-primary" href="~/CuentaObjetivo/Inicio/@objetoMovimientoCO.IdCuentaObjetivo">Regresar</a></td>
 
-
+                </tr>
 
         }
     </table>

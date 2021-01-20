@@ -1,7 +1,7 @@
 
 <Operaciones>
 
-<!-- <FechaOperacion Fecha="2020-08-01">
+<FechaOperacion Fecha="2020-08-01">
 
 <Persona Telefono2="79769831" Telefono1="80330968" Email="bulbasaur@outlook.com" FechaNacimiento="11-22-1952" ValorDocumentoIdentidad="44730465" Nombre="Bulbasaur" TipoDocuIdentidad="6"/>
 
@@ -50,11 +50,11 @@
 
 <Persona Telefono2="80376969" Telefono1="82297969" Email="wartortle@yahoo.com" FechaNacimiento="04-29-1961" ValorDocumentoIdentidad="99436484" Nombre="Wartortle" TipoDocuIdentidad="6"/>
 
-<!-- <UsuarioPuedeVer User="99436484" Cuenta="58493144"/> -->
+<UsuarioPuedeVer User="99436484" Cuenta="58493144"/>
 
 <Cuenta NumeroCuenta="58493144" TipoCuentaId="2" ValorDocumentoIdentidadDelCliente="99436484"/>
 
-<CuentaAhorro Descripcion="Pociones y Antidotos" FechaFinal="2021-02-02 00:00:00" DiaAhorro="1" MontoAhorro="30000" NumeroCuentaAhorro="71455856" NumeroCuentaPrimaria="58493144"/>
+<CuentaAhorro Descripcion="Pociones y Antidotos" FechaFinal="2020-11-02 00:00:00" DiaAhorro="1" MontoAhorro="30000" NumeroCuentaAhorro="71455856" NumeroCuentaPrimaria="58493144"/>
 
 <Beneficiario NumeroCuenta="58493144" Porcentaje="32" ParentezcoId="6" ValorDocumentoIdentidadBeneficiario="40916618"/>
 
