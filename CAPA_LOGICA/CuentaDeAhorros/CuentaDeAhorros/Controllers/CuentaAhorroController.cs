@@ -16,7 +16,7 @@ namespace CuentaDeAhorros.Controllers
         }
 
         // GET: CuentaAhorro
-        public ActionResult Inicio(string nombre)
+        public ActionResult Inicio()
         {
             List<CuentaAhorro> lista = objetoCuentaAhorro.findAll();
             //objetoCuentaAhorro.Name = nombre;

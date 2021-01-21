@@ -25,7 +25,12 @@ namespace CuentaDeAhorros.Controllers
 
         }
 
+        public ActionResult InicioAdmin(int Id)
+        {
+            List<CuentaObjetivo> lista = objetoCuentaObjetivo.findCuentasObjetivosPorCuenta(Id);
+            return View(lista);
 
+        }
 
         [HttpGet]
         public ActionResult Create()
@@ -114,6 +119,29 @@ namespace CuentaDeAhorros.Controllers
 
         [HttpPost]
         public ActionResult Find(string ID)
+        {
+            try
+            {
+                return RedirectToAction("Inicio" + ID);
+            }
+            catch
+            {
+                ViewBag.ErrorMessage = "Error al buscar la cuenta objetivo, para ver el error consulta la tabla de manejo de errores en la Base de datos";
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public ActionResult FindAdmin(int Id)
+        {
+
+            CuentaObjetivo objCuentaObjetivo = new CuentaObjetivo(Id);
+            objetoCuentaObjetivo.findAdmin(objCuentaObjetivo);
+            return View(objCuentaObjetivo);
+        }
+
+        [HttpPost]
+        public ActionResult FindAdmin(string ID)
         {
             try
             {

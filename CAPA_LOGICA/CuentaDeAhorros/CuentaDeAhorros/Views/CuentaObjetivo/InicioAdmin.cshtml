@@ -1,0 +1,60 @@
+﻿@model List<model.entity.CuentaObjetivo>
+@{
+    ViewBag.Title = "Inicio";
+}
+
+
+
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+
+<div class="container-fluid">
+    <h3>Cuentas Objetivo </h3>
+    <div>
+        <a class="btn btn-primary" href="~/CuentaObjetivo/Create">Agregar Nueva Cuenta Objetivo</a>
+    </div>
+    <table class="table">
+        <tr class="btn-primary">
+            <th>Numero de Cuenta</th>
+            <th>Númerto CO</th>
+            <th>Objetivo</th>
+            <th>Saldo</th>
+            @*<th>Interés acumulado</th>*@
+            <th>Fecha final</th>
+            <th>Dia de Ahorro</th>
+            <th>Activo</th>
+            <th>Monto Mensual</th>
+            <th colspan="8"></th>
+        </tr>
+
+        @foreach (var objetoCuentaObjetivo in Model)
+        {
+
+    <tr>
+        <td>@objetoCuentaObjetivo.NumeroCuenta</td>
+        <td>@objetoCuentaObjetivo.NumeroCuentaObjetivo</td>
+        <td>@objetoCuentaObjetivo.Objetivo</td>
+        <td>@objetoCuentaObjetivo.Saldo</td>
+        <td>@objetoCuentaObjetivo.FechaFinal</td>
+        <td>@objetoCuentaObjetivo.DiaDeAhorro</td>
+        <td>@objetoCuentaObjetivo.Activo</td>
+        <td>@objetoCuentaObjetivo.MontoMensual</td>
+
+        <!--  PENDEINTE EL VER  -->
+        <td><a class="btn btn-success" href="~/CuentaObjetivo/findAdmin/@objetoCuentaObjetivo.IdCuentaObjetivo">Ver</a></td>
+        <td><a class="btn btn-primary" href="~/CuentaObjetivo/update/@objetoCuentaObjetivo.IdCuentaObjetivo">Actualizar</a></td>
+
+        <td><a class="btn btn-success" href="~/MovimientoCO/InicioAdmin/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co</a></td>
+        <td><a class="btn btn-success" href="~/MovimientoCOI/InicioAdmin/@objetoCuentaObjetivo.IdCuentaObjetivo">Movimientos Co Interés</a></td>
+        <td><a class="btn btn-success" href="~/CuentaAhorro/Inicio/">Regresar</a></td>
+        <td>@*<a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoCuentaObjetivo.IdCuentaAhorro">Regresar</a>*@</td>
+
+    </tr>
+        }
+
+
+    </table>
+
+</div>
+<p>@ViewBag.ErrorMessage</p>
+
+

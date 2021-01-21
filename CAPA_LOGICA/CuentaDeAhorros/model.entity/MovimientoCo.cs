@@ -19,6 +19,7 @@ namespace model.entity
         private string numeroCuentaAhorro;
         private string descripcion;
         private int numeroCuentaObjetivo;
+        private bool esProcesada;
         
 
 
@@ -28,7 +29,7 @@ namespace model.entity
         {
             this.idMovimientoCo = id;
         }
-        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuentaAhorro, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto, string descripcion, int numeroCuentaObjetivo)
+        public MovimientoCo(int id, int idCuentaObjetivo, int idCuentaAhorro, int idTipoMovimientoCo, string pNumeroCuentaAhorro, DateTime fecha, string tipoMovimientoCo, decimal monto, decimal nuevoMonto, string descripcion, int numeroCuentaObjetivo, bool esProcesada)
         {
             this.idMovimientoCo = id;
             this.idCuentaAhorro = idCuentaAhorro;
@@ -41,6 +42,7 @@ namespace model.entity
             this.nuevoMonto = nuevoMonto;
             this.descripcion = descripcion;
             this.numeroCuentaObjetivo = numeroCuentaObjetivo;
+            this.esProcesada = esProcesada;
         }
 
         //Getters and Setters
@@ -55,5 +57,6 @@ namespace model.entity
         public decimal NuevoMonto { get => nuevoMonto; set => nuevoMonto = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public int NumeroCuentaObjetivo { get => numeroCuentaObjetivo; set => numeroCuentaObjetivo = value; }
+        public bool EsProcesada { get => esProcesada; set => esProcesada = value; }
     }
 }

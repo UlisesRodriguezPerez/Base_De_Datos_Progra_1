@@ -135,7 +135,47 @@ namespace model.dao
             return listaCuentaAhorro;
         }
 
+        public List<CuentaAhorro> findAllCuentaAhorro(int id)
+        {
+            List<CuentaAhorro> listaCuentaAhorro = new List<CuentaAhorro>();
+            List<int> listaid = new List<int>();
+            try
+            {
+                comando = new SqlCommand("SPMostrarCuentas", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", id);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                while (read.Read())
+                {
+                    CuentaAhorro objetoCuentaAhorro = new CuentaAhorro
+                    {
+                        IdCuentaAhorro = Convert.ToInt32(read[0].ToString()),
+                        IdTipoCuneta = Convert.ToInt32(read[1].ToString()),
+                        IdPersona = Convert.ToInt32(read[2].ToString()),
+                        NumeroCuenta = Convert.ToInt32(read[3].ToString()),
+                        Saldo = Convert.ToDecimal(read[4].ToString()),
+                        FechaCreacion = read[5].ToString(),
+                        NombreUsuarioPA = read[6].ToString(),
+                        NombreTipoCuenta = read[7].ToString(),
+                        IdUsuarioPA = Convert.ToInt32(read[8].ToString())
+                    };
+                    listaCuentaAhorro.Add(objetoCuentaAhorro);
+                }
 
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return listaCuentaAhorro;
+        }
         public void update(CuentaAhorro objetoCuentaAhorro)
         {
             try

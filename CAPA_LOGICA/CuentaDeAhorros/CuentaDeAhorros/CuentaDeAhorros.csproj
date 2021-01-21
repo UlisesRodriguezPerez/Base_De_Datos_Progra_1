@@ -266,6 +266,11 @@
     <Content Include="Views\Movimiento\BuscarCompra.cshtml" />
     <Content Include="Views\MovimientoCO\Inicio.cshtml" />
     <Content Include="Views\MovimientoCOI\Inicio.cshtml" />
+    <Content Include="Views\CuentaAhorro\Inicio.cshtml" />
+    <Content Include="Views\CuentaObjetivo\InicioAdmin.cshtml" />
+    <Content Include="Views\MovimientoCO\InicioAdmin.cshtml" />
+    <Content Include="Views\MovimientoCOI\InicioAdmin.cshtml" />
+    <Content Include="Views\CuentaObjetivo\FindAdmin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -21,6 +21,10 @@ namespace model.entity
         private int numeroCuentaObjetivo;
         private int diaDeAhorro;
         private decimal montoMensual;
+        private int cantidadDepositosRealizados;
+        private int cantidadDepositosNetos;
+        private decimal montoAhorrado;
+        private decimal montoEsperado;
 
 
         public CuentaObjetivo() { }
@@ -30,7 +34,7 @@ namespace model.entity
             this.idCuentaObjetivo = pIdCuentaObjetivo;
         }
 
-        public CuentaObjetivo(int numeroCuentaObjetivo, int idCuentaAhorro, DateTime fechaInicio, DateTime fechaFinal, string objetivo, decimal saldo, decimal interesAcumulado, int numeroCuenta, bool activo, int diaDeAhorro, decimal montoMensual)
+        public CuentaObjetivo(int numeroCuentaObjetivo, int idCuentaAhorro, DateTime fechaInicio, DateTime fechaFinal, string objetivo, decimal saldo, decimal interesAcumulado, int numeroCuenta, bool activo, int diaDeAhorro, decimal montoMensual, int cantidadDepositosRealizados, int cantidadDepositosNetos, decimal montoAhorrado, decimal montoEsperado)
         {
             this.idCuentaAhorro = idCuentaAhorro;
             this.fechaInicio = fechaInicio;
@@ -43,6 +47,10 @@ namespace model.entity
             this.numeroCuentaObjetivo = numeroCuentaObjetivo;
             this.diaDeAhorro = diaDeAhorro;
             this.montoMensual = montoMensual;
+            this.cantidadDepositosRealizados = cantidadDepositosRealizados;
+            this.cantidadDepositosNetos = cantidadDepositosNetos;
+            this.montoAhorrado = montoAhorrado;
+            this.montoEsperado = montoEsperado;
         }
 
         public int IdCuentaObjetivo { get => idCuentaObjetivo; set => idCuentaObjetivo = value; }
@@ -57,6 +65,10 @@ namespace model.entity
         public int NumeroCuentaObjetivo { get => numeroCuentaObjetivo; set => numeroCuentaObjetivo = value; }
         public int DiaDeAhorro { get => diaDeAhorro; set => diaDeAhorro = value; }
         public decimal MontoMensual { get => montoMensual; set => montoMensual = value; }
+        public int CantidadDepositosRealizados { get => cantidadDepositosRealizados; set => cantidadDepositosRealizados = value; }
+        public int CantidadDepositosNetos { get => cantidadDepositosNetos; set => cantidadDepositosNetos = value; }
+        public decimal MontoAhorrado { get => montoAhorrado; set => montoAhorrado = value; }
+        public decimal MontoEsperado { get => montoEsperado; set => montoEsperado = value; }
     }
 
 }

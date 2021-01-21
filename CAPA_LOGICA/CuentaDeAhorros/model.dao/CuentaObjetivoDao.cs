@@ -114,6 +114,50 @@ namespace model.dao
             return hayRegistros;
         }
 
+        public bool findAdmin(CuentaObjetivo objCuentaObjetivo)
+        {
+            bool hayRegistros;
+            try
+            {
+                comando = new SqlCommand("SPObtenerCuentaObjetivoAdmin", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@Id", objCuentaObjetivo.IdCuentaObjetivo);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                hayRegistros = read.Read();
+                if (hayRegistros)
+                {
+
+                    objCuentaObjetivo.IdCuentaObjetivo = Convert.ToInt32(read[0].ToString());
+                    objCuentaObjetivo.IdCuentaAhorro = Convert.ToInt32(read[1].ToString());
+                    objCuentaObjetivo.FechaInicio = Convert.ToDateTime(read[2].ToString());
+                    objCuentaObjetivo.Objetivo = read[3].ToString();
+                    objCuentaObjetivo.Saldo = Convert.ToDecimal(read[4].ToString());
+                    objCuentaObjetivo.FechaFinal = Convert.ToDateTime(read[5].ToString());
+                    //objCuentaObjetivo.InteresAcumulado = Convert.ToDecimal(read[5].ToString());
+                    objCuentaObjetivo.NumeroCuenta = Convert.ToInt32(read[6].ToString());
+                    objCuentaObjetivo.DiaDeAhorro = Convert.ToInt32(read[7].ToString());
+                    objCuentaObjetivo.NumeroCuentaObjetivo = Convert.ToInt32(read[8].ToString());
+                    objCuentaObjetivo.MontoMensual = Convert.ToDecimal(read[9].ToString());
+                    objCuentaObjetivo.CantidadDepositosRealizados = Convert.ToInt32(read[10].ToString());
+                    objCuentaObjetivo.CantidadDepositosNetos = Convert.ToInt32(read[11].ToString());
+                    objCuentaObjetivo.MontoAhorrado = Convert.ToDecimal(read[9].ToString());
+                    objCuentaObjetivo.MontoEsperado = Convert.ToDecimal(read[9].ToString());
+
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return hayRegistros;
+        }
+
         public List<CuentaObjetivo> findAll()
         {
             List<CuentaObjetivo> listaCuentaObjetivo = new List<CuentaObjetivo>();
