@@ -27,6 +27,12 @@ namespace CuentaDeAhorros.Controllers
             return View(lista);
         }
 
+        [HttpGet]
+        public ActionResult InicioAdmin(int Id)
+        {
+            List<MovimientoCOI> lista = objetoMovimientoCOI.buscarMoviminetosCOIAdmin(Id);
+            return View(lista);
+        }
         //[HttpGet]
         //public ActionResult Create()
         //{

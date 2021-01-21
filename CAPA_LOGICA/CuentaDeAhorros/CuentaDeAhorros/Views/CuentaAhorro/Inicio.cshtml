@@ -1,0 +1,68 @@
+﻿@model List<model.entity.CuentaAhorro>
+
+
+@{
+    ViewBag.Title = "Cuantas Ahorro";
+}
+
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+
+
+
+<div class="container-fluid">
+    <p>@ViewBag.ErrorMessage</p>
+    <h3>Todas las Cuentas disponibles</h3>
+
+   
+        <div>
+            @foreach (var objetoCuentaAhorro in Model)
+            {
+
+                <input name="nombreUsuario" id="nombreUsuario" value=@objetoCuentaAhorro.NombreUsuarioPA required disabled='disabled' />
+                <input name="idUsuario" id="idUsuario" value=@objetoCuentaAhorro.IdUsuarioPA required style="display: none">
+                break;
+            }
+
+
+        </div>
+
+    <table class="table">
+        <tr class="btn-primary">
+            <th>ID</th>
+            <th>Tipo de cuenta</th>
+            <th>Usuario</th>
+            <th>Numero de cuenta</th>
+            <th>Saldo</th>
+            <th>Fecha creación</th>
+            <th colspan="6"> Operaciones</th>
+        </tr>
+        @foreach (var objetoCuentaAhorro in Model)
+        {
+            <tr>
+                <td>@objetoCuentaAhorro.IdCuentaAhorro  </td>
+                <td>@objetoCuentaAhorro.NombreTipoCuenta</td>
+                <td>@objetoCuentaAhorro.NombreUsuarioPA</td>
+                <td>@objetoCuentaAhorro.NumeroCuenta</td>
+                <td>@objetoCuentaAhorro.Saldo</td>
+                <td>@objetoCuentaAhorro.FechaCreacion</td>
+
+                <td><a class="btn btn-danger" href="~/Beneficiario/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Beneficiarios</a></td>
+
+
+
+
+
+
+                <td><a class="btn btn-success" href="~/EstadosCuenta/Inicio/@objetoCuentaAhorro.IdCuentaAhorro">Estados de Cuenta</a></td>
+
+
+                <td><a class="btn btn-success" href="~/CuentaObjetivo/InicioAdmin/@objetoCuentaAhorro.IdCuentaAhorro">Cuentas Objetivo</a></td>
+
+
+            </tr>
+        }
+    </table>
+
+    <a class="btn btn-outline-primary" href="~/Menu/Inicio">Salir</a>
+
+</div>

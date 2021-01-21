@@ -13,7 +13,7 @@
 
 <Cuenta NumeroCuenta="86073678" TipoCuentaId="1" ValorDocumentoIdentidadDelCliente="10797799"/>
 
-<CuentaAhorro Descripcion="Bicicleta" FechaFinal="2020-10-01 00:00:00" DiaAhorro="7" MontoAhorro="30000" NumeroCuentaAhorro="43871663" NumeroCuentaPrimaria="86073678"/>
+<CuentaAhorro Descripcion="Bicicleta" FechaFinal="2020-10-01 00:00:00" DiaAhorro="2" MontoAhorro="30000" NumeroCuentaAhorro="43871663" NumeroCuentaPrimaria="86073678"/>
 
 <Beneficiario NumeroCuenta="86073678" Porcentaje="30" ParentezcoId="3" ValorDocumentoIdentidadBeneficiario="40346810"/>
 
@@ -21,9 +21,9 @@
 
 <Beneficiario NumeroCuenta="86073678" Porcentaje="31" ParentezcoId="5" ValorDocumentoIdentidadBeneficiario="76008779"/>
 
-<Movimientos Descripcion="Deposito Ventana" Monto="6865201" CodigoCuenta="86073678" Tipo="4"/>
+<Movimientos Descripcion="Deposito Ventana" Monto="30010" CodigoCuenta="86073678" Tipo="4"/>
 
-<Movimientos Descripcion="Compra" Monto="923935" CodigoCuenta="86073678" Tipo="1"/>
+<!-- <Movimientos Descripcion="Compra" Monto="923935" CodigoCuenta="86073678" Tipo="1"/>
 
 <Movimientos Descripcion="Retiro ATM" Monto="488869" CodigoCuenta="86073678" Tipo="2"/>
 
@@ -33,7 +33,7 @@
 
 <Movimientos Descripcion="Deposito Ventana" Monto="498160" CodigoCuenta="86073678" Tipo="5"/>
 
-<Movimientos Descripcion="Devolucion de Compra" Monto="700582" CodigoCuenta="86073678" Tipo="6"/>
+<Movimientos Descripcion="Devolucion de Compra" Monto="700582" CodigoCuenta="86073678" Tipo="6"/> -->
 
 <Usuario Email="charmander@yahoo.com" ValorDocumentoIdentidad="10797799" EsAdministrador="1" Pass="10797799" User="Charmander"/>
 

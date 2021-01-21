@@ -1,0 +1,124 @@
+﻿@model model.entity.CuentaObjetivo
+@{
+    ViewBag.Title = "Find";
+}
+
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+
+
+@using (Html.BeginForm())
+{
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+
+            <div class="form-horizontal">
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <h2>Datos de Cuenta Objetivo</h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-horizontal">
+                <div class="form-group">
+                    @*</div>style="display: none">*@
+                    @Html.LabelFor(model => model.NumeroCuenta, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.NumeroCuenta, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @*</div>style="display: none">*@
+                    @Html.LabelFor(model => model.NumeroCuentaObjetivo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.NumeroCuentaObjetivo, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FechaInicio, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.FechaInicio, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Objetivo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.Objetivo, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Saldo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.Saldo, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FechaFinal, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.FechaFinal, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DiaDeAhorro, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.DiaDeAhorro, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MontoMensual, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.MontoMensual, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CantidadDepositosRealizados, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.CantidadDepositosRealizados, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CantidadDepositosNetos, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.CantidadDepositosNetos, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MontoAhorrado, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.MontoAhorrado, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MontoEsperado, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DisplayFor(model => model.MontoEsperado, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+
+
+                @*<div class="form-group">
+            @Html.LabelFor(model => model.InteresAcumulado, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-6">
+                @Html.DisplayFor(model => model.InteresAcumulado, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>*@
+
+
+            </div>
+        </div>
+        <a class="btn btn-primary" href="~/CuentaObjetivo/Inicio/@Model.IdCuentaAhorro">Regresar</a>
+
+    </div>
+    <p>@ViewBag.ErrorMessage</p>
+
+}
