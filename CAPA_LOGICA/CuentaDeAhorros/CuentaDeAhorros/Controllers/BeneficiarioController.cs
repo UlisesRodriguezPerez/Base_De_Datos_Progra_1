@@ -165,6 +165,13 @@ namespace CuentaDeAhorros.Controllers
             return RedirectToAction("Inicio" + ID);
         }
 
+        public ActionResult BeneficiariosAdmin()
+        {
+            List<Beneficiario> lista = objetoBeneficiario.findAllAdmin();
+            //objetoCuentaAhorro.Name = nombre;
+            return View(lista);
+        }
+
         [HttpPost]
         public ActionResult FindAll(string ID)
         {
