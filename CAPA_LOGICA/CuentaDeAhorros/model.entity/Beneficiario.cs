@@ -17,6 +17,9 @@ namespace model.entity
         private string parentezco;
         private int numeroCuenta;
         private Boolean activo;
+        private string nombre;
+        private decimal montoTotal;
+        private int cantidad;
 
 
         public Beneficiario() { }
@@ -24,10 +27,10 @@ namespace model.entity
         {
             this.idBeneficiario = pIdBeneficiario;
         }
-        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje,Boolean pActivo,string pNombre,string pParentezco,int pNumeroCuenta,int pTipoDocumento, string pValorDocumentoId,
-                        DateTime pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico)
+        public Beneficiario(int idTipoParentezco, int idPersona, int idCuenta, int porcentaje, Boolean pActivo, string pNombre, string pParentezco, int pNumeroCuenta, int pTipoDocumento, string pValorDocumentoId,
+                        DateTime pFechaNacimiento, string pTelefono1, string pTelefono2, string pCorreoElectronico, string nombre, decimal montoTotal, int cantidad)
         {
-            
+
             this.idTipoParentezco = idTipoParentezco;
             this.IdPersona = idPersona;
             this.idCuenta = idCuenta;
@@ -44,9 +47,9 @@ namespace model.entity
             this.Telefono1 = pTelefono1;
             this.Telefono2 = pTelefono2;
             this.CorreoElectronico = pCorreoElectronico;
-
-
-
+            this.nombre = nombre;
+            this.montoTotal = montoTotal;
+            this.cantidad = cantidad;
         }
 
         public int IdBeneficiario { get => idBeneficiario; set => idBeneficiario = value; }
@@ -56,6 +59,8 @@ namespace model.entity
         public bool Activo { get => activo; set => activo = value; }
         public string Parentezco { get => parentezco; set => parentezco = value; }
         public int NumeroCuenta { get => numeroCuenta; set => numeroCuenta = value; }
-
+        public string Nombre1 { get => nombre; set => nombre = value; }
+        public decimal MontoTotal { get => montoTotal; set => montoTotal = value; }
+        public int Cantidad { get => cantidad; set => cantidad = value; }
     }
 }

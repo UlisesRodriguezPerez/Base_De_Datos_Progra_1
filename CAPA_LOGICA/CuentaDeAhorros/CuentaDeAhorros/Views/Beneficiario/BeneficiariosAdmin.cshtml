@@ -1,0 +1,76 @@
+﻿
+@model List<model.entity.Beneficiario>
+
+@{
+    ViewBag.Title = "Todos los beneficiarios";
+}
+<style>
+    tr[data-href] {
+        cursor: pointer;
+    }
+</style>
+
+@Html.Partial("~/Views/Shared/NavBar.cshtml")
+<h3>Estados de cuenta</h3>
+<div class="container-fluid">
+    <table class="table">
+        <tr class="btn-primary">
+            <th>Nombre</th>
+            <th>Número de cuenta</th>
+            <th>Cantidad</th>
+            <th>Monto Total</th>
+            @*<th>SaldoInicial</th>
+            <th>SaldoFinal</th>
+            <th>Saldo Mínimo</th>
+            <th>Retiros Cajero H</th>*@
+            @*<th>Retiros Cajero A</th>*@
+        </tr>
+        @foreach (var objetoBeneficiario in Model)
+        {
+
+
+            <tr>
+
+                <td>@objetoBeneficiario.Nombre1</td>
+                @*<td>@objetoEstadoCuenta.IdCuentaAhorro</td>*@
+                <td>@objetoBeneficiario.NumeroCuenta</td>
+                <td>@objetoBeneficiario.Cantidad</td>
+                <td>@objetoBeneficiario.MontoTotal</td>
+      
+
+                <td><a class="btn btn-success" href="~/Menu/MenuAdmin/">Regresar</a></td>
+                @*<td>
+                        <form action="~/Menu/Regresar" method="post">
+                            <div>
+                                <input name="idUsuario" id="idUsuario" value=@objetoEstadoCuenta. required disabled=»disabled» />
+
+                            </div>
+
+                            <div>
+                                <button>Regresar</button>
+                            </div>
+                        </form>
+                    </td>*@
+                @*<td><a class="btn btn-outline-primary" href="~/Menu/MenuNormal/@objetoEstadoCuenta.IdCuentaAhorro">Regresar</a></td>*@
+            </tr>
+
+        }
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const rows = document.querySelectorAll("tr[data-href]");
+            console.log(rows);
+
+            rows.forEach(row => {
+                row.addEventListener('click', () => {
+                    window.location.href = row.dataset.href;
+                });
+
+            });
+
+        });
+    </script>
+
+    @*<a class='btn btn - primary' href='/Menu/MenuNormal/@(Model.Sum(j =>j.IdCuentaAhorro)/@Model.Count())'>Regresar</a>*@
+</div>

@@ -271,6 +271,7 @@
     <Content Include="Views\MovimientoCO\InicioAdmin.cshtml" />
     <Content Include="Views\MovimientoCOI\InicioAdmin.cshtml" />
     <Content Include="Views\CuentaObjetivo\FindAdmin.cshtml" />
+    <Content Include="Views\Beneficiario\BeneficiariosAdmin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -150,6 +150,46 @@ namespace model.dao
             List<Beneficiario> listaBeneficiario = new List<Beneficiario>();
             return listaBeneficiario;
         }
+        public List<Beneficiario> findAllAdmin()
+        {
+            List<Beneficiario> listaBeneficiario = new List<Beneficiario>();
+
+            try
+            {
+                comando = new SqlCommand("SPObtenerBeneficiariosTotales", objConexion.getConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                //comando.Parameters.AddWithValue("@idCuentaAhorro", id);
+                objConexion.getConexion().Open();
+                SqlDataReader read = comando.ExecuteReader();
+                while (read.Read())
+                {
+
+                    Beneficiario objetoBeneficiario = new Beneficiario
+                    {
+                        Nombre1 = read[0].ToString(),
+                        NumeroCuenta = Convert.ToInt32(read[1].ToString()),
+                        Cantidad = Convert.ToInt32(read[2].ToString()),
+                        MontoTotal = Convert.ToDecimal(read[3].ToString()),
+                        //Porcentaje = Convert.ToInt32(read[4].ToString()),
+                        //Nombre = read[5].ToString(),
+                        //Parentezco = read[6].ToString(),
+                        //NumeroCuenta = Convert.ToInt32(read[7].ToString()),
+                    };
+                    listaBeneficiario.Add(objetoBeneficiario);
+                }
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                objConexion.getConexion().Close();
+                objConexion.cerrarConexion();
+            }
+            return listaBeneficiario;
+        }
 
         public List<Beneficiario> findAllbeneficiariosPorCuenta(int id)
         {
